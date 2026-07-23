@@ -1,0 +1,1201 @@
+{
+  "viagem": {
+    "chegada": "2026-08-19T16:20:00",
+    "partida": "2026-08-25T15:31:00",
+    "hospedagem": {
+      "nome": "hub by Premier Inn London City Bank",
+      "lat": 51.511893,
+      "lng": -0.089219
+    }
+  },
+  "linhas": {
+    "district": {
+      "nome": "District",
+      "cor": "#00782A"
+    },
+    "circle": {
+      "nome": "Circle",
+      "cor": "#FFD300"
+    },
+    "central": {
+      "nome": "Central",
+      "cor": "#E32017"
+    },
+    "northern": {
+      "nome": "Northern",
+      "cor": "#1C1C1C"
+    },
+    "piccadilly": {
+      "nome": "Piccadilly",
+      "cor": "#003688"
+    },
+    "bakerloo": {
+      "nome": "Bakerloo",
+      "cor": "#B36305"
+    },
+    "elizabeth": {
+      "nome": "Elizabeth",
+      "cor": "#6950A1"
+    },
+    "jubilee": {
+      "nome": "Jubilee",
+      "cor": "#7E8A93"
+    },
+    "dlr": {
+      "nome": "DLR",
+      "cor": "#00A4A7"
+    },
+    "overground": {
+      "nome": "Overground",
+      "cor": "#EE7C0E"
+    },
+    "rail": {
+      "nome": "Trem",
+      "cor": "#B01B2E"
+    },
+    "barco": {
+      "nome": "Waterbus",
+      "cor": "#0E7C7B"
+    },
+    "pe": {
+      "nome": "A pé",
+      "cor": "#8C95A3"
+    }
+  },
+  "dias": [
+    {
+      "n": 1,
+      "data": "2026-08-19",
+      "diaSemana": "Quarta",
+      "cor": "#A45EE5",
+      "nascer": "05:53",
+      "porSol": "20:15",
+      "titulo": "Chegada e a City à noite",
+      "modo": "walking",
+      "resumo": "Pouso às 16h20. Elizabeth line até Liverpool Street, 33 min, depois 12 min a pé. À noite, um circuito curto pela beira do Tâmisa, sem compromisso.",
+      "extras": [
+        {
+          "nome": "St Katharine Docks",
+          "nota": "5 min da Tower Bridge. Marina cercada de bares, bem mais calma que a orla turística."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "a",
+          "nome": "Único roteiro",
+          "recomendada": true,
+          "paradas": [
+            {
+              "h": "19:00",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Check-in. Bank a 2 min, Cannon Street a 3 min, Monument a 4 min.",
+              "trecho": {
+                "linha": "pe",
+                "min": 7,
+                "texto": "Suba a King William Street e entre pela Gracechurch Street."
+              }
+            },
+            {
+              "h": "19:45",
+              "nome": "Leadenhall Market",
+              "lat": 51.512766,
+              "lng": -0.0835289,
+              "tipo": "mercado",
+              "nota": "A galeria vitoriana iluminada e vazia é a melhor foto do dia. É a fachada da Diagon Alley nos filmes.",
+              "trecho": {
+                "linha": "dlr",
+                "min": 20,
+                "texto": "DLR de Bank até Shadwell, depois Overground uma parada até Wapping. A pé pela margem são 30 min."
+              }
+            },
+            {
+              "h": "20:15",
+              "nome": "Prospect of Whitby",
+              "lat": 51.507066,
+              "lng": -0.0511105,
+              "tipo": "pub",
+              "nota": "Jantar. Terraço sobre o Tâmisa bem na hora do pôr do sol.",
+              "alerta": "Corte esta parada se o voo tiver acabado com você",
+              "trecho": {
+                "linha": "pe",
+                "min": 25,
+                "texto": "Wapping High Street rente ao rio, passando pelo St Katharine Docks."
+              }
+            },
+            {
+              "h": "21:45",
+              "nome": "Tower Bridge",
+              "lat": 51.5054564,
+              "lng": -0.0753565,
+              "tipo": "marco",
+              "nota": "Ponte iluminada, com a Torre de Londres do lado norte. Do hotel são mais 15 min a pé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "data": "2026-08-20",
+      "diaSemana": "Quinta",
+      "cor": "#00A94F",
+      "nascer": "05:55",
+      "porSol": "20:13",
+      "titulo": "Torre de manhã, Ted Lasso à tarde",
+      "modo": "transit",
+      "resumo": "Os dois polos são ligados pela District line direta de Tower Hill até Richmond, sem baldeação. Dia longo, e Richmond é o bloco que sai sem quebrar mais nada se o cansaço bater.",
+      "extras": [
+        {
+          "nome": "Petersham Nurseries",
+          "nota": "No caminho de Richmond para o parque. Estufa vitoriana virada café e restaurante."
+        },
+        {
+          "nome": "Prospect of Whitby",
+          "nota": "Se você pulou na chegada, cabe aqui no lugar da Tower Bridge Exhibition. São 25 min a pé da Torre pela margem."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "a",
+          "nome": "Único roteiro",
+          "recomendada": true,
+          "paradas": [
+            {
+              "h": "09:00",
+              "nome": "Torre de Londres",
+              "lat": 51.5081124,
+              "lng": -0.0759493,
+              "tipo": "museu",
+              "nota": "Abre 9h de terça a sábado. Entre e vá direto às Crown Jewels, antes da fila se formar. O tour gratuito do Yeoman Warder sai a cada 30 min.",
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Saia pelo portão sul, a ponte está na sua frente."
+              }
+            },
+            {
+              "h": "12:15",
+              "nome": "Tower Bridge Exhibition",
+              "lat": 51.5054564,
+              "lng": -0.0753565,
+              "tipo": "marco",
+              "nota": "Passarelas superiores, piso de vidro e casa das máquinas.",
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Pela margem sul, passando pelo City Hall e pelo HMS Belfast."
+              }
+            },
+            {
+              "h": "13:15",
+              "nome": "Borough Market",
+              "lat": 51.5055826,
+              "lng": -0.0904808,
+              "tipo": "comida",
+              "nota": "Almoço. Chegue com fome.",
+              "alerta": "Fechado às segundas",
+              "trecho": {
+                "linha": "district",
+                "min": 65,
+                "texto": "12 min a pé até Monument pela London Bridge, depois District line direta até Richmond, 55 min."
+              }
+            },
+            {
+              "h": "15:15",
+              "nome": "Richmond Green",
+              "lat": 51.4616667,
+              "lng": -0.3069444,
+              "tipo": "parque",
+              "nota": "Cenário recorrente de Ted Lasso. Ande também pelo Paved Court e pela Richmond Bridge.",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "Suba a Richmond Hill a pé, ladeira o caminho todo, com a vista do Tâmisa no meio. Ônibus 65 e 371 param na Petersham Road, mais abaixo."
+              }
+            },
+            {
+              "h": "16:15",
+              "nome": "Richmond Park",
+              "lat": 51.441185,
+              "lng": -0.274532,
+              "tipo": "parque",
+              "nota": "King Henry's Mound tem vista protegida da cúpula de St Paul's, a 16 km. Os veados ficam ativos no fim da tarde. A Isabella Plantation fecha ao anoitecer.",
+              "trecho": {
+                "linha": "pe",
+                "min": 25,
+                "texto": "Descida pela Richmond Hill de volta ao Green."
+              }
+            },
+            {
+              "h": "19:00",
+              "nome": "The Prince's Head",
+              "lat": 51.4604829,
+              "lng": -0.3062366,
+              "tipo": "pub",
+              "nota": "É o Crown & Anchor da série. Volta pela District line direta, ou trem da South Western até Waterloo em 20 min.",
+              "alerta": "Reserve a mesa com antecedência"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "data": "2026-08-21",
+      "diaSemana": "Sexta",
+      "cor": "#FF8B22",
+      "nascer": "05:56",
+      "porSol": "20:11",
+      "titulo": "Harry Potter e a noite dos pubs",
+      "modo": "transit",
+      "resumo": "Manhã em Leavesden, tarde no eixo King's Cross, noite descendo de Holborn até o Tâmisa. Os quatro pubs somam menos de 2 km, tudo a pé.",
+      "extras": [
+        {
+          "nome": "Sir John Soane's Museum",
+          "nota": "Holborn, gratuito, fecha domingo e segunda, então sexta é o dia. A casa de um arquiteto do século XIX preservada intacta. Fica entre King's Cross e o Ye Olde Mitre."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "a",
+          "nome": "Único roteiro",
+          "recomendada": true,
+          "paradas": [
+            {
+              "h": "09:00",
+              "nome": "Warner Bros Studio Tour",
+              "lat": 51.6903361,
+              "lng": -0.4181589,
+              "tipo": "museu",
+              "nota": "Sair do hotel 6h30. Northern line até Euston, trem até Watford Junction, shuttle bus. O tour leva de 3h30 a 4h com calma.",
+              "foraDoMapa": true,
+              "rotuloFora": "Leavesden, 30 km a noroeste",
+              "trecho": {
+                "linha": "rail",
+                "min": 75,
+                "texto": "Shuttle até Watford Junction, trem até Euston, 20 min, depois 15 min a pé até King's Cross."
+              }
+            },
+            {
+              "h": "14:30",
+              "nome": "Coal Drops Yard",
+              "lat": 51.5360313,
+              "lng": -0.1265524,
+              "tipo": "comida",
+              "nota": "Almoço atrás de King's Cross, em armazéns vitorianos reformados.",
+              "trecho": {
+                "linha": "pe",
+                "min": 8,
+                "texto": "Desça pela Granary Square e entre pela lateral de King's Cross."
+              }
+            },
+            {
+              "h": "15:15",
+              "nome": "Plataforma 9¾",
+              "lat": 51.5320667,
+              "lng": -0.1240756,
+              "tipo": "marco",
+              "nota": "A fila da foto pode dar de 30 a 45 min. A loja ao lado tem itens que não existem no estúdio.",
+              "trecho": {
+                "linha": "pe",
+                "min": 4,
+                "texto": "Atravesse a Euston Road, é o prédio vermelho colado."
+              }
+            },
+            {
+              "h": "16:00",
+              "nome": "St Pancras Renaissance",
+              "lat": 51.5297325,
+              "lng": -0.1259119,
+              "tipo": "marco",
+              "nota": "A fachada gótica é o exterior de King's Cross em Câmara Secreta. Entre no bar Booking Office 1869 e veja o saguão.",
+              "alerta": "A escadaria histórica só com tour agendado",
+              "trecho": {
+                "linha": "pe",
+                "min": 16,
+                "texto": "Pentonville Road reto para leste, subida leve."
+              }
+            },
+            {
+              "h": "16:45",
+              "nome": "Claremont Square",
+              "lat": 51.5307581,
+              "lng": -0.1105578,
+              "tipo": "marco",
+              "nota": "O apartamento do Ted. Praça residencial privada, a visita é só pela calçada.",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "Descendo a Rosebery Avenue. Ônibus 19 e 38 cobrem quase todo o trajeto."
+              }
+            },
+            {
+              "h": "17:45",
+              "nome": "Ye Olde Mitre",
+              "lat": 51.5184368,
+              "lng": -0.1073928,
+              "tipo": "pub",
+              "nota": "Escondido no Ely Court, um beco saindo da Hatton Garden. Vá antes que lote.",
+              "alerta": "Fechado no fim de semana, sexta é a única chance",
+              "trecho": {
+                "linha": "pe",
+                "min": 8,
+                "texto": "Desça a Hatton Garden e a Fetter Lane até a Fleet Street."
+              }
+            },
+            {
+              "h": "19:00",
+              "nome": "Ye Olde Cheshire Cheese",
+              "lat": 51.5143677,
+              "lng": -0.1071699,
+              "tipo": "pub",
+              "nota": "Jantar. Labirinto de salas no subsolo, reconstruído em 1667.",
+              "trecho": {
+                "linha": "pe",
+                "min": 8,
+                "texto": "Fleet Street para leste, depois Ludgate Circus à direita até Blackfriars."
+              }
+            },
+            {
+              "h": "20:30",
+              "nome": "The Blackfriar",
+              "lat": 51.5121153,
+              "lng": -0.1037137,
+              "tipo": "pub",
+              "nota": "Interior art nouveau, provavelmente o pub mais bonito de Londres.",
+              "trecho": {
+                "linha": "pe",
+                "min": 7,
+                "texto": "Pela margem norte, passando pela estação de Blackfriars."
+              }
+            },
+            {
+              "h": "21:15",
+              "nome": "Millennium Bridge",
+              "lat": 51.5095291,
+              "lng": -0.0985425,
+              "tipo": "marco",
+              "nota": "A ponte destruída em Enigma do Príncipe, com St Paul's iluminada atrás.",
+              "trecho": {
+                "linha": "pe",
+                "min": 8,
+                "texto": "Atravesse a ponte e vire à esquerda pela margem sul, passando pelo Tate Modern e pelo Globe."
+              }
+            },
+            {
+              "h": "21:45",
+              "nome": "The Anchor Bankside",
+              "lat": 51.5072874,
+              "lng": -0.0928389,
+              "tipo": "pub",
+              "nota": "Fecha às 23h. Volta pela London Bridge, 20 min até o hotel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "data": "2026-08-22",
+      "diaSemana": "Sábado",
+      "cor": "#F2C200",
+      "nascer": "05:58",
+      "porSol": "20:09",
+      "titulo": "Kensington e Notting Hill",
+      "modo": "transit",
+      "resumo": "Tudo no eixo da District line. A decisão do dia é o que fazer com Portobello, já que o mercado de antiguidades só existe aos sábados.",
+      "decisao": {
+        "pergunta": "Portobello no horário bom ou o interior do Kensington Palace?",
+        "contexto": "Os dois não cabem. O mercado de antiguidades só acontece aos sábados e desmancha por volta das 17h. A última entrada do palácio é às 17h."
+      },
+      "extras": [
+        {
+          "nome": "V&A Museum",
+          "nota": "Colado no Natural History. Gratuito, fecha às 17h45. Se o Natural History render menos que o previsto, é a melhor troca de meia hora da viagem."
+        },
+        {
+          "nome": "Holland Park e Kyoto Garden",
+          "nota": "15 min a pé de Notting Hill Gate. Jardim japonês com pavões soltos."
+        },
+        {
+          "nome": "Fishers",
+          "nota": "Fulham High Street, jantar. É a única noite em que você está do lado oeste. De Earl's Court são 8 min de District line."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "portobello",
+          "nome": "Portobello",
+          "recomendada": true,
+          "descricao": "O mercado no horário cheio, com Cockney's e The Spice Shop. Kensington Palace só por fora.",
+          "tradeoff": "Você já entra no Buckingham na segunda, então o interior do palácio é o corte mais fácil da semana.",
+          "paradas": [
+            {
+              "h": "10:00",
+              "nome": "Natural History Museum",
+              "lat": 51.496715,
+              "lng": -0.1763672,
+              "tipo": "museu",
+              "nota": "Agendado. Hintze Hall, Dinosaurs, Earth Hall e minerais.",
+              "trecho": {
+                "linha": "district",
+                "min": 8,
+                "texto": "District ou Piccadilly de South Kensington, 2 paradas."
+              }
+            },
+            {
+              "h": "12:35",
+              "nome": "Earl's Court",
+              "lat": 51.4915767,
+              "lng": -0.1938947,
+              "tipo": "marco",
+              "nota": "A cabine de polícia azul fica na saída da Earl's Court Road.",
+              "trecho": {
+                "linha": "circle",
+                "min": 12,
+                "texto": "District ou Circle até Notting Hill Gate, 2 paradas, depois 6 min a pé subindo a Pembridge Road."
+              }
+            },
+            {
+              "h": "13:30",
+              "nome": "Portobello Road",
+              "lat": 51.5170002,
+              "lng": -0.205847,
+              "tipo": "mercado",
+              "nota": "Mercado de antiguidades. Suba a rua a pé.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Suba a Portobello Road até o 314, passando por baixo do viaduto da Westway."
+              }
+            },
+            {
+              "h": "14:00",
+              "nome": "Cockney's Pie & Mash",
+              "lat": 51.5212348,
+              "lng": -0.2097725,
+              "tipo": "comida",
+              "nota": "Almoço. Fecha às 17h.",
+              "alerta": "Só aceita dinheiro, o único lugar do roteiro assim",
+              "trecho": {
+                "linha": "pe",
+                "min": 9,
+                "texto": "Volte descendo a Portobello até a Blenheim Crescent."
+              }
+            },
+            {
+              "h": "15:15",
+              "nome": "The Spice Shop",
+              "lat": 51.515786,
+              "lng": -0.205153,
+              "tipo": "loja",
+              "nota": "Blenheim Crescent. A livraria do filme Notting Hill fica na mesma rua, no número 13.",
+              "trecho": {
+                "linha": "pe",
+                "min": 14,
+                "texto": "Desça a Portobello e pegue a Kensington Church Street."
+              }
+            },
+            {
+              "h": "16:15",
+              "nome": "The Churchill Arms",
+              "lat": 51.5069117,
+              "lng": -0.194801,
+              "tipo": "pub",
+              "nota": "Fachada coberta de flores e restaurante tailandês nos fundos.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Desça a Kensington Church Street e entre pelo Kensington Gardens."
+              }
+            },
+            {
+              "h": "17:15",
+              "nome": "Kensington Palace",
+              "lat": 51.5049757,
+              "lng": -0.187681,
+              "tipo": "parque",
+              "nota": "Sunken Garden, Italian Gardens, Round Pond e o exterior do palácio.",
+              "trecho": {
+                "linha": "pe",
+                "min": 18,
+                "texto": "Atravesse o Kensington Gardens passando pelo Round Pond e pela Diana Memorial."
+              }
+            },
+            {
+              "h": "18:30",
+              "nome": "The Serpentine",
+              "lat": 51.5053635,
+              "lng": -0.1662832,
+              "tipo": "parque",
+              "nota": "O lago do Hyde Park. Speakers' Corner fica no canto nordeste, se sobrar fôlego."
+            }
+          ]
+        },
+        {
+          "id": "palacio",
+          "nome": "Kensington por dentro",
+          "recomendada": false,
+          "descricao": "As State Apartments e a exposição de Diana, com Portobello depois, já se desmanchando.",
+          "tradeoff": "Perde o Cockney's Pie & Mash, que fecha às 17h, e o mercado no horário cheio.",
+          "paradas": [
+            {
+              "h": "10:00",
+              "nome": "Natural History Museum",
+              "lat": 51.496715,
+              "lng": -0.1763672,
+              "tipo": "museu",
+              "nota": "Agendado. Corte um pouco: Hintze Hall, Dinosaurs e minerais.",
+              "trecho": {
+                "linha": "district",
+                "min": 8,
+                "texto": "District ou Piccadilly de South Kensington, 2 paradas."
+              }
+            },
+            {
+              "h": "12:35",
+              "nome": "Earl's Court",
+              "lat": 51.4915767,
+              "lng": -0.1938947,
+              "tipo": "marco",
+              "nota": "A cabine de polícia azul fica na saída da Earl's Court Road.",
+              "trecho": {
+                "linha": "circle",
+                "min": 15,
+                "texto": "District ou Circle até High Street Kensington, 1 parada, depois 10 min a pé pelo Kensington Gardens."
+              }
+            },
+            {
+              "h": "13:15",
+              "nome": "Kensington Palace",
+              "lat": 51.5049757,
+              "lng": -0.187681,
+              "tipo": "museu",
+              "nota": "Interior completo: King's State Apartments, Queen's State Apartments e a exposição sobre Diana. Reserve 1h45.",
+              "alerta": "Ingresso com horário marcado, reserve antes",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Suba a Kensington Church Street."
+              }
+            },
+            {
+              "h": "15:15",
+              "nome": "The Churchill Arms",
+              "lat": 51.5069117,
+              "lng": -0.194801,
+              "tipo": "pub",
+              "nota": "Almoço tardio. Fachada coberta de flores e tailandês nos fundos.",
+              "trecho": {
+                "linha": "pe",
+                "min": 14,
+                "texto": "Suba a Kensington Church Street até Notting Hill Gate e entre na Portobello."
+              }
+            },
+            {
+              "h": "16:15",
+              "nome": "Portobello Road",
+              "lat": 51.5170002,
+              "lng": -0.205847,
+              "tipo": "mercado",
+              "nota": "As bancas de antiguidades já estão fechando, mas a rua e as fachadas coloridas continuam ótimas.",
+              "trecho": {
+                "linha": "pe",
+                "min": 6,
+                "texto": "Blenheim Crescent sai da Portobello à direita."
+              }
+            },
+            {
+              "h": "16:50",
+              "nome": "The Spice Shop",
+              "lat": 51.515786,
+              "lng": -0.205153,
+              "tipo": "loja",
+              "nota": "Fecha 18h30. A livraria do filme fica no 13 da mesma rua.",
+              "trecho": {
+                "linha": "central",
+                "min": 20,
+                "texto": "Notting Hill Gate, Central line até Lancaster Gate. A pé pela Bayswater Road são 25 min."
+              }
+            },
+            {
+              "h": "18:00",
+              "nome": "The Serpentine",
+              "lat": 51.5053635,
+              "lng": -0.1662832,
+              "tipo": "parque",
+              "nota": "O lago do Hyde Park, com a Diana Memorial Fountain na margem sul."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "data": "2026-08-23",
+      "diaSemana": "Domingo",
+      "cor": "#00A0E2",
+      "nascer": "06:00",
+      "porSol": "20:06",
+      "titulo": "Museu, Camden, canal e pôr do sol",
+      "modo": "transit",
+      "resumo": "O eixo do dia é o Regent's Canal, que liga Camden a Little Venice de barco. Fecha com o melhor pôr do sol da semana, a 5 min do hotel.",
+      "extras": [
+        {
+          "nome": "Brick Lane e Spitalfields",
+          "nota": "Também aos domingos e a 10 min do hotel. Se cortar Camden, este par substitui bem e economiza deslocamento."
+        },
+        {
+          "nome": "Primrose Hill",
+          "nota": "15 min a pé de Camden. A vista clássica do skyline. Cabe entre Camden e Little Venice se você trocar o waterbus pelo metrô."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "a",
+          "nome": "Único roteiro",
+          "recomendada": true,
+          "paradas": [
+            {
+              "h": "08:30",
+              "nome": "Columbia Road Flower Market",
+              "lat": 51.529134,
+              "lng": -0.0698257,
+              "tipo": "mercado",
+              "nota": "Opcional, para quem acorda cedo. Fica a 20 min do hotel e é um dos melhores programas de domingo em Londres.",
+              "alerta": "Só existe aos domingos, das 8h às 15h",
+              "trecho": {
+                "linha": "elizabeth",
+                "min": 30,
+                "texto": "12 min a pé até Liverpool Street, Elizabeth line até Tottenham Court Road, depois 8 min a pé."
+              }
+            },
+            {
+              "h": "10:10",
+              "nome": "British Museum",
+              "lat": 51.5194133,
+              "lng": -0.1269566,
+              "tipo": "museu",
+              "nota": "Agendado. Pedra de Roseta, mármores do Partenon, alas egípcia e assíria, Great Court.",
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Saia pela entrada sul e desça a Museum Street até a New Oxford Street."
+              }
+            },
+            {
+              "h": "13:00",
+              "nome": "Fishoria Fish and Chips",
+              "lat": 51.5171061,
+              "lng": -0.1263764,
+              "tipo": "comida",
+              "nota": "Abre ao meio-dia. Fica a 5 min do museu.",
+              "trecho": {
+                "linha": "northern",
+                "min": 25,
+                "texto": "Tottenham Court Road, Northern line até Camden Town, depois 6 min a pé."
+              }
+            },
+            {
+              "h": "14:45",
+              "nome": "Camden Lock Market",
+              "lat": 51.5411853,
+              "lng": -0.1462467,
+              "tipo": "mercado",
+              "nota": "Camden Lock, Stables Market e a High Street. Domingo é o pico de movimento, esteja preparado.",
+              "trecho": {
+                "linha": "barco",
+                "min": 50,
+                "texto": "Waterbus pelo Regent's Canal, passando pelo zoológico e pelo Regent's Park. A pé pela margem são 45 min."
+              }
+            },
+            {
+              "h": "17:30",
+              "nome": "Little Venice",
+              "lat": 51.5213528,
+              "lng": -0.1830564,
+              "tipo": "parque",
+              "nota": "Browning's Pool, as casas-barco e um café na margem.",
+              "alerta": "Última saída do waterbus por volta das 16h45, confirme no dia",
+              "trecho": {
+                "linha": "bakerloo",
+                "min": 35,
+                "texto": "Warwick Avenue na Bakerloo até Oxford Circus, depois Central line até Bank e 6 min a pé."
+              }
+            },
+            {
+              "h": "19:45",
+              "nome": "Sky Garden",
+              "lat": 51.5112422,
+              "lng": -0.0835493,
+              "tipo": "mirante",
+              "nota": "Fim de semana abre até 21h, dia útil só até 18h. O terraço sul olha para Westminster e para o London Eye.",
+              "alerta": "Precisa de reserva e documento com foto na entrada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "data": "2026-08-24",
+      "diaSemana": "Segunda",
+      "cor": "#E8402A",
+      "nascer": "06:01",
+      "porSol": "20:04",
+      "titulo": "Westminster, realeza e West End",
+      "modo": "walking",
+      "resumo": "A troca da guarda às 11h manda no dia inteiro. Do Regency Café até Covent Garden é tudo caminhável, com um trecho curto de metrô só no começo.",
+      "decisao": {
+        "pergunta": "Entrar no Buckingham ou ter o dia folgado?",
+        "contexto": "Abadia de manhã e State Rooms depois da troca da guarda cabe, mas sem respiro. Abrir mão do interior do palácio libera duas horas e meia."
+      },
+      "extras": [
+        {
+          "nome": "St Martin-in-the-Fields",
+          "nota": "Na Trafalgar. Café na cripta e concertos de música clássica à noite."
+        },
+        {
+          "nome": "Great Scotland Yard Hotel",
+          "nota": "A 3 min da Trafalgar, descendo o Whitehall. Vale o drink no bar."
+        },
+        {
+          "nome": "The Bar, Covent Garden",
+          "nota": "Cabe antes do jantar no Mother Mash, ficam a 5 min um do outro."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "denso",
+          "nome": "Abadia e State Rooms",
+          "recomendada": true,
+          "descricao": "O dia completo: interior da Abadia, troca da guarda e os 19 State Rooms do Buckingham.",
+          "tradeoff": "A Abadia fica em 1h15, que é rápido para o tamanho dela, e o dia não tem folga nenhuma até as 15h.",
+          "paradas": [
+            {
+              "h": "07:15",
+              "nome": "Regency Cafe",
+              "lat": 51.4937725,
+              "lng": -0.132194,
+              "tipo": "comida",
+              "nota": "Abre às 7h e a fila cresce a partir das 8h. Café da manhã inglês clássico, preço honesto.",
+              "trecho": {
+                "linha": "pe",
+                "min": 14,
+                "texto": "Suba a Horseferry Road e a Millbank até a Parliament Square."
+              }
+            },
+            {
+              "h": "08:30",
+              "nome": "Big Ben",
+              "lat": 51.5007292,
+              "lng": -0.1246254,
+              "tipo": "marco",
+              "nota": "Parliament Square e Westminster Bridge, de onde se vê o London Eye do outro lado do rio. Luz boa e pouca gente.",
+              "trecho": {
+                "linha": "pe",
+                "min": 3,
+                "texto": "Atravesse a Parliament Square, a entrada de turista é pela porta norte."
+              }
+            },
+            {
+              "h": "09:30",
+              "nome": "Westminster Abbey",
+              "lat": 51.4993695,
+              "lng": -0.1272993,
+              "tipo": "museu",
+              "nota": "Abre 9h30 em dia útil, o momento mais tranquilo. Poets' Corner, a cadeira de coroação e os túmulos reais.",
+              "alerta": "Fechada aos domingos para turismo",
+              "trecho": {
+                "linha": "pe",
+                "min": 18,
+                "texto": "Cortando o St James's Park, que é mais bonito que o Birdcage Walk. Chegue no Victoria Memorial por volta das 11h."
+              }
+            },
+            {
+              "h": "11:00",
+              "nome": "Buckingham Palace",
+              "lat": 51.501364,
+              "lng": -0.14189,
+              "tipo": "museu",
+              "nota": "Troca da guarda às 11h, cerca de 45 min. Depois os State Rooms com horário marcado, 2h a 2h30, saindo pelo jardim.",
+              "alerta": "Confirme a troca da guarda na semana da viagem",
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Atravesse o Green Park na diagonal até a Piccadilly."
+              }
+            },
+            {
+              "h": "15:15",
+              "nome": "Fortnum & Mason",
+              "lat": 51.5083687,
+              "lng": -0.13831,
+              "tipo": "loja",
+              "nota": "Food Hall no térreo e a seção de chás no primeiro andar.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Piccadilly até o Circus, depois Regent Street e entre pela Beak Street."
+              }
+            },
+            {
+              "h": "16:00",
+              "nome": "Carnaby Street",
+              "lat": 51.5131862,
+              "lng": -0.1388548,
+              "tipo": "loja",
+              "nota": "Mother Mash Carnaby fica aqui, se quiser adiantar o jantar.",
+              "alerta": "A iluminação famosa da Regent Street é a de Natal, não a de agosto",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Desça pelo Soho, pela Brewer Street e a Wardour, até o Leicester Square."
+              }
+            },
+            {
+              "h": "17:15",
+              "nome": "LEGO Store Leicester Square",
+              "lat": 51.5103909,
+              "lng": -0.1309967,
+              "tipo": "loja",
+              "nota": "M&M's London é na porta ao lado, no mesmo Swiss Court. Ambas abrem até tarde.",
+              "trecho": {
+                "linha": "pe",
+                "min": 6,
+                "texto": "Atravesse o Leicester Square e desça pela Charing Cross Road."
+              }
+            },
+            {
+              "h": "18:15",
+              "nome": "Trafalgar Square",
+              "lat": 51.508039,
+              "lng": -0.128069,
+              "tipo": "marco",
+              "nota": "National Gallery é gratuita mas fecha às 18h. O Great Scotland Yard Hotel fica a 3 min pelo Whitehall.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Suba pela St Martin's Lane até o Seven Dials. O beco de entrada do Neal's Yard é fácil de passar batido."
+              }
+            },
+            {
+              "h": "19:15",
+              "nome": "Neal's Yard",
+              "lat": 51.5144724,
+              "lng": -0.1263531,
+              "tipo": "marco",
+              "nota": "Passando pela Piazza de Covent Garden, pelo Apple Market e pelo Seven Dials.",
+              "trecho": {
+                "linha": "pe",
+                "min": 6,
+                "texto": "Desça pela Monmouth Street e a St Martin's Lane até a New Row."
+              }
+            },
+            {
+              "h": "20:15",
+              "nome": "Mother Mash Covent Garden",
+              "lat": 51.5110622,
+              "lng": -0.1265349,
+              "tipo": "comida",
+              "nota": "Jantar na New Row.",
+              "alerta": "Fecha às 21h na segunda, não atrase"
+            }
+          ]
+        },
+        {
+          "id": "folgado",
+          "nome": "Sem State Rooms",
+          "recomendada": false,
+          "descricao": "Abadia com calma, troca da guarda só assistida, e o Churchill War Rooms no lugar do palácio.",
+          "tradeoff": "Perde o único lugar do roteiro onde você entra num palácio em funcionamento. Ganha duas horas, a National Gallery e as salas de guerra do Churchill.",
+          "paradas": [
+            {
+              "h": "07:15",
+              "nome": "Regency Cafe",
+              "lat": 51.4937725,
+              "lng": -0.132194,
+              "tipo": "comida",
+              "nota": "Abre às 7h e a fila cresce a partir das 8h.",
+              "trecho": {
+                "linha": "pe",
+                "min": 14,
+                "texto": "Suba a Horseferry Road e a Millbank até a Parliament Square."
+              }
+            },
+            {
+              "h": "08:30",
+              "nome": "Big Ben",
+              "lat": 51.5007292,
+              "lng": -0.1246254,
+              "tipo": "marco",
+              "nota": "Parliament Square e Westminster Bridge, com o London Eye do outro lado do rio.",
+              "trecho": {
+                "linha": "pe",
+                "min": 3,
+                "texto": "Atravesse a Parliament Square até a porta norte da Abadia."
+              }
+            },
+            {
+              "h": "09:30",
+              "nome": "Westminster Abbey",
+              "lat": 51.4993695,
+              "lng": -0.1272993,
+              "tipo": "museu",
+              "nota": "Agora com 1h30, que é o tempo que a Abadia realmente pede. Poets' Corner, claustro e o Chapter House.",
+              "trecho": {
+                "linha": "pe",
+                "min": 18,
+                "texto": "Cortando o St James's Park até o Victoria Memorial."
+              }
+            },
+            {
+              "h": "11:00",
+              "nome": "Buckingham Palace",
+              "lat": 51.501364,
+              "lng": -0.14189,
+              "tipo": "marco",
+              "nota": "Só a troca da guarda, cerca de 45 min, dos degraus do Victoria Memorial ou da grade.",
+              "alerta": "Confirme a troca da guarda na semana da viagem",
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Volte pelo St James's Park até a Horse Guards Road, a entrada é pela Clive Steps."
+              }
+            },
+            {
+              "h": "12:15",
+              "nome": "Churchill War Rooms",
+              "lat": 51.50219,
+              "lng": -0.12915,
+              "tipo": "museu",
+              "nota": "O bunker do gabinete de guerra, preservado como foi deixado em 1945, mais o museu sobre Churchill. Reserve 1h45.",
+              "alerta": "Ingresso com horário marcado, reserve antes",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Suba o Whitehall, passando pelo Horse Guards e pela Downing Street."
+              }
+            },
+            {
+              "h": "14:15",
+              "nome": "Trafalgar Square",
+              "lat": 51.508039,
+              "lng": -0.128069,
+              "tipo": "marco",
+              "nota": "Com tempo de verdade para a National Gallery, que é gratuita: Van Gogh, Turner e Velázquez em uma hora.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Desça a Pall Mall até a Piccadilly."
+              }
+            },
+            {
+              "h": "16:00",
+              "nome": "Fortnum & Mason",
+              "lat": 51.5083687,
+              "lng": -0.13831,
+              "tipo": "loja",
+              "nota": "Food Hall e a seção de chás.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Piccadilly até o Circus, depois Regent Street e a Beak Street."
+              }
+            },
+            {
+              "h": "17:00",
+              "nome": "Carnaby Street",
+              "lat": 51.5131862,
+              "lng": -0.1388548,
+              "tipo": "loja",
+              "nota": "Almoço tardio ou jantar cedo no Mother Mash Carnaby.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Desça pelo Soho até o Leicester Square."
+              }
+            },
+            {
+              "h": "18:15",
+              "nome": "LEGO Store Leicester Square",
+              "lat": 51.5103909,
+              "lng": -0.1309967,
+              "tipo": "loja",
+              "nota": "M&M's London é na porta ao lado, no mesmo Swiss Court.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Suba pela St Martin's Lane até o Seven Dials."
+              }
+            },
+            {
+              "h": "19:15",
+              "nome": "Neal's Yard",
+              "lat": 51.5144724,
+              "lng": -0.1263531,
+              "tipo": "marco",
+              "nota": "Covent Garden, Apple Market e Seven Dials.",
+              "trecho": {
+                "linha": "pe",
+                "min": 6,
+                "texto": "Desça pela Monmouth Street até a New Row."
+              }
+            },
+            {
+              "h": "20:15",
+              "nome": "Mother Mash Covent Garden",
+              "lat": 51.5110622,
+              "lng": -0.1265349,
+              "tipo": "comida",
+              "nota": "Jantar na New Row.",
+              "alerta": "Fecha às 21h na segunda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "data": "2026-08-25",
+      "diaSemana": "Terça",
+      "cor": "#E5308C",
+      "nascer": "06:03",
+      "porSol": "20:02",
+      "titulo": "Última manhã e Eurostar",
+      "modo": "transit",
+      "resumo": "Check-out às 9h com as malas na recepção. Uma escolha de manhã, depois King's Cross.",
+      "extras": [
+        {
+          "nome": "Borough Market",
+          "nota": "Aberto às terças a partir das 10h. Café da manhã tardio a 12 min do hotel."
+        },
+        {
+          "nome": "The Monument",
+          "nota": "311 degraus, ao lado do hotel. Vista da City no alto."
+        }
+      ],
+      "variantes": [
+        {
+          "id": "a",
+          "nome": "Único roteiro",
+          "recomendada": true,
+          "paradas": [
+            {
+              "h": "09:45",
+              "nome": "The Who Shop",
+              "lat": 51.530726,
+              "lng": 0.0398997,
+              "tipo": "loja",
+              "nota": "Loja e museu de Doctor Who em Upton Park. Ida, visita e volta cabem em 2h.",
+              "alerta": "Abre 9h30, fechado aos domingos",
+              "trecho": {
+                "linha": "district",
+                "min": 45,
+                "texto": "Upton Park na District até Monument, 25 min, pegar as malas no hotel, depois Northern line de Bank até King's Cross, 10 min."
+              }
+            },
+            {
+              "h": "10:00",
+              "nome": "Horizon 22",
+              "lat": 51.5145301,
+              "lng": -0.0829711,
+              "tipo": "mirante",
+              "nota": "Alternativa ao Who Shop, a 5 min do hotel. Mirante gratuito e mais alto que o Sky Garden, com reserva costumeiramente mais fácil.",
+              "alternativa": true
+            },
+            {
+              "h": "12:15",
+              "nome": "St Pancras International",
+              "lat": 51.5311162,
+              "lng": -0.1258659,
+              "tipo": "trem",
+              "nota": "Guarda-volumes, almoço e o interior do St Pancras Renaissance se não fez na sexta.",
+              "alerta": "Check-in às 13h45 para o trem das 15h31"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reservas": [
+    {
+      "id": "eta",
+      "nome": "ETA do Reino Unido",
+      "detalhe": "Obrigatório para passaporte brasileiro. Sem ele você não embarca.",
+      "urgente": true
+    },
+    {
+      "id": "sky",
+      "nome": "Sky Garden",
+      "detalhe": "Grátis, mas exige reserva. Os ingressos são liberados às segundas, com três semanas de antecedência. Slots de pôr do sol somem em horas.",
+      "abre": "2026-08-03"
+    },
+    {
+      "id": "buck",
+      "nome": "Buckingham State Rooms",
+      "detalhe": "Aberto de 09/07 a 27/09. £33 antecipado contra £37 na hora. Horário marcado, 2h a 2h30.",
+      "so": "Só na variante Abadia e State Rooms"
+    },
+    {
+      "id": "war",
+      "nome": "Churchill War Rooms",
+      "detalhe": "Ingresso com horário marcado.",
+      "so": "Só na variante Sem State Rooms"
+    },
+    {
+      "id": "torre",
+      "nome": "Torre de Londres",
+      "detalhe": "Ingresso com horário. Reserve o slot das 09h00 de quinta."
+    },
+    {
+      "id": "abadia",
+      "nome": "Westminster Abbey",
+      "detalhe": "Online sai mais barato. Última entrada 15h30."
+    },
+    {
+      "id": "tb",
+      "nome": "Tower Bridge Exhibition",
+      "detalhe": "Passarelas e piso de vidro, reserva online."
+    },
+    {
+      "id": "kens",
+      "nome": "Kensington Palace",
+      "detalhe": "Ingresso com horário marcado.",
+      "so": "Só na variante Kensington por dentro"
+    },
+    {
+      "id": "wb",
+      "nome": "Warner Bros Studio Tour",
+      "detalhe": "Compre o trem Euston para Watford Junction e o shuttle bus separadamente."
+    },
+    {
+      "id": "ph",
+      "nome": "The Prince's Head",
+      "detalhe": "Reserve a mesa do Ted Lasso com antecedência."
+    },
+    {
+      "id": "guarda",
+      "nome": "Confirmar a troca da guarda",
+      "detalhe": "Prevista para 24/08, mas confirme na semana no site da Household Division. Pode ser cancelada sem aviso."
+    },
+    {
+      "id": "ees",
+      "nome": "Eurostar e o sistema EES",
+      "detalhe": "Passaporte brasileiro passa pelo registro biométrico da UE. Conte com fila extra e chegue 1h45 antes."
+    },
+    {
+      "id": "cartao",
+      "nome": "Cartão por aproximação",
+      "detalhe": "Use direto na catraca. Tem limite diário automático, não precisa de Oyster."
+    },
+    {
+      "id": "offline",
+      "nome": "Mapa offline de Londres",
+      "detalhe": "Baixe a área no app do Google Maps antes de embarcar. Boa parte do metrô não tem sinal."
+    }
+  ]
+}

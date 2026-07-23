@@ -1,0 +1,27 @@
+{
+  "_esquema": {
+    "descricao": "Lista de lugares candidatos, por cidade, antes de virarem parada agendada no roteiro. E o registro de origem de cada um: se veio de você ou de sugestão do agente.",
+    "campos": {
+      "id": "identificador curto e estável, usado para referenciar o lugar em plano-<cidade>.md",
+      "nome": "string",
+      "cidade": "londres | paris | madrid",
+      "categoria": "museu | pub | comida | mercado | parque | loja | marco | mirante | bar | outro",
+      "lat": "number, opcional até o agente confirmar",
+      "lng": "number, opcional até o agente confirmar",
+      "nota": "string, o porque de interesse",
+      "origem": "usuario | agente",
+      "status": "candidato | agendado | descartado | extra",
+      "diaSugerido": "string ou null, referência a um dia do plano quando o agente já tiver uma sugestão"
+    }
+  },
+
+  "londres": [
+    { "id": "lon-churchill-arms", "nome": "The Churchill Arms", "cidade": "londres", "categoria": "pub", "nota": "Fachada coberta de flores.", "origem": "usuario", "status": "agendado", "diaSugerido": "sabado" },
+    { "id": "lon-va", "nome": "V&A Museum", "cidade": "londres", "categoria": "museu", "nota": "Colado no Natural History, gratuito.", "origem": "agente", "status": "extra", "diaSugerido": "sabado" },
+    { "id": "lon-holland-park", "nome": "Holland Park e Kyoto Garden", "cidade": "londres", "categoria": "parque", "nota": "Jardim japonês com pavões soltos.", "origem": "agente", "status": "extra", "diaSugerido": "sabado" }
+  ],
+
+  "paris": [],
+
+  "madrid": []
+}
