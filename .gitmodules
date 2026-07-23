@@ -1,0 +1,3 @@
+[submodule "planejamento"]
+	path = planejamento
+	url = https://github.com/diogenesdiniz/planejamento-ferias.git
