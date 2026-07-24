@@ -22,3 +22,7 @@ export const viagem = bruto.viagem
 export const linhas = bruto.linhas
 export const dias = bruto.dias.map(normalizarDia)
 export const reservas = bruto.reservas
+
+export function estaForaDoMapa(dia, parada) {
+  return !!parada.foraDoMapa || parada.cidade !== dia.cidade
+}

@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { criarProjecao, caminhoSvg, caminhoSvgParadas, grampear, escalaEmKm, LARGURA, ALTURA } from '../lib/geo'
 import { linkRotaDoDia } from '../lib/links'
 import { corFundoMapa, fonteMonoespacada } from '../lib/tema'
+import { estaForaDoMapa } from '../data/roteiro'
 
 const RIO_TAMISA = [
   [-0.316, 51.44], [-0.308, 51.456], [-0.306, 51.472], [-0.29, 51.483],
@@ -24,7 +25,7 @@ const PARQUES_LONDRES = [
 ]
 
 export default function MapaDia({ dia, paradas, cor, corTextoSobre, indiceSelecionado, aoSelecionar, indiceAgora, estaVisitada }) {
-  const paradasNoMapa = useMemo(() => paradas.filter((p) => !p.foraDoMapa), [paradas])
+  const paradasNoMapa = useMemo(() => paradas.filter((p) => !estaForaDoMapa(dia, p)), [dia, paradas])
   const proj = useMemo(() => criarProjecao(paradasNoMapa), [paradasNoMapa])
   const paradasNaRota = useMemo(() => paradasNoMapa.filter((p) => !p.alternativa), [paradasNoMapa])
   const escala = useMemo(() => escalaEmKm(proj.escala), [proj])
@@ -57,7 +58,7 @@ export default function MapaDia({ dia, paradas, cor, corTextoSobre, indiceSeleci
           />
 
           {paradas.map((parada, i) => {
-            if (!parada.foraDoMapa) return null
+            if (!estaForaDoMapa(dia, parada)) return null
             const alvo = paradasNoMapa[0]
             if (!alvo) return null
             const [ax, ay] = proj.projetar(alvo.lat, alvo.lng)
@@ -72,7 +73,7 @@ export default function MapaDia({ dia, paradas, cor, corTextoSobre, indiceSeleci
           })}
 
           {paradas.map((parada, i) => {
-            const [bx, by] = parada.foraDoMapa ? grampear(...proj.projetar(parada.lat, parada.lng)) : proj.projetar(parada.lat, parada.lng)
+            const [bx, by] = estaForaDoMapa(dia, parada) ? grampear(...proj.projetar(parada.lat, parada.lng)) : proj.projetar(parada.lat, parada.lng)
             const selecionada = indiceSelecionado === i
             const visitada = estaVisitada(i)
             const raio = selecionada ? 25 : 19
@@ -111,7 +112,9 @@ export default function MapaDia({ dia, paradas, cor, corTextoSobre, indiceSeleci
         <div className="flex items-center justify-between gap-3 px-4 py-3" style={{ borderTop: '1px solid #1B2634' }}>
           <p style={{ fontSize: 13, color: paradaSelecionada === null ? '#6C7A8C' : '#E4E9EF', lineHeight: 1.4 }}>
             {paradaSelecionada === null ? 'Toque numa estação para ver os detalhes' : `${indiceSelecionado + 1}. ${paradaSelecionada.nome}`}
-            {paradaSelecionada?.foraDoMapa && <span style={{ color: '#6C7A8C' }}> · {paradaSelecionada.rotuloFora}</span>}
+            {paradaSelecionada && estaForaDoMapa(dia, paradaSelecionada) && paradaSelecionada.rotuloFora && (
+              <span style={{ color: '#6C7A8C' }}> · {paradaSelecionada.rotuloFora}</span>
+            )}
           </p>
           <a
             href={linkRotaDoDia(paradas, dia.modo)}

@@ -131,6 +131,9 @@ export default function App() {
                   {!ativo && <span className="rounded-full" style={{ width: 9, height: 9, background: d.cor, display: 'inline-block' }} />}
                   <span style={{ fontFamily: fonteMonoespacada, fontSize: 12, fontWeight: 600 }}>{d.data.slice(8, 10)}/{d.data.slice(5, 7)}</span>
                   <span className="uppercase" style={{ fontSize: 10, letterSpacing: '0.09em', opacity: 0.8 }}>{d.diaSemana.slice(0, 3)}</span>
+                  {d.cidadeDestino && (
+                    <span className="uppercase" style={{ fontSize: 9, letterSpacing: '0.06em', opacity: 0.85 }}>→ {d.cidadeDestino}</span>
+                  )}
                 </button>
               )
             })}

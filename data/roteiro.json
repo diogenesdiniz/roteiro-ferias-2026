@@ -60,6 +60,14 @@
     "pe": {
       "nome": "A pé",
       "cor": "#8C95A3"
+    },
+    "eurostar": {
+      "nome": "Eurostar",
+      "cor": "#003399"
+    },
+    "voo": {
+      "nome": "Voo",
+      "cor": "#2E6E9E"
     }
   },
   "dias": [
@@ -68,6 +76,7 @@
       "data": "2026-08-19",
       "diaSemana": "Quarta",
       "cor": "#A45EE5",
+      "cidade": "Londres",
       "nascer": "05:53",
       "porSol": "20:15",
       "titulo": "Chegada e a City à noite",
@@ -142,6 +151,7 @@
       "data": "2026-08-20",
       "diaSemana": "Quinta",
       "cor": "#00A94F",
+      "cidade": "Londres",
       "nascer": "05:55",
       "porSol": "20:13",
       "titulo": "Torre de manhã, Ted Lasso à tarde",
@@ -247,6 +257,7 @@
       "data": "2026-08-21",
       "diaSemana": "Sexta",
       "cor": "#FF8B22",
+      "cidade": "Londres",
       "nascer": "05:56",
       "porSol": "20:11",
       "titulo": "Harry Potter e a noite dos pubs",
@@ -402,6 +413,7 @@
       "data": "2026-08-22",
       "diaSemana": "Sábado",
       "cor": "#F2C200",
+      "cidade": "Londres",
       "nascer": "05:58",
       "porSol": "20:09",
       "titulo": "Kensington e Notting Hill",
@@ -638,6 +650,7 @@
       "data": "2026-08-23",
       "diaSemana": "Domingo",
       "cor": "#00A0E2",
+      "cidade": "Londres",
       "nascer": "06:00",
       "porSol": "20:06",
       "titulo": "Museu, Camden, canal e pôr do sol",
@@ -744,6 +757,7 @@
       "data": "2026-08-24",
       "diaSemana": "Segunda",
       "cor": "#E8402A",
+      "cidade": "Londres",
       "nascer": "06:01",
       "porSol": "20:04",
       "titulo": "Westminster, realeza e West End",
@@ -1063,6 +1077,7 @@
       "data": "2026-08-25",
       "diaSemana": "Terça",
       "cor": "#E5308C",
+      "cidade": "Londres",
       "nascer": "06:03",
       "porSol": "20:02",
       "titulo": "Última manhã e Eurostar",

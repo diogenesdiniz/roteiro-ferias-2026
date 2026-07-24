@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import CardParada from './CardParada'
 import { minutosDesdeMeiaNoite } from '../lib/tempo'
 import { corTextoSuave, fonteMonoespacada } from '../lib/tema'
+import { estaForaDoMapa } from '../data/roteiro'
 
 function idParada(dia, variante, indice) {
   return `d${dia.n}${variante.id}-${indice}`
@@ -49,6 +50,7 @@ export default function ListaParadas({ dia, variante, paradas, cor, corTextoSobr
               ehAgora={indiceAgora === indice}
               minutosLivres={minutosLivres}
               mostrarAvisoObraFimDeSemana={dia.n === 4 || dia.n === 5}
+              foraDoMapa={estaForaDoMapa(dia, parada)}
             />
           )
         })}

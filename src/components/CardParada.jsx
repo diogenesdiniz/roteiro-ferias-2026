@@ -29,6 +29,7 @@ export default function CardParada({
   ehAgora,
   minutosLivres,
   mostrarAvisoObraFimDeSemana,
+  foraDoMapa,
 }) {
   const trecho = parada.trecho
 
@@ -70,7 +71,7 @@ export default function CardParada({
             )}
           </div>
           <h3 className="mt-1 font-semibold" style={{ fontSize: 16, lineHeight: 1.25, textDecoration: visitada ? 'line-through' : 'none' }}>{parada.nome}</h3>
-          {parada.foraDoMapa && <p style={{ fontFamily: fonteMonoespacada, fontSize: 11, color: corTextoSuave, marginTop: 4 }}>{parada.rotuloFora}</p>}
+          {foraDoMapa && parada.rotuloFora && <p style={{ fontFamily: fonteMonoespacada, fontSize: 11, color: corTextoSuave, marginTop: 4 }}>{parada.rotuloFora}</p>}
 
           {aberto && (
             <div className="mt-3">
