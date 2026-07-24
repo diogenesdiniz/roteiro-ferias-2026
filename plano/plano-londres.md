@@ -45,6 +45,8 @@ Localização excelente: Leadenhall a 7 min, Sky Garden a 5 min, Torre de Londre
 - **Versão completa:** DLR até Shadwell e Overground uma parada até Wapping. Jantar no **Prospect of Whitby** (pub mais antigo à beira do Tâmisa, terraço voltado para o rio no pôr do sol). Volta a pé pela Wapping High Street até a Tower Bridge, cerca de 25 min, chegando com tudo iluminado por volta das 21h45.
 - **Versão leve:** jantar perto do hotel e caminhada até a Torre de Londres e a Tower Bridge iluminadas (15 min).
 
+**22h00** Volta ao hotel: atravesse a Tower Bridge e desça pela Lower Thames Street, 15 min a pé.
+
 ---
 
 ## Quinta, 20/08 | Torre de Londres de manhã, Richmond à tarde
@@ -54,6 +56,8 @@ Localização excelente: Leadenhall a 7 min, Sky Garden a 5 min, Torre de Londre
 O dia mais denso, mas os dois blocos são ligados pela District line direta.
 
 **08h00** Café da manhã. Leadenhall Market em dia útil funciona de verdade, com cafés e bancas abertos.
+
+**08h45** Saída do hotel: desça a King William Street até Monument, depois a Great Tower Street e a Byward Street até a Torre, 12 min a pé.
 
 **09h00** **Torre de Londres** (abre 09h00 de terça a sábado). Estratégia: entrar na abertura e ir **direto para as Crown Jewels**, antes da fila se formar. Depois White Tower, muralhas e o tour gratuito do Yeoman Warder (primeiro sai às 10h00). Reserve 3h.
 Observação: de 19 a 31/08 rola "The Animals at the Tower", das 11h às 16h, incluso no ingresso. Em dias de salva de tiros o Wharf fecha e o tour das 13h é cancelado.
@@ -72,7 +76,7 @@ Observação: de 19 a 31/08 rola "The Animals at the Tower", das 11h às 16h, in
 
 **19h00** Jantar no **The Prince's Head**, o pub que faz o Crown & Anchor da série. Reserve.
 
-**21h00** Volta: District line direta, ou trem da South Western até Waterloo (20 min) e metrô até Bank.
+**21h00** Volta ao hotel: District line direta, ou trem da South Western até Waterloo (20 min) e metrô até Bank — cerca de 1h no total, chegando por volta das 22h.
 
 ---
 
@@ -109,7 +113,7 @@ Se quatro pubs for demais, corte o Cheshire Cheese e jante no Blackfriar.
 
 **Mapa do dia:** [abrir a rota completa no Google Maps](https://www.google.com/maps/dir/?api=1&origin=51.496715,-0.1763672&destination=51.5053635,-0.1662832&waypoints=51.4915767,-0.1938947%7C51.5170002,-0.205847%7C51.5212348,-0.2097725%7C51.515786,-0.205153%7C51.5069117,-0.194801%7C51.5049757,-0.187681&travelmode=transit)
 
-**09h15** Bank para South Kensington, Circle ou District, cerca de 20 min.
+**09h15** Saída do hotel: Bank para South Kensington, Circle ou District, cerca de 20 min.
 
 **10h00** **Natural History Museum**. Prioridades: Hintze Hall, Dinosaurs, Earth Hall e a seção de minerais. 2h30.
 
@@ -128,7 +132,7 @@ Se quatro pubs for demais, corte o Cheshire Cheese e jante no Blackfriar.
 
 **18h30** **Hyde Park**: Serpentine, Diana Memorial Fountain, Speakers' Corner.
 
-**20h00** Jantar. Se quiser encaixar o **Fishers** (19 Fulham High St), é District line de Earl's Court até Putney Bridge, 8 min.
+**20h00** Jantar. Se quiser encaixar o **Fishers** (19 Fulham High St), é District line de Earl's Court até Putney Bridge, 8 min. Se preferir jantar perto e voltar direto, o Serpentine já está a caminho: Lancaster Gate, Central line direta até Bank, cerca de 30 min até o hotel.
 
 > **Escolha do dia:** o interior do Kensington Palace (última entrada ~17h00) não cabe junto com Portobello. Minha recomendação é ficar com Portobello, porque o mercado de sábado é insubstituível e o palácio você pode substituir pelo Buckingham na segunda. Se preferir o palácio, faça-o das 12h45 às 14h30 e chegue em Portobello às 15h, com o mercado já se desfazendo.
 
@@ -137,6 +141,8 @@ Se quatro pubs for demais, corte o Cheshire Cheese e jante no Blackfriar.
 ## Domingo, 23/08 | British Museum, Camden e Little Venice (Museu 10h10)
 
 **Mapa do dia:** [abrir a rota completa no Google Maps](https://www.google.com/maps/dir/?api=1&origin=51.529134,-0.0698257&destination=51.5112422,-0.0835493&waypoints=51.5194133,-0.1269566%7C51.5171061,-0.1263764%7C51.5411853,-0.1462467%7C51.5213528,-0.1830564&travelmode=transit)
+
+**08h10** Saída do hotel, a pé até a Columbia Road Flower Market, 20 min.
 
 **08h30** *Opcional para quem acorda cedo:* **Columbia Road Flower Market**, só aos domingos, das 8h às 15h, a 20 min do hotel. É um dos melhores programas de domingo em Londres e fica do seu lado.
 
@@ -156,6 +162,8 @@ Se quatro pubs for demais, corte o Cheshire Cheese e jante no Blackfriar.
 
 **19h45** **Sky Garden**. Fim de semana abre até 21h, e o pôr do sol às 20h00 do terraço sul, virado para Westminster e o London Eye, é o melhor horário da semana inteira. Fica a 5 min do hotel. Grátis, mas **precisa reservar e levar documento com foto**.
 
+**19h50** Volta ao hotel: desça a Philpot Lane até a Eastcheap, 5 min a pé.
+
 **21h00** Jantar perto do hotel.
 
 ---
@@ -165,6 +173,8 @@ Se quatro pubs for demais, corte o Cheshire Cheese e jante no Blackfriar.
 **Mapa do dia:** [abrir a rota completa no Google Maps](https://www.google.com/maps/dir/?api=1&origin=51.4937725,-0.132194&destination=51.5110622,-0.1265349&waypoints=51.5007292,-0.1246254%7C51.4993695,-0.1272993%7C51.501364,-0.14189%7C51.5083687,-0.13831%7C51.5131862,-0.1388548%7C51.5103909,-0.1309967%7C51.508039,-0.128069%7C51.5144724,-0.1263531&travelmode=walking)
 
 Este é o único dia da sua estadia com Troca da Guarda, então ele manda no resto do dia.
+
+**06h55** Saída do hotel: District ou Circle line de Monument até St James's Park, depois a pé até a Regency Cafe, cerca de 20 min.
 
 **07h15** **Regency Café**, 17-19 Regency Street. Abre às 07h00 e a fila cresce rápido a partir das 8h. Café da manhã inglês clássico, preço honesto. Bank até St James's Park, 15 min.
 
@@ -190,7 +200,9 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 
 **19h15** **Covent Garden**: a Piazza, o Apple Market, **Neal's Yard** e **Seven Dials**.
 
-**20h15** Jantar no **Mother Mash Covent Garden**.
+**20h15** Jantar no **Mother Mash Covent Garden**. Fecha às 21h, não atrase.
+
+**21h00** Volta ao hotel: a pé pelo Strand e a Fleet Street, cerca de 30 min.
 
 > **Escolha do dia:** Abadia + State Rooms na mesma manhã é apertado. Alternativas, se quiser respirar: (a) pular o interior da Abadia e voltar às 17h para o **Evensong**, que é gratuito e cantado pelo coro em dias úteis; (b) pular o interior do Buckingham e só assistir à troca da guarda, liberando duas horas e meia.
 
@@ -201,6 +213,8 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 **Mapa do dia:** [abrir a rota completa no Google Maps](https://www.google.com/maps/dir/?api=1&origin=51.511893,-0.089219&destination=51.5311162,-0.1258659&waypoints=51.530726,0.0398997&travelmode=transit)
 
 **08h00** Café da manhã, check-out às 09h00, malas na recepção do hotel.
+
+**09h10** Saída do hotel: District line de Monument até Upton Park, 25 min.
 
 **09h30 a 11h30, escolha um:**
 - **The Who Shop** (39-41 Barking Road, E6). Abre 09h30. District line de Monument até Upton Park, 25 min. Loja e museu de Doctor Who. Ida, visita e volta cabem em 2h.

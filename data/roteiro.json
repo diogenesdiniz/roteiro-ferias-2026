@@ -147,8 +147,22 @@
               "lat": 51.5054564,
               "lng": -0.0753565,
               "tipo": "marco",
-              "nota": "Ponte iluminada, com a Torre de Londres do lado norte. Do hotel são mais 15 min a pé.",
-              "placeId": "ChIJSdtli0MDdkgRLW9aCBpCeJ4"
+              "nota": "Ponte iluminada, com a Torre de Londres do lado norte.",
+              "placeId": "ChIJSdtli0MDdkgRLW9aCBpCeJ4",
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Atravesse a Tower Bridge e desça pela Lower Thames Street até o hotel."
+              }
+            },
+            {
+              "h": "22:00",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         }
@@ -181,6 +195,20 @@
           "nome": "Único roteiro",
           "recomendada": true,
           "paradas": [
+            {
+              "h": "08:45",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Desça a King William Street até Monument, depois a Great Tower Street e a Byward Street até a Torre."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "09:00",
               "nome": "Torre de Londres",
@@ -258,9 +286,23 @@
               "lat": 51.4604829,
               "lng": -0.3062366,
               "tipo": "pub",
-              "nota": "É o Crown & Anchor da série. Volta pela District line direta, ou trem da South Western até Waterloo em 20 min.",
+              "nota": "É o Crown & Anchor da série.",
               "alerta": "Reserve a mesa com antecedência",
-              "placeId": "ChIJzYvNk0cMdkgRbNJ7YvQJa1Q"
+              "placeId": "ChIJzYvNk0cMdkgRbNJ7YvQJa1Q",
+              "trecho": {
+                "linha": "district",
+                "min": 60,
+                "texto": "District line direta de Richmond até Monument, 55 min, mais alguns minutos a pé até o hotel."
+              }
+            },
+            {
+              "h": "22:00",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         }
@@ -290,12 +332,26 @@
           "recomendada": true,
           "paradas": [
             {
+              "h": "06:30",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "rail",
+                "min": 150,
+                "texto": "Northern line até Euston, trem até Watford Junction, shuttle bus."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
+            {
               "h": "09:00",
               "nome": "Warner Bros Studio Tour",
               "lat": 51.6903361,
               "lng": -0.4181589,
               "tipo": "museu",
-              "nota": "Sair do hotel 6h30. Northern line até Euston, trem até Watford Junction, shuttle bus. O tour leva de 3h30 a 4h com calma.",
+              "nota": "O tour leva de 3h30 a 4h com calma.",
               "foraDoMapa": true,
               "rotuloFora": "Leavesden, 30 km a noroeste",
               "trecho": {
@@ -425,8 +481,22 @@
               "lat": 51.5072874,
               "lng": -0.0928389,
               "tipo": "pub",
-              "nota": "Fecha às 23h. Volta pela London Bridge, 20 min até o hotel.",
-              "placeId": "ChIJDRaQMVYDdkgRU-mYSkd2cNU"
+              "nota": "Fecha às 23h.",
+              "placeId": "ChIJDRaQMVYDdkgRU-mYSkd2cNU",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "Pela London Bridge até o hotel."
+              }
+            },
+            {
+              "h": "22:05",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         }
@@ -469,6 +539,20 @@
           "descricao": "O mercado no horário cheio, com Cockney's e The Spice Shop. Kensington Palace só por fora.",
           "tradeoff": "Você já entra no Buckingham na segunda, então o interior do palácio é o corte mais fácil da semana.",
           "paradas": [
+            {
+              "h": "09:15",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "district",
+                "min": 20,
+                "texto": "Bank até South Kensington, Circle ou District, cerca de 20 min, depois 5 min a pé até o museu."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "10:00",
               "nome": "Natural History Museum",
@@ -575,7 +659,21 @@
               "lng": -0.1662832,
               "tipo": "parque",
               "nota": "O lago do Hyde Park. Speakers' Corner fica no canto nordeste, se sobrar fôlego.",
-              "placeId": "ChIJlVkfb0gFdkgRpqIbSkkFdkg"
+              "placeId": "ChIJlVkfb0gFdkgRpqIbSkkFdkg",
+              "trecho": {
+                "linha": "central",
+                "min": 30,
+                "texto": "Suba até Lancaster Gate, Central line direta até Bank, depois 6 min a pé até o hotel."
+              }
+            },
+            {
+              "h": "19:00",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         },
@@ -586,6 +684,20 @@
           "descricao": "As State Apartments e a exposição de Diana, com Portobello depois, já se desmanchando.",
           "tradeoff": "Perde o Cockney's Pie & Mash, que fecha às 17h, e o mercado no horário cheio.",
           "paradas": [
+            {
+              "h": "09:15",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "district",
+                "min": 20,
+                "texto": "Bank até South Kensington, Circle ou District, cerca de 20 min, depois 5 min a pé até o museu."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "10:00",
               "nome": "Natural History Museum",
@@ -678,7 +790,21 @@
               "lng": -0.1662832,
               "tipo": "parque",
               "nota": "O lago do Hyde Park, com a Diana Memorial Fountain na margem sul.",
-              "placeId": "ChIJlVkfb0gFdkgRpqIbSkkFdkg"
+              "placeId": "ChIJlVkfb0gFdkgRpqIbSkkFdkg",
+              "trecho": {
+                "linha": "central",
+                "min": 30,
+                "texto": "Suba até Lancaster Gate, Central line direta até Bank, depois 6 min a pé até o hotel."
+              }
+            },
+            {
+              "h": "18:30",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         }
@@ -711,6 +837,20 @@
           "nome": "Único roteiro",
           "recomendada": true,
           "paradas": [
+            {
+              "h": "08:10",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "A pé até a Columbia Road Flower Market."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "08:30",
               "nome": "Columbia Road Flower Market",
@@ -791,7 +931,21 @@
               "tipo": "mirante",
               "nota": "Fim de semana abre até 21h, dia útil só até 18h. O terraço sul olha para Westminster e para o London Eye.",
               "alerta": "Precisa de reserva e documento com foto na entrada",
-              "placeId": "ChIJgaI8bFIDdkgRhJJqLMxsFdU"
+              "placeId": "ChIJgaI8bFIDdkgRhJJqLMxsFdU",
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Desça a Philpot Lane até a Eastcheap e o hotel."
+              }
+            },
+            {
+              "h": "19:50",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         }
@@ -834,6 +988,20 @@
           "descricao": "O dia completo: interior da Abadia, troca da guarda e os 19 State Rooms do Buckingham.",
           "tradeoff": "A Abadia fica em 1h15, que é rápido para o tamanho dela, e o dia não tem folga nenhuma até as 15h.",
           "paradas": [
+            {
+              "h": "06:55",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "district",
+                "min": 20,
+                "texto": "District ou Circle line de Monument até St James’s Park, depois 6 min a pé até a Regency Cafe."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "07:15",
               "nome": "Regency Cafe",
@@ -971,7 +1139,21 @@
               "tipo": "comida",
               "nota": "Jantar na New Row.",
               "alerta": "Fecha às 21h na segunda, não atrase",
-              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A"
+              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A",
+              "trecho": {
+                "linha": "pe",
+                "min": 30,
+                "texto": "Desça pelo Strand e a Fleet Street até o hotel."
+              }
+            },
+            {
+              "h": "21:30",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         },
@@ -982,6 +1164,20 @@
           "descricao": "Abadia com calma, troca da guarda só assistida, e o Churchill War Rooms no lugar do palácio.",
           "tradeoff": "Perde o único lugar do roteiro onde você entra num palácio em funcionamento. Ganha duas horas, a National Gallery e as salas de guerra do Churchill.",
           "paradas": [
+            {
+              "h": "06:55",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Saída para o dia.",
+              "trecho": {
+                "linha": "district",
+                "min": 20,
+                "texto": "District ou Circle line de Monument até St James’s Park, depois 6 min a pé até a Regency Cafe."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "07:15",
               "nome": "Regency Cafe",
@@ -1132,7 +1328,21 @@
               "tipo": "comida",
               "nota": "Jantar na New Row.",
               "alerta": "Fecha às 21h na segunda",
-              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A"
+              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A",
+              "trecho": {
+                "linha": "pe",
+                "min": 30,
+                "texto": "Desça pelo Strand e a Fleet Street até o hotel."
+              }
+            },
+            {
+              "h": "21:30",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "De volta ao hotel.",
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
         }
@@ -1165,6 +1375,20 @@
           "nome": "Único roteiro",
           "recomendada": true,
           "paradas": [
+            {
+              "h": "09:10",
+              "nome": "hub by Premier Inn City Bank",
+              "lat": 51.511893,
+              "lng": -0.089219,
+              "tipo": "base",
+              "nota": "Check-out às 9h, malas na recepção.",
+              "trecho": {
+                "linha": "district",
+                "min": 25,
+                "texto": "District line de Monument até Upton Park."
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
+            },
             {
               "h": "09:45",
               "nome": "The Who Shop",
