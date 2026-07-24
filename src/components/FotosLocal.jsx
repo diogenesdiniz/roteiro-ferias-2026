@@ -14,9 +14,6 @@ function buscarFotos(placeId) {
       'X-Goog-Api-Key': import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
       'X-Goog-FieldMask': 'photos',
     },
-    // A chave é restrita por referer completo (com o path do site); sem isto o
-    // navegador manda só a origem em requisições cross-origin e a API bloqueia.
-    referrerPolicy: 'unsafe-url',
   })
     .then((res) => (res.ok ? res.json() : { photos: [] }))
     .then((json) =>
@@ -72,7 +69,6 @@ export default function FotosLocal({ placeId }) {
             src={foto.url}
             alt=""
             loading="lazy"
-            referrerPolicy="unsafe-url"
             className="rounded-lg w-full object-cover"
             style={{ height: 100, background: '#EEF1F5', display: 'block' }}
           />
