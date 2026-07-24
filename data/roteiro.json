@@ -68,6 +68,10 @@
     "voo": {
       "nome": "Voo",
       "cor": "#2E6E9E"
+    },
+    "carro": {
+      "nome": "Carro/táxi",
+      "cor": "#4A4A4A"
     }
   },
   "dias": [
@@ -1080,9 +1084,9 @@
       "cidade": "Londres",
       "nascer": "06:03",
       "porSol": "20:02",
-      "titulo": "Última manhã e Eurostar",
+      "titulo": "Última manhã em Londres e chegada a Paris",
       "modo": "transit",
-      "resumo": "Check-out às 9h com as malas na recepção. Uma escolha de manhã, depois King's Cross.",
+      "resumo": "Check-out às 9h com as malas na recepção. Uma escolha de manhã, depois King's Cross e o Eurostar até Paris, chegando à noite.",
       "extras": [
         {
           "nome": "Borough Market",
@@ -1129,11 +1133,41 @@
               "lng": -0.1258659,
               "tipo": "trem",
               "nota": "Guarda-volumes, almoço e o interior do St Pancras Renaissance se não fez na sexta.",
-              "alerta": "Check-in às 13h45 para o trem das 15h31"
+              "alerta": "Check-in às 13h45 para o trem das 15h31",
+              "trecho": {
+                "linha": "eurostar",
+                "min": 148,
+                "texto": "Eurostar direto até a Gare du Nord, em Paris."
+              }
+            },
+            {
+              "h": "18:59",
+              "nome": "Gare du Nord",
+              "lat": 48.8819585,
+              "lng": 2.3562878,
+              "tipo": "trem",
+              "nota": "Chegada a Paris pelo Eurostar.",
+              "cidade": "Paris",
+              "rotuloFora": "Paris, 344 km a sudeste",
+              "trecho": {
+                "linha": "carro",
+                "min": 15,
+                "texto": "Táxi pela Rue La Fayette e a Rue de Châteaudun, até a Rue Duperré."
+              }
+            },
+            {
+              "h": "19:20",
+              "nome": "Hotel Libertel Montmartre Opéra",
+              "lat": 48.8820719,
+              "lng": 2.334511,
+              "tipo": "base",
+              "nota": "Check-in. Primeira noite em Paris, no bairro de Pigalle/SoPi, a poucos passos do Moulin Rouge.",
+              "cidade": "Paris"
             }
           ]
         }
-      ]
+      ],
+      "cidadeDestino": "Paris"
     }
   ],
   "reservas": [

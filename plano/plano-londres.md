@@ -196,7 +196,7 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 
 ---
 
-## Terça, 25/08 | Saída às 15h31
+## Terça, 25/08 | Saída às 15h31, chegada a Paris às 18h59 (dia de fratura Londres → Paris)
 
 **Mapa do dia:** [abrir a rota completa no Google Maps](https://www.google.com/maps/dir/?api=1&origin=51.511893,-0.089219&destination=51.5311162,-0.1258659&waypoints=51.530726,0.0398997&travelmode=transit)
 
@@ -214,7 +214,13 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 
 **13h45** Check-in Eurostar. A Eurostar hoje anuncia de 30 a 45 min, mas com o registro biométrico EES para passaporte brasileiro e o pico de agosto, chegar 1h45 antes é o seguro.
 
-**15h31** Partida.
+**15h31** Partida. Eurostar direto até a Gare du Nord, 2h28 de viagem.
+
+**18h59** Chegada a **Gare du Nord**, em Paris. Táxi (uns 15 min, pela Rue La Fayette e a Rue de Châteaudun) até o hotel.
+
+**19h20** Check-in no **Hotel Libertel Montmartre Opéra** (32 Rue Duperré, 75009), no bairro de Pigalle/SoPi, a poucos passos do Moulin Rouge. Primeira noite em Paris — sem compromisso, ver como chega o cansaço da viagem.
+
+*Este é o único dia escrito por inteiro aqui, apesar de terminar em Paris: é a convenção adotada para dias de fratura entre cidades (ver `planejamento/tasks/dias-fratura/`). O plano de Paris só referencia esta chegada, sem repetir os horários.*
 
 ---
 
