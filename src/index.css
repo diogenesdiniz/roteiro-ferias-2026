@@ -5,19 +5,15 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
 }
 
-.estacao {
-  transition: cx .45s cubic-bezier(.4,0,.2,1), cy .45s cubic-bezier(.4,0,.2,1), r .2s ease;
+.pulso-marcador {
+  animation: pulsoMarcador 2.4s ease-in-out infinite;
 }
-.pulso {
-  animation: pulso 2.4s ease-in-out infinite;
-}
-@keyframes pulso {
-  0%, 100% { opacity: .85 }
-  50% { opacity: .2 }
+@keyframes pulsoMarcador {
+  0%, 100% { transform: scale(1); opacity: .35 }
+  50% { transform: scale(1.3); opacity: .1 }
 }
 @media (prefers-reduced-motion: reduce) {
-  .estacao { transition: none }
-  .pulso { animation: none }
+  .pulso-marcador { animation: none }
 }
 .rolagem::-webkit-scrollbar {
   height: 0;

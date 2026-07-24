@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { APIProvider } from '@vis.gl/react-google-maps'
 import { dias, reservas } from './data/roteiro'
 import { paraDataLocal, minutosDesdeMeiaNoite, diasAteData } from './lib/tempo'
 import { corTexto, corFundo, corBorda, corTextoSuave, corTextoSobre, fonteMonoespacada } from './lib/tema'
@@ -75,6 +76,7 @@ export default function App() {
   const reservasPendentes = reservas.filter((r) => !reservasFeitas[r.id]).length
 
   return (
+    <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
     <div className="w-full min-h-screen" style={{ background: corFundo, color: corTexto }}>
       <div className="mx-auto w-full" style={{ maxWidth: 760 }}>
 
@@ -179,7 +181,7 @@ export default function App() {
         <ExtrasDia extras={dia.extras} />
 
         <footer className="px-4 pt-6 pb-12 mt-4" style={{ fontSize: 12, lineHeight: 1.6, color: corTextoSuave, borderTop: `1px solid ${corBorda}` }}>
-          Coordenadas reais, projetadas com correção de longitude, então as distâncias no mapa são fiéis. O Tâmisa e os parques são simplificados, só para orientação. Os tempos de trecho são estimativas, não roteamento ao vivo. Marcações e escolhas não persistem entre sessões ainda.
+          Mapa real do Google Maps. Os tempos de trecho são estimativas, não roteamento ao vivo — toda rota é resolvida no app do Maps. Marcações e escolhas não persistem entre sessões ainda.
         </footer>
       </div>
 
@@ -197,5 +199,6 @@ export default function App() {
         <IndicePorCategoria dias={dias} opcoes={variantesEscolhidas} aoFechar={() => setPainelAberto(null)} />
       )}
     </div>
+    </APIProvider>
   )
 }

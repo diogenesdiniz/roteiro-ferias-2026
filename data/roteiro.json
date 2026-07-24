@@ -109,7 +109,8 @@
                 "linha": "pe",
                 "min": 7,
                 "texto": "Suba a King William Street e entre pela Gracechurch Street."
-              }
+              },
+              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             },
             {
               "h": "19:45",
@@ -122,7 +123,8 @@
                 "linha": "dlr",
                 "min": 20,
                 "texto": "DLR de Bank até Shadwell, depois Overground uma parada até Wapping. A pé pela margem são 30 min."
-              }
+              },
+              "placeId": "ChIJURt2jFIDdkgRsxERfqYhtSo"
             },
             {
               "h": "20:15",
@@ -136,7 +138,8 @@
                 "linha": "pe",
                 "min": 25,
                 "texto": "Wapping High Street rente ao rio, passando pelo St Katharine Docks."
-              }
+              },
+              "placeId": "ChIJDZPR4SgDdkgR2_djyaGslOM"
             },
             {
               "h": "21:45",
@@ -144,7 +147,8 @@
               "lat": 51.5054564,
               "lng": -0.0753565,
               "tipo": "marco",
-              "nota": "Ponte iluminada, com a Torre de Londres do lado norte. Do hotel são mais 15 min a pé."
+              "nota": "Ponte iluminada, com a Torre de Londres do lado norte. Do hotel são mais 15 min a pé.",
+              "placeId": "ChIJSdtli0MDdkgRLW9aCBpCeJ4"
             }
           ]
         }
@@ -188,7 +192,8 @@
                 "linha": "pe",
                 "min": 5,
                 "texto": "Saia pelo portão sul, a ponte está na sua frente."
-              }
+              },
+              "placeId": "ChIJ3TgfM0kDdkgRZ2TV4d1Jv6g"
             },
             {
               "h": "12:15",
@@ -201,7 +206,8 @@
                 "linha": "pe",
                 "min": 15,
                 "texto": "Pela margem sul, passando pelo City Hall e pelo HMS Belfast."
-              }
+              },
+              "placeId": "ChIJSdtli0MDdkgRrgRLMv8r0IQ"
             },
             {
               "h": "13:15",
@@ -215,7 +221,8 @@
                 "linha": "district",
                 "min": 65,
                 "texto": "12 min a pé até Monument pela London Bridge, depois District line direta até Richmond, 55 min."
-              }
+              },
+              "placeId": "ChIJD2bPdVcDdkgRuUSgnOXnKDE"
             },
             {
               "h": "15:15",
@@ -228,7 +235,8 @@
                 "linha": "pe",
                 "min": 20,
                 "texto": "Suba a Richmond Hill a pé, ladeira o caminho todo, com a vista do Tâmisa no meio. Ônibus 65 e 371 param na Petersham Road, mais abaixo."
-              }
+              },
+              "placeId": "ChIJfcg8BUgMdkgRmKyegd_Yq3A"
             },
             {
               "h": "16:15",
@@ -241,7 +249,8 @@
                 "linha": "pe",
                 "min": 25,
                 "texto": "Descida pela Richmond Hill de volta ao Green."
-              }
+              },
+              "placeId": "ChIJ_dGXYaUOdkgRjQQ6Whq-jBM"
             },
             {
               "h": "19:00",
@@ -250,7 +259,8 @@
               "lng": -0.3062366,
               "tipo": "pub",
               "nota": "É o Crown & Anchor da série. Volta pela District line direta, ou trem da South Western até Waterloo em 20 min.",
-              "alerta": "Reserve a mesa com antecedência"
+              "alerta": "Reserve a mesa com antecedência",
+              "placeId": "ChIJzYvNk0cMdkgRbNJ7YvQJa1Q"
             }
           ]
         }
@@ -292,7 +302,8 @@
                 "linha": "rail",
                 "min": 75,
                 "texto": "Shuttle até Watford Junction, trem até Euston, 20 min, depois 15 min a pé até King's Cross."
-              }
+              },
+              "placeId": "ChIJC9pWSLVBdkgRMA5Q9eG6egM"
             },
             {
               "h": "14:30",
@@ -305,7 +316,8 @@
                 "linha": "pe",
                 "min": 8,
                 "texto": "Desça pela Granary Square e entre pela lateral de King's Cross."
-              }
+              },
+              "placeId": "ChIJXbS71BcbdkgRCxCAKCgSJ2E"
             },
             {
               "h": "15:15",
@@ -318,7 +330,8 @@
                 "linha": "pe",
                 "min": 4,
                 "texto": "Atravesse a Euston Road, é o prédio vermelho colado."
-              }
+              },
+              "placeId": "ChIJNxhUjPobdkgRPs7qrzmRV8I"
             },
             {
               "h": "16:00",
@@ -332,7 +345,8 @@
                 "linha": "pe",
                 "min": 16,
                 "texto": "Pentonville Road reto para leste, subida leve."
-              }
+              },
+              "placeId": "ChIJbSikmDsbdkgR-nC2sxkGYpg"
             },
             {
               "h": "16:45",
@@ -345,7 +359,8 @@
                 "linha": "pe",
                 "min": 20,
                 "texto": "Descendo a Rosebery Avenue. Ônibus 19 e 38 cobrem quase todo o trajeto."
-              }
+              },
+              "placeId": "ChIJaaGr80MbdkgR6Va6egXc5ow"
             },
             {
               "h": "17:45",
@@ -359,7 +374,8 @@
                 "linha": "pe",
                 "min": 8,
                 "texto": "Desça a Hatton Garden e a Fetter Lane até a Fleet Street."
-              }
+              },
+              "placeId": "ChIJswdeu00bdkgReAjdjnjxnTs"
             },
             {
               "h": "19:00",
@@ -372,7 +388,8 @@
                 "linha": "pe",
                 "min": 8,
                 "texto": "Fleet Street para leste, depois Ludgate Circus à direita até Blackfriars."
-              }
+              },
+              "placeId": "ChIJM0n9x7IEdkgRZllOf-c6RYQ"
             },
             {
               "h": "20:30",
@@ -385,7 +402,8 @@
                 "linha": "pe",
                 "min": 7,
                 "texto": "Pela margem norte, passando pela estação de Blackfriars."
-              }
+              },
+              "placeId": "ChIJKatbfqUEdkgRDmgIHPcWgBU"
             },
             {
               "h": "21:15",
@@ -398,7 +416,8 @@
                 "linha": "pe",
                 "min": 8,
                 "texto": "Atravesse a ponte e vire à esquerda pela margem sul, passando pelo Tate Modern e pelo Globe."
-              }
+              },
+              "placeId": "ChIJkYISzKsEdkgRHE5RL_zqXL0"
             },
             {
               "h": "21:45",
@@ -406,7 +425,8 @@
               "lat": 51.5072874,
               "lng": -0.0928389,
               "tipo": "pub",
-              "nota": "Fecha às 23h. Volta pela London Bridge, 20 min até o hotel."
+              "nota": "Fecha às 23h. Volta pela London Bridge, 20 min até o hotel.",
+              "placeId": "ChIJDRaQMVYDdkgRU-mYSkd2cNU"
             }
           ]
         }
@@ -460,7 +480,8 @@
                 "linha": "district",
                 "min": 8,
                 "texto": "District ou Piccadilly de South Kensington, 2 paradas."
-              }
+              },
+              "placeId": "ChIJPy8Y5kIFdkgRxGSXw4Xjt3s"
             },
             {
               "h": "12:35",
@@ -473,7 +494,8 @@
                 "linha": "circle",
                 "min": 12,
                 "texto": "District ou Circle até Notting Hill Gate, 2 paradas, depois 6 min a pé subindo a Pembridge Road."
-              }
+              },
+              "placeId": "ChIJ6c08WYsPdkgR_BCPfSGCcrw"
             },
             {
               "h": "13:30",
@@ -486,7 +508,8 @@
                 "linha": "pe",
                 "min": 10,
                 "texto": "Suba a Portobello Road até o 314, passando por baixo do viaduto da Westway."
-              }
+              },
+              "placeId": "ChIJh_is0x0QdkgRBejvKoP9bnQ"
             },
             {
               "h": "14:00",
@@ -500,7 +523,8 @@
                 "linha": "pe",
                 "min": 9,
                 "texto": "Volte descendo a Portobello até a Blenheim Crescent."
-              }
+              },
+              "placeId": "ChIJVdDZwRgQdkgRocGvAtlCFW4"
             },
             {
               "h": "15:15",
@@ -513,7 +537,8 @@
                 "linha": "pe",
                 "min": 14,
                 "texto": "Desça a Portobello e pegue a Kensington Church Street."
-              }
+              },
+              "placeId": "ChIJQ9iB5h0QdkgRgGA2P54mzuM"
             },
             {
               "h": "16:15",
@@ -526,7 +551,8 @@
                 "linha": "pe",
                 "min": 10,
                 "texto": "Desça a Kensington Church Street e entre pelo Kensington Gardens."
-              }
+              },
+              "placeId": "ChIJGTDVMfoPdkgROs9QO9Kgmjc"
             },
             {
               "h": "17:15",
@@ -539,7 +565,8 @@
                 "linha": "pe",
                 "min": 18,
                 "texto": "Atravesse o Kensington Gardens passando pelo Round Pond e pela Diana Memorial."
-              }
+              },
+              "placeId": "ChIJ7w-V58oNdkgRhz8svCpc5ok"
             },
             {
               "h": "18:30",
@@ -547,7 +574,8 @@
               "lat": 51.5053635,
               "lng": -0.1662832,
               "tipo": "parque",
-              "nota": "O lago do Hyde Park. Speakers' Corner fica no canto nordeste, se sobrar fôlego."
+              "nota": "O lago do Hyde Park. Speakers' Corner fica no canto nordeste, se sobrar fôlego.",
+              "placeId": "ChIJlVkfb0gFdkgRpqIbSkkFdkg"
             }
           ]
         },
@@ -569,7 +597,8 @@
                 "linha": "district",
                 "min": 8,
                 "texto": "District ou Piccadilly de South Kensington, 2 paradas."
-              }
+              },
+              "placeId": "ChIJPy8Y5kIFdkgRxGSXw4Xjt3s"
             },
             {
               "h": "12:35",
@@ -582,7 +611,8 @@
                 "linha": "circle",
                 "min": 15,
                 "texto": "District ou Circle até High Street Kensington, 1 parada, depois 10 min a pé pelo Kensington Gardens."
-              }
+              },
+              "placeId": "ChIJ6c08WYsPdkgR_BCPfSGCcrw"
             },
             {
               "h": "13:15",
@@ -596,7 +626,8 @@
                 "linha": "pe",
                 "min": 12,
                 "texto": "Suba a Kensington Church Street."
-              }
+              },
+              "placeId": "ChIJ7w-V58oNdkgRhz8svCpc5ok"
             },
             {
               "h": "15:15",
@@ -609,7 +640,8 @@
                 "linha": "pe",
                 "min": 14,
                 "texto": "Suba a Kensington Church Street até Notting Hill Gate e entre na Portobello."
-              }
+              },
+              "placeId": "ChIJGTDVMfoPdkgROs9QO9Kgmjc"
             },
             {
               "h": "16:15",
@@ -622,7 +654,8 @@
                 "linha": "pe",
                 "min": 6,
                 "texto": "Blenheim Crescent sai da Portobello à direita."
-              }
+              },
+              "placeId": "ChIJh_is0x0QdkgRBejvKoP9bnQ"
             },
             {
               "h": "16:50",
@@ -635,7 +668,8 @@
                 "linha": "central",
                 "min": 20,
                 "texto": "Notting Hill Gate, Central line até Lancaster Gate. A pé pela Bayswater Road são 25 min."
-              }
+              },
+              "placeId": "ChIJQ9iB5h0QdkgRgGA2P54mzuM"
             },
             {
               "h": "18:00",
@@ -643,7 +677,8 @@
               "lat": 51.5053635,
               "lng": -0.1662832,
               "tipo": "parque",
-              "nota": "O lago do Hyde Park, com a Diana Memorial Fountain na margem sul."
+              "nota": "O lago do Hyde Park, com a Diana Memorial Fountain na margem sul.",
+              "placeId": "ChIJlVkfb0gFdkgRpqIbSkkFdkg"
             }
           ]
         }
@@ -688,7 +723,8 @@
                 "linha": "elizabeth",
                 "min": 30,
                 "texto": "12 min a pé até Liverpool Street, Elizabeth line até Tottenham Court Road, depois 8 min a pé."
-              }
+              },
+              "placeId": "ChIJUe_EX7McdkgRUyuFGZPputs"
             },
             {
               "h": "10:10",
@@ -701,7 +737,8 @@
                 "linha": "pe",
                 "min": 5,
                 "texto": "Saia pela entrada sul e desça a Museum Street até a New Oxford Street."
-              }
+              },
+              "placeId": "ChIJB9OTMDIbdkgRp0JWbQGZsS8"
             },
             {
               "h": "13:00",
@@ -714,7 +751,8 @@
                 "linha": "northern",
                 "min": 25,
                 "texto": "Tottenham Court Road, Northern line até Camden Town, depois 6 min a pé."
-              }
+              },
+              "placeId": "ChIJg6paAjMbdkgR6n-e5KIg2kA"
             },
             {
               "h": "14:45",
@@ -727,7 +765,8 @@
                 "linha": "barco",
                 "min": 50,
                 "texto": "Waterbus pelo Regent's Canal, passando pelo zoológico e pelo Regent's Park. A pé pela margem são 45 min."
-              }
+              },
+              "placeId": "ChIJE3CeAlwbdkgR7cSizDf8Mh8"
             },
             {
               "h": "17:30",
@@ -741,7 +780,8 @@
                 "linha": "bakerloo",
                 "min": 35,
                 "texto": "Warwick Avenue na Bakerloo até Oxford Circus, depois Central line até Bank e 6 min a pé."
-              }
+              },
+              "placeId": "ChIJMdwfuqYadkgRm3PVLSkYM5I"
             },
             {
               "h": "19:45",
@@ -750,7 +790,8 @@
               "lng": -0.0835493,
               "tipo": "mirante",
               "nota": "Fim de semana abre até 21h, dia útil só até 18h. O terraço sul olha para Westminster e para o London Eye.",
-              "alerta": "Precisa de reserva e documento com foto na entrada"
+              "alerta": "Precisa de reserva e documento com foto na entrada",
+              "placeId": "ChIJgaI8bFIDdkgRhJJqLMxsFdU"
             }
           ]
         }
@@ -804,7 +845,8 @@
                 "linha": "pe",
                 "min": 14,
                 "texto": "Suba a Horseferry Road e a Millbank até a Parliament Square."
-              }
+              },
+              "placeId": "ChIJ565hgN0EdkgRMhOboIZ7uJ8"
             },
             {
               "h": "08:30",
@@ -817,7 +859,8 @@
                 "linha": "pe",
                 "min": 3,
                 "texto": "Atravesse a Parliament Square, a entrada de turista é pela porta norte."
-              }
+              },
+              "placeId": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c"
             },
             {
               "h": "09:30",
@@ -831,7 +874,8 @@
                 "linha": "pe",
                 "min": 18,
                 "texto": "Cortando o St James's Park, que é mais bonito que o Birdcage Walk. Chegue no Victoria Memorial por volta das 11h."
-              }
+              },
+              "placeId": "ChIJLzVDusQEdkgRelObBaL_jto"
             },
             {
               "h": "11:00",
@@ -845,7 +889,8 @@
                 "linha": "pe",
                 "min": 15,
                 "texto": "Atravesse o Green Park na diagonal até a Piccadilly."
-              }
+              },
+              "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
             },
             {
               "h": "15:15",
@@ -858,7 +903,8 @@
                 "linha": "pe",
                 "min": 12,
                 "texto": "Piccadilly até o Circus, depois Regent Street e entre pela Beak Street."
-              }
+              },
+              "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
             },
             {
               "h": "16:00",
@@ -872,7 +918,8 @@
                 "linha": "pe",
                 "min": 10,
                 "texto": "Desça pelo Soho, pela Brewer Street e a Wardour, até o Leicester Square."
-              }
+              },
+              "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
             },
             {
               "h": "17:15",
@@ -885,7 +932,8 @@
                 "linha": "pe",
                 "min": 6,
                 "texto": "Atravesse o Leicester Square e desça pela Charing Cross Road."
-              }
+              },
+              "placeId": "ChIJrQCmO9IEdkgRyoqlpJ3K8n8"
             },
             {
               "h": "18:15",
@@ -898,7 +946,8 @@
                 "linha": "pe",
                 "min": 12,
                 "texto": "Suba pela St Martin's Lane até o Seven Dials. O beco de entrada do Neal's Yard é fácil de passar batido."
-              }
+              },
+              "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
             },
             {
               "h": "19:15",
@@ -911,7 +960,8 @@
                 "linha": "pe",
                 "min": 6,
                 "texto": "Desça pela Monmouth Street e a St Martin's Lane até a New Row."
-              }
+              },
+              "placeId": "ChIJ4V9RKM0EdkgRc59GlBoOclQ"
             },
             {
               "h": "20:15",
@@ -920,7 +970,8 @@
               "lng": -0.1265349,
               "tipo": "comida",
               "nota": "Jantar na New Row.",
-              "alerta": "Fecha às 21h na segunda, não atrase"
+              "alerta": "Fecha às 21h na segunda, não atrase",
+              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A"
             }
           ]
         },
@@ -942,7 +993,8 @@
                 "linha": "pe",
                 "min": 14,
                 "texto": "Suba a Horseferry Road e a Millbank até a Parliament Square."
-              }
+              },
+              "placeId": "ChIJ565hgN0EdkgRMhOboIZ7uJ8"
             },
             {
               "h": "08:30",
@@ -955,7 +1007,8 @@
                 "linha": "pe",
                 "min": 3,
                 "texto": "Atravesse a Parliament Square até a porta norte da Abadia."
-              }
+              },
+              "placeId": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c"
             },
             {
               "h": "09:30",
@@ -968,7 +1021,8 @@
                 "linha": "pe",
                 "min": 18,
                 "texto": "Cortando o St James's Park até o Victoria Memorial."
-              }
+              },
+              "placeId": "ChIJLzVDusQEdkgRelObBaL_jto"
             },
             {
               "h": "11:00",
@@ -982,7 +1036,8 @@
                 "linha": "pe",
                 "min": 15,
                 "texto": "Volte pelo St James's Park até a Horse Guards Road, a entrada é pela Clive Steps."
-              }
+              },
+              "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
             },
             {
               "h": "12:15",
@@ -996,7 +1051,8 @@
                 "linha": "pe",
                 "min": 10,
                 "texto": "Suba o Whitehall, passando pelo Horse Guards e pela Downing Street."
-              }
+              },
+              "placeId": "ChIJq4lX1doEdkgR5JXPstgQjc0"
             },
             {
               "h": "14:15",
@@ -1009,7 +1065,8 @@
                 "linha": "pe",
                 "min": 10,
                 "texto": "Desça a Pall Mall até a Piccadilly."
-              }
+              },
+              "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
             },
             {
               "h": "16:00",
@@ -1022,7 +1079,8 @@
                 "linha": "pe",
                 "min": 12,
                 "texto": "Piccadilly até o Circus, depois Regent Street e a Beak Street."
-              }
+              },
+              "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
             },
             {
               "h": "17:00",
@@ -1035,7 +1093,8 @@
                 "linha": "pe",
                 "min": 10,
                 "texto": "Desça pelo Soho até o Leicester Square."
-              }
+              },
+              "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
             },
             {
               "h": "18:15",
@@ -1048,7 +1107,8 @@
                 "linha": "pe",
                 "min": 12,
                 "texto": "Suba pela St Martin's Lane até o Seven Dials."
-              }
+              },
+              "placeId": "ChIJrQCmO9IEdkgRyoqlpJ3K8n8"
             },
             {
               "h": "19:15",
@@ -1061,7 +1121,8 @@
                 "linha": "pe",
                 "min": 6,
                 "texto": "Desça pela Monmouth Street até a New Row."
-              }
+              },
+              "placeId": "ChIJ4V9RKM0EdkgRc59GlBoOclQ"
             },
             {
               "h": "20:15",
@@ -1070,7 +1131,8 @@
               "lng": -0.1265349,
               "tipo": "comida",
               "nota": "Jantar na New Row.",
-              "alerta": "Fecha às 21h na segunda"
+              "alerta": "Fecha às 21h na segunda",
+              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A"
             }
           ]
         }
@@ -1115,7 +1177,8 @@
                 "linha": "district",
                 "min": 45,
                 "texto": "Upton Park na District até Monument, 25 min, pegar as malas no hotel, depois Northern line de Bank até King's Cross, 10 min."
-              }
+              },
+              "placeId": "ChIJUyYWTcmn2EcRhLz2-dJIeOQ"
             },
             {
               "h": "10:00",
@@ -1124,7 +1187,8 @@
               "lng": -0.0829711,
               "tipo": "mirante",
               "nota": "Alternativa ao Who Shop, a 5 min do hotel. Mirante gratuito e mais alto que o Sky Garden, com reserva costumeiramente mais fácil.",
-              "alternativa": true
+              "alternativa": true,
+              "placeId": "ChIJAReL-7UDdkgRT1Rc01xXRyo"
             },
             {
               "h": "12:15",
@@ -1138,7 +1202,8 @@
                 "linha": "eurostar",
                 "min": 148,
                 "texto": "Eurostar direto até a Gare du Nord, em Paris."
-              }
+              },
+              "placeId": "ChIJJe2YjTsbdkgREt0yqM9vLbk"
             },
             {
               "h": "18:59",
@@ -1153,7 +1218,8 @@
                 "linha": "carro",
                 "min": 15,
                 "texto": "Táxi pela Rue La Fayette e a Rue de Châteaudun, até a Rue Duperré."
-              }
+              },
+              "placeId": "ChIJf6NY_Gtu5kcRDHnd0mg3tk8"
             },
             {
               "h": "19:20",
@@ -1162,7 +1228,8 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Check-in. Primeira noite em Paris, no bairro de Pigalle/SoPi, a poucos passos do Moulin Rouge.",
-              "cidade": "Paris"
+              "cidade": "Paris",
+              "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             }
           ]
         }

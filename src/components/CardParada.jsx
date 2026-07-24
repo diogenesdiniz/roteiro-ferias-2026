@@ -3,6 +3,7 @@ import { distanciaKm } from '../lib/geo'
 import { formatarDuracao, formatarDistancia } from '../lib/tempo'
 import { linkMapaParada, linkRotaEntreParadas } from '../lib/links'
 import { corBorda, corTextoSuave, fonteMonoespacada } from '../lib/tema'
+import FotosLocal from './FotosLocal'
 
 function SeloLinha({ codigo }) {
   const linha = linhas[codigo] ?? linhas.pe
@@ -84,6 +85,7 @@ export default function CardParada({
               {parada.alerta && (
                 <p className="mt-2 rounded-lg px-3 py-2" style={{ fontSize: 13, lineHeight: 1.45, background: '#FDF3E3', color: '#7A5314', border: '1px solid #F0DFC0' }}>{parada.alerta}</p>
               )}
+              <FotosLocal placeId={parada.placeId} />
               <a
                 href={linkMapaParada(parada)} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}
                 className="inline-block mt-3 rounded-full px-3 py-2 focus:outline-none focus:ring-2"
