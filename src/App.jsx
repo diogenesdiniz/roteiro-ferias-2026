@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { APIProvider } from '@vis.gl/react-google-maps'
 import { dias, reservas } from './data/roteiro'
+import { useEstadoViagem } from './lib/estado'
 import { paraDataLocal, minutosDesdeMeiaNoite, diasAteData } from './lib/tempo'
 import { corTexto, corFundo, corBorda, corTextoSuave, corTextoSobre, fonteMonoespacada } from './lib/tema'
 import DiaHeader from './components/DiaHeader'
@@ -25,10 +26,16 @@ export default function App() {
 
   const [aba, setAba] = useState(abaInicial)
   const [paradaSelecionada, setParadaSelecionada] = useState(null)
-  const [visitadas, setVisitadas] = useState({})
-  const [reservasFeitas, setReservasFeitas] = useState({})
-  const [variantesEscolhidas, setVariantesEscolhidas] = useState({})
   const [painelAberto, setPainelAberto] = useState(null)
+
+  const {
+    visitados: visitadas,
+    reservas: reservasFeitas,
+    variantes: variantesEscolhidas,
+    alternarVisitado: alternarVisitada,
+    alternarReserva,
+    escolherVariante: escolherVarianteEstado,
+  } = useEstadoViagem()
 
   const dia = dias[aba]
   const cor = dia.cor
@@ -60,16 +67,8 @@ export default function App() {
     setParadaSelecionada(null)
   }
 
-  function alternarVisitada(id) {
-    setVisitadas((atual) => ({ ...atual, [id]: !atual[id] }))
-  }
-
-  function alternarReserva(id) {
-    setReservasFeitas((atual) => ({ ...atual, [id]: !atual[id] }))
-  }
-
   function escolherVariante(varianteId) {
-    setVariantesEscolhidas((atual) => ({ ...atual, [dia.n]: varianteId }))
+    escolherVarianteEstado(dia.n, varianteId)
     setParadaSelecionada(null)
   }
 
@@ -181,7 +180,7 @@ export default function App() {
         <ExtrasDia extras={dia.extras} />
 
         <footer className="px-4 pt-6 pb-12 mt-4" style={{ fontSize: 12, lineHeight: 1.6, color: corTextoSuave, borderTop: `1px solid ${corBorda}` }}>
-          Mapa real do Google Maps. Os tempos de trecho são estimativas, não roteamento ao vivo — toda rota é resolvida no app do Maps. Marcações e escolhas não persistem entre sessões ainda.
+          Mapa real do Google Maps. Os tempos de trecho são estimativas, não roteamento ao vivo — toda rota é resolvida no app do Maps. Marcações e escolhas sincronizam entre os dois dispositivos.
         </footer>
       </div>
 
