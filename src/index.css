@@ -1,4 +1,25 @@
+@import "tailwindcss";
+
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+}
+
+.estacao {
+  transition: cx .45s cubic-bezier(.4,0,.2,1), cy .45s cubic-bezier(.4,0,.2,1), r .2s ease;
+}
+.pulso {
+  animation: pulso 2.4s ease-in-out infinite;
+}
+@keyframes pulso {
+  0%, 100% { opacity: .85 }
+  50% { opacity: .2 }
+}
+@media (prefers-reduced-motion: reduce) {
+  .estacao { transition: none }
+  .pulso { animation: none }
+}
+.rolagem::-webkit-scrollbar {
+  height: 0;
+  width: 0;
 }
