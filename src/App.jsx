@@ -126,7 +126,7 @@ export default function App() {
                   key={d.n}
                   onClick={() => selecionarDia(i)}
                   className="flex items-center gap-2 rounded-full px-3 py-2 focus:outline-none focus:ring-2 focus:ring-offset-2"
-                  style={{ background: ativo ? d.cor : '#fff', color: ativo ? corTextoSobre(d) : corTexto, border: `1px solid ${ativo ? d.cor : corBorda}`, transition: 'background .2s,color .2s' }}
+                  style={{ background: ativo ? d.cor : '#fff', color: ativo ? corTextoSobre(d) : corTexto, border: `1px solid ${ativo ? d.cor : corBorda}`, transition: 'background .2s,color .2s', '--tw-ring-color': '#fff' }}
                   aria-pressed={ativo}
                 >
                   {!ativo && <span className="rounded-full" style={{ width: 9, height: 9, background: d.cor, display: 'inline-block' }} />}
