@@ -21,4 +21,6 @@ export const CATEGORIAS = {
   mirante: 'Miradouros',
   base: 'Hotel',
   trem: 'Estações',
+  aeroporto: 'Aeroportos',
+  outro: 'Bairros',
 }

@@ -232,7 +232,15 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 
 **18h59** Chegada a **Gare du Nord**, em Paris. Táxi (uns 15 min, pela Rue La Fayette e a Rue de Châteaudun) até o hotel.
 
-**19h20** Check-in no **Hotel Libertel Montmartre Opéra** (32 Rue Duperré, 75009), no bairro de Pigalle/SoPi, a poucos passos do Moulin Rouge. Primeira noite em Paris — sem compromisso, ver como chega o cansaço da viagem.
+**19h20** Check-in no **Hotel Libertel Montmartre Opéra** (32 Rue Duperré, 75009), no bairro de Pigalle/SoPi, a poucos passos do Moulin Rouge.
+
+**19h45** Jantar rápido perto do hotel — nada de longo, a subida da Torre Eiffel já está reservada para hoje à noite.
+
+**21h30** Saída do hotel: métro linha 12 de Pigalle até Trocadéro (troca em Concorde ou Madeleine, cerca de 20 min), ou táxi direto (~15 min a essa hora). Chegue com folga: a bilheteria de acesso ao elevador fecha o embarque pontualmente.
+
+**22h30** **Torre Eiffel — subida ao topo.** Ingresso já comprado para este horário. Paris à noite vista do último andar, com a Champs de Mars e o Trocadéro iluminados embaixo. Reserve cerca de 1h a 1h15 no total, incluindo elevadores e fila de segurança.
+
+**23h45** Volta ao hotel: mesmo caminho de métro (verifique o horário do último trem da linha 12, normalmente pouco depois da meia-noite) ou táxi, cerca de 20 min.
 
 *Este é o único dia escrito por inteiro aqui, apesar de terminar em Paris: é a convenção adotada para dias de fratura entre cidades (ver `planejamento/tasks/dias-fratura/`). O plano de Paris só referencia esta chegada, sem repetir os horários.*
 
