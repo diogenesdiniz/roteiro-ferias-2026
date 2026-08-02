@@ -8,11 +8,12 @@ function tocaoBase(props = {}) {
 
 function TorreEiffel() {
   return (
-    <g {...tocaoBase({ fill: '#D9A45D' })}>
-      <path d="M50 4 L58 44 Q76 58 86 96 L66 96 Q58 76 52 44 L48 44 Q42 76 34 96 L14 96 Q24 58 42 44 Z" />
-      <path d="M31 63 L69 63" fill="none" stroke="#7A4E20" strokeWidth="2" />
-      <path d="M22 82 L78 82" fill="none" stroke="#7A4E20" strokeWidth="2" />
-      <circle cx="50" cy="4" r="2.5" fill="#7A4E20" stroke="none" />
+    <g {...tocaoBase({ fill: '#D9A45D', strokeWidth: 2.5 })}>
+      <path d="M50 3 Q54 35 56 61 Q64 66 70 80 Q80 86 88 97 L66 97 Q60 88 58 78 Q56 70 54 63 L46 63 Q44 70 42 78 Q40 88 34 97 L12 97 Q20 86 30 80 Q36 66 44 61 Q46 35 50 3 Z" />
+      <path d="M40 91 L48 85 M60 91 L52 85 M33 74 L41 69 M67 74 L59 69 M45 47 L49 40 M55 47 L51 40" stroke="#7A4E20" strokeWidth="1.4" opacity="0.75" />
+      <rect x="27" y="77" width="46" height="6" rx="1" fill="#B8894F" stroke="#7A4E20" strokeWidth="1.4" />
+      <rect x="39" y="59" width="22" height="5" rx="1" fill="#B8894F" stroke="#7A4E20" strokeWidth="1.4" />
+      <circle cx="50" cy="3" r="2" fill="#7A4E20" stroke="none" />
     </g>
   )
 }
