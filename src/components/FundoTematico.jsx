@@ -20,28 +20,8 @@ function TorreEiffel() {
 
 function Croissant() {
   return (
-    <g {...tocaoBase()}>
-      <path
-        d="M8 66 Q2 58 8 50 Q4 46 10 40 Q30 24 50 24 Q70 24 90 40 Q96 46 92 50 Q98 58 92 66 Q80 80 50 80 Q20 80 8 66 Z"
-        fill="#F0AE4E"
-      />
-      <circle cx="21" cy="36" r="10" fill="#F0AE4E" />
-      <circle cx="38" cy="28" r="12" fill="#F0AE4E" />
-      <circle cx="60" cy="28" r="12" fill="#F0AE4E" />
-      <circle cx="78" cy="36" r="10" fill="#F0AE4E" />
-      <path
-        d="M9 55 Q30 68 50 68 Q70 68 91 55 Q92 61 92 66 Q80 80 50 80 Q20 80 8 66 Q8 61 9 55 Z"
-        fill="#D98E30"
-        stroke="none"
-      />
-      <path d="M9 55 Q30 68 50 68 Q70 68 91 55" fill="none" />
-      <path
-        d="M24 42 L28 34 M42 36 L46 28 M64 36 L60 28 M79 42 L75 34"
-        stroke="#B8763A"
-        strokeWidth="1.5"
-        opacity="0.7"
-        fill="none"
-      />
+    <g {...tocaoBase({ fill: '#E0A94F' })}>
+      <path d="M65 15 C35 18 15 30 15 50 C15 70 35 82 65 85 C50 78 42 65 42 50 C42 35 50 22 65 15 Z" />
     </g>
   )
 }
