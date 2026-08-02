@@ -21,8 +21,8 @@ function TorreEiffel() {
 function Croissant() {
   return (
     <g {...tocaoBase({ fill: '#E8B04B' })}>
-      <path d="M25 55 C25 30 48 18 68 24 C50 28 42 40 42 55 C42 70 50 82 68 86 C48 92 25 80 25 55 Z" />
-      <path d="M34 42 Q40 55 34 68" fill="none" stroke="#8B5A20" strokeWidth="2" />
+      <path d="M15 45 C13 30 25 20 42 22 C55 24 62 30 68 40 C74 46 80 50 82 58 C80 64 74 66 70 62 C68 56 64 54 58 56 C48 60 40 62 32 68 C22 72 15 65 15 45 Z" />
+      <path d="M28 34 Q40 30 48 34 M38 48 Q50 44 58 48 M50 58 Q60 54 66 56" stroke="#8B5A20" strokeWidth="1.6" opacity="0.8" fill="none" />
     </g>
   )
 }
