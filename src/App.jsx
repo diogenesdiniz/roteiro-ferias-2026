@@ -12,6 +12,7 @@ import ExtrasDia from './components/ExtrasDia'
 import PainelReservas from './components/PainelReservas'
 import IndicePorCategoria from './components/IndicePorCategoria'
 import PainelPendentes from './components/PainelPendentes'
+import FundoTematico from './components/FundoTematico'
 
 function idParada(dia, variante, indice) {
   return `d${dia.n}${variante.id}-${indice}`
@@ -78,7 +79,8 @@ export default function App() {
   return (
     <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
     <div className="w-full min-h-screen" style={{ background: corFundo, color: corTexto }}>
-      <div className="mx-auto w-full" style={{ maxWidth: 760 }}>
+      <FundoTematico cidade={dia.cidade} />
+      <div className="relative mx-auto w-full" style={{ maxWidth: 760, zIndex: 1 }}>
 
         <header className="px-4 pt-6 pb-3">
           <div className="flex items-center justify-between gap-3">
