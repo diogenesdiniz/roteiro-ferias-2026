@@ -55,7 +55,7 @@ export default function FundoTematico({ cidade }) {
   return (
     <div
       className="fixed pointer-events-none"
-      style={{ right: -50, bottom: -30, width: 'min(48vw, 340px)', zIndex: 0, opacity: 0.06, color: corTexto, transition: 'opacity .4s' }}
+      style={{ right: -50, bottom: -30, width: 'min(48vw, 340px)', zIndex: 0, opacity: 0.14, color: corTexto, transition: 'opacity .4s' }}
       aria-hidden="true"
     >
       <Icone style={{ width: '100%', height: 'auto', display: 'block' }} />
