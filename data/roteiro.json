@@ -1116,10 +1116,23 @@
               "alerta": "A iluminação famosa da Regent Street é a de Natal, não a de agosto",
               "trecho": {
                 "linha": "pe",
-                "min": 10,
-                "texto": "Desça pelo Soho, pela Brewer Street e a Wardour, até o Leicester Square."
+                "min": 8,
+                "texto": "Rumo à Oxford Street, pela Kingly Street, até a loja do Primark."
               },
               "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
+            },
+            {
+              "h": "16:20",
+              "nome": "Primark Oxford Street",
+              "lat": 51.5154,
+              "lng": -0.1319,
+              "tipo": "loja",
+              "nota": "14-28 Oxford Street, perto da Tottenham Court Road — a maior loja da rede em Londres.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Descendo pela Charing Cross Road até o Leicester Square."
+              }
             },
             {
               "h": "17:15",
@@ -1319,10 +1332,23 @@
               "nota": "Almoço tardio ou jantar cedo no Mother Mash Carnaby.",
               "trecho": {
                 "linha": "pe",
-                "min": 10,
-                "texto": "Desça pelo Soho até o Leicester Square."
+                "min": 8,
+                "texto": "Rumo à Oxford Street, pela Kingly Street, até a loja do Primark."
               },
               "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
+            },
+            {
+              "h": "17:20",
+              "nome": "Primark Oxford Street",
+              "lat": 51.5154,
+              "lng": -0.1319,
+              "tipo": "loja",
+              "nota": "14-28 Oxford Street, perto da Tottenham Court Road — a maior loja da rede em Londres.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Descendo pela Charing Cross Road até o Leicester Square."
+              }
             },
             {
               "h": "18:15",
@@ -1551,7 +1577,11 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Saída para o dia.",
-              "trecho": { "linha": "pe", "min": 15, "texto": "Suba a Rue Lepic, a rua de Amélie Poulain (Moulin de la Galette, a épicerie do filme), até a Place du Tertre." },
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Suba a Rue Lepic, a rua de Amélie Poulain (Moulin de la Galette, a épicerie do filme), até a Place du Tertre."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
@@ -1561,7 +1591,11 @@
               "lng": 2.3407,
               "tipo": "marco",
               "nota": "A praça dos pintores. Cedo, ainda sem a multidão do meio-dia.",
-              "trecho": { "linha": "pe", "min": 5, "texto": "A basílica fica ao lado da praça." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "A basílica fica ao lado da praça."
+              }
             },
             {
               "h": "09:45",
@@ -1570,7 +1604,11 @@
               "lng": 2.3431,
               "tipo": "marco",
               "nota": "Interior gratuito. A cúpula, ingresso separado, é a melhor vista de Paris depois da Torre Eiffel.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "Desça em direção ao Square Jehan-Rictus." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Desça em direção ao Square Jehan-Rictus."
+              }
             },
             {
               "h": "10:45",
@@ -1579,7 +1617,11 @@
               "lng": 2.3326,
               "tipo": "marco",
               "nota": "Square Jehan-Rictus, \"Le Mur des Je t'aime\".",
-              "trecho": { "linha": "pe", "min": 8, "texto": "Passage des Abbesses até a praça e a estação Art Nouveau." }
+              "trecho": {
+                "linha": "pe",
+                "min": 8,
+                "texto": "Passage des Abbesses até a praça e a estação Art Nouveau."
+              }
             },
             {
               "h": "11:15",
@@ -1588,17 +1630,25 @@
               "lng": 2.3383,
               "tipo": "marco",
               "nota": "Uma das poucas estações de metrô que ainda tem a marquise original de Guimard.",
-              "trecho": { "linha": "pe", "min": 20, "texto": "Rue des Martyrs, rua de queijeiros, vinhos e padarias, descendo até os Grands Boulevards." }
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "Rue des Martyrs, rua de queijeiros, vinhos e padarias, descendo até os Grands Boulevards."
+              }
             },
             {
               "h": "12:45",
               "nome": "Bouillon Chartier",
-              "lat": 48.8720,
+              "lat": 48.872,
               "lng": 2.3418,
               "tipo": "comida",
               "nota": "Almoço. Salão de 1896 nos Grands Boulevards.",
               "alerta": "Não aceita reserva; a fila é parte da experiência, mas anda rápido",
-              "trecho": { "linha": "metro8", "min": 18, "texto": "A pé até Grands Boulevards, métro linha 8 até République (4 paradas), 8 min a pé até o canal." }
+              "trecho": {
+                "linha": "metro8",
+                "min": 18,
+                "texto": "A pé até Grands Boulevards, métro linha 8 até République (4 paradas), 8 min a pé até o canal."
+              }
             },
             {
               "h": "14:30",
@@ -1607,7 +1657,24 @@
               "lng": 2.3655,
               "tipo": "parque",
               "nota": "Pontes de ferro, eclusas, cais para sentar, lojinhas ao longo do Quai de Valmy e do Quai de Jemmapes.",
-              "trecho": { "linha": "metro12", "min": 25, "texto": "A pé até Grands Boulevards (20 min) ou métro linha 8 de volta e linha 12 até Pigalle." }
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "A pé até os Grands Boulevards, passando pela Boulangerie do Sentier."
+              }
+            },
+            {
+              "h": "17:15",
+              "nome": "Boulangerie do Sentier",
+              "lat": 48.8656,
+              "lng": 2.3491,
+              "tipo": "comida",
+              "nota": "47 Rue du Caire, no coração do bairro têxtil do Sentier — pão e doces de tradição oriental.",
+              "trecho": {
+                "linha": "metro12",
+                "min": 15,
+                "texto": "A pé ou de métro (linha 8 + linha 12) rumo a Pigalle."
+              }
             },
             {
               "h": "19:00",
@@ -1617,7 +1684,11 @@
               "tipo": "comida",
               "nota": "Jantar, a 5 min do hotel.",
               "alerta": "Não aceita reserva; chegue por volta das 19h",
-              "trecho": { "linha": "pe", "min": 3, "texto": "3 min a pé." }
+              "trecho": {
+                "linha": "pe",
+                "min": 3,
+                "texto": "3 min a pé."
+              }
             },
             {
               "h": "21:00",
@@ -1626,7 +1697,11 @@
               "lng": 2.3322,
               "tipo": "marco",
               "nota": "Iluminado à noite, com o letreiro ligado — a 3 min do hotel.",
-              "trecho": { "linha": "pe", "min": 3, "texto": "3 min a pé até o hotel." }
+              "trecho": {
+                "linha": "pe",
+                "min": 3,
+                "texto": "3 min a pé até o hotel."
+              }
             },
             {
               "h": "21:30",
@@ -1666,17 +1741,38 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Saída para o dia.",
-              "trecho": { "linha": "rer-a", "min": 75, "texto": "Métro linha 12 até Concorde (10 min), linha 1 até Châtelet (5 min), RER A direto até Marne-la-Vallée–Chessy (40 min), mais caminhada até a entrada." },
+              "trecho": {
+                "linha": "rer-a",
+                "min": 45,
+                "texto": "Métro linha 12 até Concorde (10 min), linha 1 até Châtelet (5 min), RER A até Gare de Lyon (5 min), mais caminhada."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
-              "h": "09:30",
+              "h": "09:00",
+              "nome": "Rue Crémieux",
+              "lat": 48.8459,
+              "lng": 2.3695,
+              "tipo": "marco",
+              "nota": "A ruela mais colorida e fotografada de Paris, fileira de casinhas pastel. Melhor de manhã, com luz — 15 min bastam.",
+              "trecho": {
+                "linha": "rer-a",
+                "min": 35,
+                "texto": "De volta ao RER A, direto até Marne-la-Vallée–Chessy, mais caminhada até a entrada."
+              }
+            },
+            {
+              "h": "09:55",
               "nome": "Disneyland Paris",
               "lat": 48.8722,
               "lng": 2.7761,
               "tipo": "marco",
               "nota": "Desde 08/08 o parque fecha às 22h, com o espetáculo \"Disney Tales of Magic\" no fechamento. Ingresso hopper permite visitar os dois parques — Disneyland Park de manhã, Disney Adventure World à tarde — voltando ao Disneyland Park a tempo do show da noite.",
-              "trecho": { "linha": "rer-a", "min": 75, "texto": "Mesmo caminho de volta: RER A até Châtelet, métro até o hotel." }
+              "trecho": {
+                "linha": "rer-a",
+                "min": 75,
+                "texto": "Mesmo caminho de volta: RER A até Châtelet, métro até o hotel."
+              }
             },
             {
               "h": "23:15",
@@ -1721,18 +1817,26 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Saída para o dia.",
-              "trecho": { "linha": "metro12", "min": 15, "texto": "Métro linha 12 direto de Pigalle até Solférino (8 paradas, sem troca)." },
+              "trecho": {
+                "linha": "metro12",
+                "min": 15,
+                "texto": "Métro linha 12 direto de Pigalle até Solférino (8 paradas, sem troca)."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
               "h": "09:30",
               "nome": "Museu de Orsay",
-              "lat": 48.8600,
+              "lat": 48.86,
               "lng": 2.3266,
               "tipo": "museu",
               "nota": "Priorize o 5º andar (impressionistas: Monet, Degas, Van Gogh) antes de descer para o resto. 2h30 a 3h.",
               "alerta": "Fechado às segundas",
-              "trecho": { "linha": "pe", "min": 5, "texto": "Passerelle Léopold-Sédar-Senghor, a passarela de pedestres sobre o Sena, direto para as Tulherias." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Passerelle Léopold-Sédar-Senghor, a passarela de pedestres sobre o Sena, direto para as Tulherias."
+              }
             },
             {
               "h": "12:45",
@@ -1741,7 +1845,11 @@
               "lng": 2.3212,
               "tipo": "marco",
               "nota": "O obelisco egípcio e a vista até o Arco do Triunfo pela Champs-Élysées.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "Rue de Rivoli, colada nas Tulherias." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Rue de Rivoli, colada nas Tulherias."
+              }
             },
             {
               "h": "13:15",
@@ -1750,16 +1858,37 @@
               "lng": 2.3285,
               "tipo": "comida",
               "nota": "Almoço. Chocolate quente e o Mont-Blanc (merengue com creme de castanha) são a razão de ir.",
-              "trecho": { "linha": "pe", "min": 15, "texto": "Jardim das Tulherias, caminhando para o leste." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Rue de Castiglione, 3 min a pé até a pâtisserie."
+              }
             },
             {
-              "h": "14:15",
+              "h": "14:05",
+              "nome": "La Pâtisserie du Meurice by Cédric Grolet",
+              "lat": 48.8652,
+              "lng": 2.3288,
+              "tipo": "comida",
+              "nota": "6 Rue de Castiglione. Vitrine de esculturas em chocolate e as frutas trompe-l’œil do Grolet; leve algo para o caminho. 10 a 15 min.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Jardim das Tulherias, caminhando para o leste em direção ao Louvre."
+              }
+            },
+            {
+              "h": "14:20",
               "nome": "Jardim das Tulherias",
               "lat": 48.8635,
               "lng": 2.3272,
               "tipo": "parque",
               "nota": "Entre a Concorde e o Louvre, mesmo eixo.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "Direto para a entrada do Louvre." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Direto para a entrada do Louvre."
+              }
             },
             {
               "h": "15:00",
@@ -1769,7 +1898,11 @@
               "tipo": "museu",
               "nota": "Priorize Mona Lisa e as Galeries antes do meio da tarde. Aproveite a noite estendida de sexta para render mais sem a multidão do pico. 4h a 4h30.",
               "alerta": "Fechado às terças; hoje (sexta) fica aberto até 21h45",
-              "trecho": { "linha": "pe", "min": 5, "texto": "Saída pela ala norte, direto pro Palais Royal." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Saída pela ala norte, direto pro Palais Royal."
+              }
             },
             {
               "h": "19:30",
@@ -1778,7 +1911,11 @@
               "lng": 2.3376,
               "tipo": "marco",
               "nota": "Jardim e galerias com colunas, ótimo na hora azul. Jantar na região antes de voltar.",
-              "trecho": { "linha": "metro12", "min": 25, "texto": "Métro linha 1 de Palais Royal-Musée du Louvre até Concorde (2 paradas), troca linha 12 até Pigalle (7 paradas)." }
+              "trecho": {
+                "linha": "metro12",
+                "min": 25,
+                "texto": "Métro linha 1 de Palais Royal-Musée du Louvre até Concorde (2 paradas), troca linha 12 até Pigalle (7 paradas)."
+              }
             },
             {
               "h": "21:00",
@@ -1805,9 +1942,18 @@
       "modo": "walking",
       "resumo": "O dia mais denso da semana, mas tudo conectado a pé ao longo do Sena e da margem esquerda — o equivalente parisiense do dia de Westminster em Londres.",
       "extras": [
-        { "nome": "Rue Mouffetard", "nota": "Rua de mercado medieval no Quartier Latin, a 10 min do Panteão." },
-        { "nome": "Shakespeare and Company", "nota": "Livraria histórica em inglês, de frente para Notre-Dame." },
-        { "nome": "Berthillon", "nota": "Sorveteria rival da Amorino, também na Île Saint-Louis." }
+        {
+          "nome": "Rue Mouffetard",
+          "nota": "Rua de mercado medieval no Quartier Latin, a 10 min do Panteão."
+        },
+        {
+          "nome": "Shakespeare and Company",
+          "nota": "Livraria histórica em inglês, de frente para Notre-Dame."
+        },
+        {
+          "nome": "Berthillon",
+          "nota": "Sorveteria rival da Amorino, também na Île Saint-Louis."
+        }
       ],
       "variantes": [
         {
@@ -1822,7 +1968,11 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Saída para o dia.",
-              "trecho": { "linha": "metro1", "min": 25, "texto": "Métro linha 12 de Pigalle até Concorde (4 paradas), troca linha 1 até Saint-Paul (5 paradas)." },
+              "trecho": {
+                "linha": "metro1",
+                "min": 25,
+                "texto": "Métro linha 12 de Pigalle até Concorde (4 paradas), troca linha 1 até Saint-Paul (5 paradas)."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
@@ -1833,7 +1983,11 @@
               "tipo": "mercado",
               "nota": "O mercado cobertor mais antigo de Paris. Café da manhã ali mesmo.",
               "alerta": "Fechado às segundas; sábado abre das 8h30 às 20h30",
-              "trecho": { "linha": "pe", "min": 10, "texto": "Place des Vosges e as ruelas da Rue des Rosiers e Rue de Turenne." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Place des Vosges e as ruelas da Rue des Rosiers e Rue de Turenne."
+              }
             },
             {
               "h": "10:45",
@@ -1842,7 +1996,24 @@
               "lng": 2.3655,
               "tipo": "outro",
               "nota": "Bairro histórico, um dos poucos com lojas abertas domingo.",
-              "trecho": { "linha": "pe", "min": 15, "texto": "Cruzando o Pont Marie e o Pont Saint-Louis até a Île Saint-Louis." }
+              "trecho": {
+                "linha": "pe",
+                "min": 3,
+                "texto": "2 a 3 min a pé até a Rue de Birague."
+              }
+            },
+            {
+              "h": "11:15",
+              "nome": "Le Bone Appart",
+              "lat": 48.8551,
+              "lng": 2.3653,
+              "tipo": "comida",
+              "nota": "Primeiro café para cães de Paris, 9 Rue de Birague, a poucos passos da Place des Vosges. 20 min.",
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Cruzando o Pont Marie e o Pont Saint-Louis até a Île Saint-Louis."
+              }
             },
             {
               "h": "12:15",
@@ -1851,25 +2022,50 @@
               "lng": 2.3569,
               "tipo": "comida",
               "nota": "Gelato em formato de flor.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "Direto pra Île de la Cité." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Direto pra Île de la Cité."
+              }
             },
             {
               "h": "12:45",
               "nome": "Notre-Dame",
-              "lat": 48.8530,
+              "lat": 48.853,
               "lng": 2.3499,
               "tipo": "marco",
               "nota": "Exterior e, se a fila permitir, o interior reaberto após o restauro do incêndio.",
-              "trecho": { "linha": "pe", "min": 5, "texto": "Dentro do complexo da Conciergerie." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Dentro do complexo da Conciergerie."
+              }
             },
             {
               "h": "13:45",
               "nome": "Sainte-Chapelle",
               "lat": 48.8554,
-              "lng": 2.3450,
+              "lng": 2.345,
               "tipo": "marco",
               "nota": "Os vitrais do século XIII. 45 min a 1h.",
-              "trecho": { "linha": "pe", "min": 20, "texto": "Petit Pont até a margem esquerda, Quartier Latin." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Saindo da Île de la Cité, atravessando para o Boulevard Saint-Michel."
+              }
+            },
+            {
+              "h": "14:40",
+              "nome": "Normal",
+              "lat": 48.8536,
+              "lng": 2.3437,
+              "tipo": "loja",
+              "nota": "5 Boulevard Saint-Michel — rede de loja de desconto (higiene, limpeza, beleza); esta é a unidade mais próxima do roteiro do dia. 10 min.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Rue Cujas fica a poucos passos, subindo o Boulevard Saint-Michel."
+              }
             },
             {
               "h": "15:00",
@@ -1879,7 +2075,11 @@
               "tipo": "comida",
               "nota": "Almoço tardio. Rue Cujas — porções generosas de galette grega.",
               "alerta": "Não aceita reserva; fila normal na porta",
-              "trecho": { "linha": "pe", "min": 10, "texto": "10 min a pé do restaurante." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "10 min a pé do restaurante."
+              }
             },
             {
               "h": "16:00",
@@ -1888,7 +2088,11 @@
               "lng": 2.3464,
               "tipo": "marco",
               "nota": "Quartier Latin, perto do Luxemburgo.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "10 min a pé." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "10 min a pé."
+              }
             },
             {
               "h": "17:00",
@@ -1897,7 +2101,24 @@
               "lng": 2.3372,
               "tipo": "parque",
               "nota": "Bancos, o tanque de barquinhos, o Palácio do Senado.",
-              "trecho": { "linha": "pe", "min": 15, "texto": "Rumo a Saint-Germain-des-Prés." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Rumo à Rue Saint-André-des-Arts, a caminho de Saint-Germain."
+              }
+            },
+            {
+              "h": "17:45",
+              "nome": "Patate",
+              "lat": 48.8535,
+              "lng": 2.3388,
+              "tipo": "comida",
+              "nota": "36 Rue Saint-André-des-Arts — fritas artesanais, cortadas e fritas na hora, para petiscar ou dividir. 10 a 15 min.",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Rumo à igreja de Saint-Germain-des-Prés."
+              }
             },
             {
               "h": "18:00",
@@ -1906,7 +2127,11 @@
               "lng": 2.3336,
               "tipo": "outro",
               "nota": "A igreja, o exterior dos cafés Flore e Deux Magots.",
-              "trecho": { "linha": "pe", "min": 5, "texto": "Rue du Four." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Rue du Four."
+              }
             },
             {
               "h": "18:30",
@@ -1915,7 +2140,11 @@
               "lng": 2.3327,
               "tipo": "loja",
               "nota": "A farmácia de desconto mais famosa de Paris para skincare (Avène, La Roche-Posay, Bioderma).",
-              "trecho": { "linha": "pe", "min": 5, "texto": "5 min a pé." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "5 min a pé."
+              }
             },
             {
               "h": "19:00",
@@ -1924,7 +2153,11 @@
               "lng": 2.3247,
               "tipo": "loja",
               "nota": "Mercearia gourmet do Bon Marché. Jantar em Saint-Germain antes de voltar.",
-              "trecho": { "linha": "metro2", "min": 25, "texto": "Métro linha 4 de Saint-Germain-des-Prés até Barbès-Rochechouart, troca linha 2 até Pigalle (2 paradas)." }
+              "trecho": {
+                "linha": "metro2",
+                "min": 25,
+                "texto": "Métro linha 4 de Saint-Germain-des-Prés até Barbès-Rochechouart, troca linha 2 até Pigalle (2 paradas)."
+              }
             },
             {
               "h": "21:00",
@@ -1949,9 +2182,12 @@
       "porSol": "20:23",
       "titulo": "Château de Versailles",
       "modo": "transit",
-      "resumo": "Dia inteiro fora de Paris. Versailles fecha às segundas, por isso vai no domingo — mais movimentado que um dia de semana, mas com as Grandes Eaux Musicales nos jardins se a temporada estiver rolando.",
+      "resumo": "Dia fora de Paris, mas não o dia inteiro: chegada aos jardins por volta das 9h, saída às 15h30. De volta na cidade, caminhada pela praia liberada para banho no Sena e jantar no Chez Janou, no Marais. Versailles fecha às segundas, por isso vai no domingo — mais movimentado que um dia de semana.",
       "extras": [
-        { "nome": "Dôme des Invalides", "nota": "Túmulo de Napoleão, no caminho entre o metrô e o RER C, se quiser esticar a manhã." }
+        {
+          "nome": "Dôme des Invalides",
+          "nota": "Túmulo de Napoleão, no caminho entre o metrô e o RER C, se quiser esticar a manhã."
+        }
       ],
       "variantes": [
         {
@@ -1960,41 +2196,81 @@
           "recomendada": true,
           "paradas": [
             {
-              "h": "08:30",
+              "h": "07:45",
               "nome": "Hotel Libertel Montmartre Opéra",
               "lat": 48.8820719,
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Saída para o dia.",
-              "trecho": { "linha": "rer-c", "min": 75, "texto": "Métro linha 12 até Concorde (4 paradas), troca linha 8 até Invalides (2 paradas), troca RER C até Versailles Château - Rive Gauche (35 a 40 min)." },
+              "trecho": {
+                "linha": "rer-c",
+                "min": 75,
+                "texto": "Métro linha 12 até Concorde (4 paradas), troca linha 8 até Invalides (2 paradas), troca RER C até Versailles Château - Rive Gauche (35 a 40 min), mais caminhada até a entrada."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
-              "h": "09:45",
+              "h": "09:00",
               "nome": "Palácio de Versailles",
               "lat": 48.8049,
               "lng": 2.1204,
               "tipo": "marco",
               "nota": "Galeria dos Espelhos, apartamentos reais. 2h30. Almoço na cidade ou num café dos jardins depois.",
               "alerta": "Fechado às segundas",
-              "trecho": { "linha": "pe", "min": 15, "texto": "Entrada dos jardins, mesmo complexo." }
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Entrada dos jardins, mesmo complexo."
+              }
             },
             {
-              "h": "13:30",
+              "h": "11:30",
               "nome": "Jardins de Versailles",
               "lat": 48.8047,
               "lng": 2.1195,
               "tipo": "parque",
-              "nota": "Grand Canal, Bosquets, e — se o bilhete Passeport cobrir — o Grand Trianon e o Petit Trianon (mais 1h30 a 2h, os carrinhos elétricos ajudam).",
-              "trecho": { "linha": "rer-c", "min": 75, "texto": "Mesmo caminho de volta: RER C até Invalides, métro linha 8 até Concorde, linha 12 até Pigalle." }
+              "nota": "Almoço primeiro, depois Grand Canal e Bosquets — e, se o bilhete Passeport cobrir, o Grand Trianon (os carrinhos elétricos ajudam a render mais em menos tempo). Sem tempo para os dois Trianons com a saída às 15h30; escolha um se quiser incluir.",
+              "trecho": {
+                "linha": "metro1",
+                "min": 55,
+                "texto": "RER C até Invalides, métro linha 8 até Concorde, troca linha 1 até Saint-Paul."
+              },
+              "alerta": "As Grandes Eaux Musicales costumam rolar à tarde (historicamente por volta de 15h30 às 17h20) nos dias de temporada — saindo às 15h30 você provavelmente pega só o começo ou nada. Confirme o horário exato mais perto da data se isso for prioridade."
             },
             {
-              "h": "18:00",
+              "h": "16:30",
+              "nome": "Bras Marie (banho no Sena)",
+              "lat": 48.8521,
+              "lng": 2.3572,
+              "tipo": "parque",
+              "nota": "Quai des Célestins, ao lado da Île Saint-Louis — um dos três trechos do Sena liberados para banho em 2026, aberto todo dia das 8h às 18h (saída da água 30 min antes de fechar). Último fim de semana da temporada (vai até 30/08). Entrada livre; leve roupa de banho se quiser entrar na água, ou só caminhe pela praia.",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "A pé pelo Quai des Célestins e o Boulevard Henri IV até a Place des Vosges e o Marais."
+              }
+            },
+            {
+              "h": "19:30",
+              "nome": "Chez Janou",
+              "lat": 48.8567,
+              "lng": 2.3665,
+              "tipo": "comida",
+              "nota": "2 Rue Roger Verlomme, perto da Place des Vosges — bistrô provençal clássico do Marais, famoso pelo pote de mousse de chocolate para dividir à vontade.",
+              "alerta": "Não fecha reserva facilmente online para grupos pequenos em horário de pico; domingo costuma ter fila. Vale reservar com antecedência ou chegar cedo.",
+              "trecho": {
+                "linha": "metro12",
+                "min": 35,
+                "texto": "A pé até Chemin Vert, métro linha 8 até Concorde, troca linha 12 até Pigalle."
+              }
+            },
+            {
+              "h": "21:30",
               "nome": "Hotel Libertel Montmartre Opéra",
               "lat": 48.8820719,
               "lng": 2.334511,
               "tipo": "base",
-              "nota": "Noite livre, jantar perto do hotel — dia mais leve depois do esforço de caminhada em Versailles.",
+              "nota": "De volta ao hotel depois do jantar no Marais.",
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             }
           ]
@@ -2013,7 +2289,10 @@
       "modo": "transit",
       "resumo": "Último dia inteiro. Sem hora marcada de museu, mais fácil de ajustar ao cansaço acumulado da semana — e termina perto do hotel, útil com a saída de madrugada no dia seguinte.",
       "extras": [
-        { "nome": "Rue Cler", "nota": "Rua de mercado no 7º, perto do Champ de Mars, complementa o eixo Trocadéro/Eiffel." }
+        {
+          "nome": "Rue Cler",
+          "nota": "Rua de mercado no 7º, perto do Champ de Mars, complementa o eixo Trocadéro/Eiffel."
+        }
       ],
       "variantes": [
         {
@@ -2028,26 +2307,51 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Saída para o dia.",
-              "trecho": { "linha": "metro1", "min": 20, "texto": "Métro linha 12 de Pigalle até Concorde (4 paradas), troca linha 1 até Charles de Gaulle-Étoile (4 paradas)." },
+              "trecho": {
+                "linha": "metro1",
+                "min": 20,
+                "texto": "Métro linha 12 de Pigalle até Concorde (4 paradas), troca linha 1 até Charles de Gaulle-Étoile (4 paradas)."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
               "h": "10:00",
               "nome": "Arco do Triunfo",
               "lat": 48.8738,
-              "lng": 2.2950,
+              "lng": 2.295,
               "tipo": "marco",
               "nota": "Subida ao topo com ingresso reservado — de manhã tem menos fila.",
-              "trecho": { "linha": "pe", "min": 20, "texto": "Avenue des Champs-Élysées, descendo em direção à Concorde." }
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "Avenue des Champs-Élysées, descendo em direção à Concorde."
+              }
             },
             {
               "h": "11:00",
               "nome": "Champs-Élysées",
               "lat": 48.8698,
-              "lng": 2.3080,
+              "lng": 2.308,
               "tipo": "marco",
               "nota": "Caminhada pela avenida, vitrines.",
-              "trecho": { "linha": "pe", "min": 15, "texto": "Perto do fim da avenida." }
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "Descendo até perto da Concorde, depois subindo pela Rue Royale até a Place de la Madeleine."
+              }
+            },
+            {
+              "h": "11:45",
+              "nome": "Boutique Maille",
+              "lat": 48.8699,
+              "lng": 2.3244,
+              "tipo": "loja",
+              "nota": "6 Place de la Madeleine — mostardas artesanais desde 1747, tiradas na hora do barril, para levar em potes de cerâmica.",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "De volta pela Rue Royale até a Concorde, depois ao Grand Palais e ao Petit Palais."
+              }
             },
             {
               "h": "12:30",
@@ -2056,7 +2360,11 @@
               "lng": 2.3129,
               "tipo": "museu",
               "nota": "Museu de belas artes gratuito.",
-              "trecho": { "linha": "pe", "min": 5, "texto": "Ao lado do Petit Palais." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Ao lado do Petit Palais."
+              }
             },
             {
               "h": "13:15",
@@ -2065,7 +2373,11 @@
               "lng": 2.3138,
               "tipo": "marco",
               "nota": "A ponte mais ornamentada de Paris. Almoço na região do Grand Palais antes de seguir.",
-              "trecho": { "linha": "pe", "min": 25, "texto": "Quai d'Orsay ou métro linha 9 de Alma-Marceau, poucas paradas, até Trocadéro." }
+              "trecho": {
+                "linha": "pe",
+                "min": 25,
+                "texto": "Quai d'Orsay ou métro linha 9 de Alma-Marceau, poucas paradas, até Trocadéro."
+              }
             },
             {
               "h": "15:30",
@@ -2074,7 +2386,11 @@
               "lng": 2.2876,
               "tipo": "mirante",
               "nota": "A esplanada com a vista clássica da Torre Eiffel.",
-              "trecho": { "linha": "pe", "min": 5, "texto": "Rua arborizada colada no Trocadéro." }
+              "trecho": {
+                "linha": "pe",
+                "min": 5,
+                "texto": "Rua arborizada colada no Trocadéro."
+              }
             },
             {
               "h": "16:00",
@@ -2083,7 +2399,11 @@
               "lng": 2.2865,
               "tipo": "mirante",
               "nota": "A vista da Torre Eiffel emoldurada pelas árvores.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "10 min a pé descendo." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "10 min a pé descendo."
+              }
             },
             {
               "h": "16:30",
@@ -2092,7 +2412,11 @@
               "lng": 2.2892,
               "tipo": "marco",
               "nota": "A ponte de ferro da cena de Inception.",
-              "trecho": { "linha": "pe", "min": 10, "texto": "Ali perto." }
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Ali perto."
+              }
             },
             {
               "h": "17:00",
@@ -2101,7 +2425,11 @@
               "lng": 2.2951,
               "tipo": "marco",
               "nota": "Prédios coloridos.",
-              "trecho": { "linha": "metro9", "min": 15, "texto": "Métro linha 9 de Trocadéro até Chaussée d'Antin-La Fayette, bem embaixo da loja." }
+              "trecho": {
+                "linha": "metro9",
+                "min": 15,
+                "texto": "Métro linha 9 de Trocadéro até Chaussée d'Antin-La Fayette, bem embaixo da loja."
+              }
             },
             {
               "h": "18:15",
@@ -2110,7 +2438,11 @@
               "lng": 2.3317,
               "tipo": "loja",
               "nota": "A cúpula Art Nouveau e o terraço com vista gratuita. A Cédric Grolet Opéra está a poucos passos.",
-              "trecho": { "linha": "pe", "min": 15, "texto": "15 min a pé ou 1 parada de métro linha 12 (Trinité até Pigalle)." }
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "15 min a pé ou 1 parada de métro linha 12 (Trinité até Pigalle)."
+              }
             },
             {
               "h": "19:30",
@@ -2150,7 +2482,11 @@
               "lng": 2.334511,
               "tipo": "base",
               "nota": "Despertar, malas já prontas desde a noite anterior.",
-              "trecho": { "linha": "carro", "min": 45, "texto": "Táxi/VTC reservado com antecedência — nesse horário o RER B ainda não circula." },
+              "trecho": {
+                "linha": "carro",
+                "min": 45,
+                "texto": "Táxi/VTC reservado com antecedência — nesse horário o RER B ainda não circula."
+              },
               "placeId": "ChIJgZv4Tk9u5kcRwydaeKx6dAM"
             },
             {
@@ -2160,7 +2496,11 @@
               "lng": 2.5479,
               "tipo": "aeroporto",
               "nota": "Check-in e despacho de bagagem, depois segurança e embarque.",
-              "trecho": { "linha": "voo", "min": 130, "texto": "Voo direto Paris-Madrid." }
+              "trecho": {
+                "linha": "voo",
+                "min": 130,
+                "texto": "Voo direto Paris-Madrid."
+              }
             },
             {
               "h": "08:10",

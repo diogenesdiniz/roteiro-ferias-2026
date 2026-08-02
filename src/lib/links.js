@@ -2,6 +2,10 @@ export function linkMapaParada(parada) {
   return `https://www.google.com/maps/search/?api=1&query=${parada.lat},${parada.lng}`
 }
 
+export function linkMapaBusca(nome, cidade) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${nome} ${cidade}`)}`
+}
+
 export function linkRotaEntreParadas(origem, destino, modoViagem) {
   return `https://www.google.com/maps/dir/?api=1&origin=${origem.lat},${origem.lng}&destination=${destino.lat},${destino.lng}&travelmode=${modoViagem}`
 }

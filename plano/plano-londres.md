@@ -194,6 +194,8 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 
 **16h00** Piccadilly Circus, **Regent Street**, **Carnaby Street**. *Nota:* a iluminação famosa da Regent Street é a de Natal, de novembro a janeiro. Em agosto você encontra a instalação de bandeiras entre Piccadilly Circus e Oxford Circus, que fica ótima ao anoitecer, por volta das 20h.
 
+**16h20** **Primark**, 14-28 Oxford Street — a maior loja da rede em Londres, perto da Tottenham Court Road. Pela Kingly Street até a Oxford Street, 8 min a pé desde a Carnaby Street. Cabe dentro da folga que já existia entre Carnaby Street e o Leicester Square, sem atrasar o resto do dia.
+
 **17h15** **Leicester Square**: M&M's World e LEGO Store, ambas abertas até tarde.
 
 **18h15** **Trafalgar Square**, depois Whitehall: Horse Guards, Downing Street e um drink no bar do **Great Scotland Yard Hotel**, que fica a 3 min da praça.
@@ -285,6 +287,7 @@ Este é o único dia da sua estadia com Troca da Guarda, então ele manda no res
 | Fortnum and Mason | Seg 24, tarde |
 | Regent Street | Seg 24, tarde |
 | Mother Mash Carnaby | Seg 24, tarde |
+| Primark Oxford Street | Seg 24, fim de tarde |
 | M&M's London | Seg 24, fim de tarde |
 | The Lego Store | Seg 24, fim de tarde |
 | Trafalgar Square | Seg 24, noite |

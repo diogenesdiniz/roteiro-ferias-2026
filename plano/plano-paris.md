@@ -130,11 +130,15 @@ O dia mais denso da semana, mas tudo conectado a pé ao longo do Sena e da marge
 
 **10h45** **Le Marais**: Place des Vosges, ruelas da Rue des Rosiers e Rue de Turenne.
 
+**11h15** **Le Bone Appart**, 9 Rue de Birague — a poucos passos da Place des Vosges. O primeiro café para cães de Paris, pausa de 20 min dentro do próprio tempo livre do Marais.
+
 **12h15** A pé até a **Île Saint-Louis** cruzando o Pont Marie e o Pont Saint-Louis, 15 min. Parada no **Amorino** para o gelato.
 
 **12h45** **Notre-Dame**: exterior e, se a fila permitir, o interior reaberto.
 
 **13h45** **Sainte-Chapelle**, entrada com horário reservado — os vitrais do século XIII, 45 min a 1h.
+
+**14h40** **Normal**, 5 Boulevard Saint-Michel — a unidade da rede de loja de desconto mais bem posicionada no roteiro, bem na saída da Île de la Cité. 10 min.
 
 **15h00** Cruzar para a margem esquerda pelo Petit Pont, almoço tardio no **Le Petit Grec**, Rue Cujas — porções generosas de galette grega, fila normal na porta.
 
@@ -160,21 +164,25 @@ O dia mais denso da semana, mas tudo conectado a pé ao longo do Sena e da marge
 
 **Mapa do dia:** [abrir a rota completa no Google Maps](https://www.google.com/maps/dir/?api=1&origin=48.8827,2.3328&destination=48.8827,2.3328&waypoints=48.8049,2.1204&travelmode=transit)
 
-Dia inteiro fora de Paris. Versailles fecha às segundas, por isso vai no domingo — mais movimentado que um dia de semana, mas se a temporada estiver rolando, os jardins têm as Grandes Eaux Musicales (fontes com música) nos fins de semana.
+Não é o dia inteiro fora: chegada aos jardins por volta das 9h, saída às 15h30. De volta na cidade, uma caminhada pela praia liberada para banho no Sena e jantar no Marais. Versailles fecha às segundas, por isso vai no domingo — mais movimentado que um dia de semana.
 
-**08h30** Saída do hotel: metrô linha 12 de Pigalle até Concorde (4 paradas), troca linha 8 até **Invalides** (2 paradas), troca **RER C** até **Versailles Château - Rive Gauche** (~35-40 min). Total porta a porta: cerca de 1h a 1h15.
+**07h45** Saída do hotel: metrô linha 12 de Pigalle até Concorde (4 paradas), troca linha 8 até **Invalides** (2 paradas), troca **RER C** até **Versailles Château - Rive Gauche** (~35-40 min), mais caminhada até a entrada. Total porta a porta: cerca de 1h a 1h15.
 
-**09h45** Chegada, 10 min a pé até o Palácio.
+**09h00** **Palácio de Versailles**, entrada com horário reservado. Galeria dos Espelhos, apartamentos reais. 2h30.
 
-**10h00** **Palácio de Versailles**, entrada com horário reservado. Galeria dos Espelhos, apartamentos reais. 2h30.
+**11h30** Almoço na cidade de Versailles ou num café dos jardins, depois **Jardins de Versailles**: Grand Canal e Bosquets. Com a saída às 15h30 não sobra tempo para os dois Trianons — se o bilhete Passeport cobrir e você quiser encaixar um, o **Grand Trianon** é o mais próximo (os carrinhos elétricos ajudam a render mais em menos tempo).
 
-**12h30** Almoço na cidade de Versailles ou num café dos jardins.
+> **Alerta:** as Grandes Eaux Musicales (fontes com música nos jardins) costumam rolar à tarde em dias de temporada, historicamente por volta de 15h30 às 17h20. Saindo às 15h30 você provavelmente não pega o espetáculo, ou só o começo. Confirme o horário exato mais perto da data se isso for prioridade — pode valer reorganizar a manhã para chegar aos jardins mais cedo.
 
-**13h30** **Jardins de Versailles**: Grand Canal, Bosquets, e — se o bilhete Passeport cobrir — o **Grand Trianon** e o **Petit Trianon** (mais 1h30 a 2h de caminhada, os carrinhos elétricos ajudam).
+**15h30** Volta: RER C até Invalides, metrô linha 8 até Concorde, troca linha 1 até **Saint-Paul**. Cerca de 55 min.
 
-**16h30** Volta: mesmo caminho, RER C até Invalides, metrô linha 8 até Concorde, linha 12 até Pigalle. Cerca de 1h.
+**16h30** **Bras Marie**, Quai des Célestins, ao lado da Île Saint-Louis — um dos três trechos do Sena liberados para banho em 2026 (com Bercy e Grenelle), aberto todo dia das 8h às 18h até 30/08 (esse é o último fim de semana da temporada). Caminhada pela beira do rio na área de praia; leve roupa de banho se quiser entrar na água, ou só aproveite a vista. Cerca de 1h.
 
-**18h00** Noite livre, jantar perto do hotel — dia mais leve depois do esforço de caminhada em Versailles.
+**19h30** Jantar no **Chez Janou**, 2 Rue Roger Verlomme, a 20 min a pé dali — bistrô provençal clássico do Marais, o pote de mousse de chocolate para dividir à vontade é a razão de ir.
+
+> **Alerta:** o Chez Janou não facilita reserva online para grupos pequenos em horário de pico, e domingo costuma ter fila. Vale ligar com antecedência ou chegar cedo.
+
+**21h30** Volta ao hotel: a pé até Chemin Vert, métro linha 8 até Concorde, troca linha 12 até Pigalle. Cerca de 35 min.
 
 ---
 
@@ -190,7 +198,9 @@ Dia inteiro fora de Paris. Versailles fecha às segundas, por isso vai no doming
 
 **11h00** **Avenue des Champs-Élysées**, caminhada descendo em direção à Concorde.
 
-**12h30** **Petit Palais**, museu de belas artes gratuito, perto do fim da avenida.
+**11h45** **Boutique Maille**, 6 Place de la Madeleine — um pequeno desvio subindo pela Rue Royale a partir da Concorde. Mostardas artesanais desde 1747, tiradas na hora do barril. 20 min, cabe na folga que a caminhada da avenida já tinha.
+
+**12h30** **Petit Palais**, museu de belas artes gratuito, perto do fim da avenida — de volta pela Rue Royale e a Concorde.
 
 **13h15** **Pont Alexandre III**, a ponte mais ornamentada de Paris, ao lado do Petit Palais.
 
@@ -258,9 +268,11 @@ Este é o dia escrito por inteiro aqui, mesmo terminando em Madrid, seguindo a m
 | Quartier do Palais Royal | Sex 28, noite |
 | Marché des Enfants Rouges | Sáb 29, manhã |
 | Le Marais | Sáb 29, manhã |
+| Le Bone Appart | Sáb 29, manhã |
 | Amorino Gelato | Sáb 29, meio-dia |
 | Notre-Dame | Sáb 29, meio-dia |
 | Sainte-Chapelle | Sáb 29, tarde |
+| Normal (loja) | Sáb 29, tarde |
 | Le Petit Grec ("OPT grec") | Sáb 29, almoço tardio |
 | Quartier Latin | Sáb 29, tarde |
 | Panthéon | Sáb 29, tarde |
@@ -269,9 +281,12 @@ Este é o dia escrito por inteiro aqui, mesmo terminando em Madrid, seguindo a m
 | Saint-Germain-des-Prés | Sáb 29, fim de tarde |
 | City Pharma | Sáb 29, fim de tarde |
 | La Grande Épicerie ("Laganh Epiceride Paris") | Sáb 29, fim de tarde |
-| Palácio de Versailles | Dom 30, dia inteiro |
+| Palácio de Versailles | Dom 30, manhã e início da tarde (chegada 9h, saída 15h30) |
+| Bras Marie (banho no Sena) | Dom 30, fim de tarde |
+| Chez Janou | Dom 30, jantar |
 | Arco do Triunfo | Seg 31, manhã |
 | Champs-Élysées | Seg 31, manhã |
+| Boutique Maille | Seg 31, manhã |
 | Petit Palais | Seg 31, meio-dia |
 | Ponte Alexandre III | Seg 31, meio-dia |
 | Trocadéro | Seg 31, tarde |
@@ -286,9 +301,7 @@ Este é o dia escrito por inteiro aqui, mesmo terminando em Madrid, seguindo a m
 
 # Pontos da sua lista que ficaram de fora, com o melhor dia para encaixar
 
-**Mont Saint-Michel.** Por decisão sua: fica fora do roteiro fixo, porque consome um dia inteiro (~13h45 a 4h30 só de ida, TGV até Rennes + ônibus + shuttle da ilha) num roteiro já de 6 dias. Se sobrar energia e quiser encaixar mesmo assim, o candidato natural é trocar pelo domingo de Versailles — mas é troca, não soma: um dia inteiro por outro.
-
-**Normal (loja).** É uma rede, não um endereço único. Passa perto do roteiro pelo menos duas vezes (Marais e Saint-Germain, sábado). Aproveito a unidade que cruzar o caminho nesse dia, a não ser que você tenha um endereço específico em mente.
+**Mont Saint-Michel.** Por decisão sua: fica fora do roteiro fixo, porque consome um dia inteiro (~13h45 a 4h30 só de ida, TGV até Rennes + ônibus + shuttle da ilha) num roteiro já de 6 dias. Se sobrar energia e quiser encaixar mesmo assim, o candidato natural é trocar pelo domingo de Versailles — mas é troca, não soma: um dia inteiro por outro. Com a saída de Versailles agora às 15h30, sobra tarde livre no domingo, mas ainda não o dia inteiro que o Mont Saint-Michel pediria.
 
 ---
 

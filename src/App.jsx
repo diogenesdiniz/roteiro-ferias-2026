@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { APIProvider } from '@vis.gl/react-google-maps'
 import { dias, reservas } from './data/roteiro'
 import { useEstadoViagem } from './lib/estado'
-import { paraDataLocal, minutosDesdeMeiaNoite, diasAteData } from './lib/tempo'
+import { paraDataLocal, minutosDesdeMeiaNoite, diasAteData, formatarIntervaloViagem } from './lib/tempo'
 import { corTexto, corFundo, corBorda, corTextoSuave, corTextoSobre, fonteMonoespacada } from './lib/tema'
 import DiaHeader from './components/DiaHeader'
 import MapaDia from './components/MapaDia'
@@ -11,6 +11,7 @@ import BlocoDecisao from './components/BlocoDecisao'
 import ExtrasDia from './components/ExtrasDia'
 import PainelReservas from './components/PainelReservas'
 import IndicePorCategoria from './components/IndicePorCategoria'
+import PainelPendentes from './components/PainelPendentes'
 
 function idParada(dia, variante, indice) {
   return `d${dia.n}${variante.id}-${indice}`
@@ -84,7 +85,9 @@ export default function App() {
             <div className="relative">
               <div className="absolute" style={{ left: -16, right: -16, top: '53%', height: 9, background: cor, transition: 'background .35s' }} aria-hidden="true" />
               <h1 className="relative text-3xl font-semibold" style={{ letterSpacing: '-0.01em' }}>
-                <span style={{ background: corFundo, paddingRight: 10 }}>Londres</span>
+                <span style={{ background: corFundo, paddingRight: 10 }}>
+                  {dia.cidade}{dia.cidadeDestino ? ` → ${dia.cidadeDestino}` : ''}
+                </span>
               </h1>
             </div>
             <div className="flex items-center gap-2">
@@ -110,10 +113,17 @@ export default function App() {
               >
                 Índice
               </button>
+              <button
+                onClick={() => setPainelAberto('pendentes')}
+                className="rounded-full px-3 py-2 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                style={{ background: '#fff', border: `1px solid ${corBorda}`, fontSize: 12, fontWeight: 600 }}
+              >
+                Fora do roteiro
+              </button>
             </div>
           </div>
           <p className="mt-2" style={{ fontFamily: fonteMonoespacada, fontSize: 11, color: corTextoSuave }}>
-            19–25 AGO 2026 · {diasAteViagem > 0 ? `faltam ${diasAteViagem} dias` : diasAteViagem === 0 ? 'começa hoje' : ehHoje ? 'hoje' : 'em viagem'}
+            {formatarIntervaloViagem(dias)} · {diasAteViagem > 0 ? `faltam ${diasAteViagem} dias` : diasAteViagem === 0 ? 'começa hoje' : ehHoje ? 'hoje' : 'em viagem'}
           </p>
         </header>
 
@@ -196,6 +206,10 @@ export default function App() {
 
       {painelAberto === 'indice' && (
         <IndicePorCategoria dias={dias} opcoes={variantesEscolhidas} aoFechar={() => setPainelAberto(null)} />
+      )}
+
+      {painelAberto === 'pendentes' && (
+        <PainelPendentes aoFechar={() => setPainelAberto(null)} />
       )}
     </div>
     </APIProvider>
