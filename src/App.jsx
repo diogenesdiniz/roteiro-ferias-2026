@@ -79,7 +79,7 @@ export default function App() {
   return (
     <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
     <div className="w-full min-h-screen" style={{ background: corFundo, color: corTexto }}>
-      <FundoTematico cidade={dia.cidade} />
+      <FundoTematico cidade={dia.cidade} cidadeDestino={dia.cidadeDestino} />
       <div className="relative mx-auto w-full" style={{ maxWidth: 760, zIndex: 1 }}>
 
         <header className="px-4 pt-6 pb-3">
