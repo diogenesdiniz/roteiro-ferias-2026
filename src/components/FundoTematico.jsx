@@ -20,9 +20,19 @@ function TorreEiffel() {
 
 function Croissant() {
   return (
-    <g {...tocaoBase({ fill: '#E8B04B' })}>
-      <path d="M15 45 C13 30 25 20 42 22 C55 24 62 30 68 40 C74 46 80 50 82 58 C80 64 74 66 70 62 C68 56 64 54 58 56 C48 60 40 62 32 68 C22 72 15 65 15 45 Z" />
-      <path d="M28 34 Q40 30 48 34 M38 48 Q50 44 58 48 M50 58 Q60 54 66 56" stroke="#8B5A20" strokeWidth="1.6" opacity="0.8" fill="none" />
+    <g {...tocaoBase()}>
+      <path
+        d="M8 45 C6 30 14 14 30 9 C42 5 54 8 58 20 C61 28 60 34 56 40 C60 44 68 46 74 52 C80 58 84 64 82 72 C80 80 72 82 66 76 C62 72 62 66 56 62 C48 56 40 54 32 52 C20 50 10 52 8 45 Z"
+        fill="#F0AE4E"
+      />
+      <path
+        d="M56 40 C60 44 68 46 74 52 C80 58 84 64 82 72 C80 80 72 82 66 76 C62 72 62 66 56 62 C51 58 46 56 40 54 C46 50 52 44 56 40 Z"
+        fill="#D98E30"
+      />
+      <path
+        d="M74 60 C80 62 83 68 82 72 C80 80 72 82 66 76 C64 74 63 71 63 68 C68 66 71 63 74 60 Z"
+        fill="#C97A22"
+      />
     </g>
   )
 }
@@ -30,9 +40,9 @@ function Croissant() {
 function Boina() {
   return (
     <g {...tocaoBase({ fill: '#7B2D3B' })}>
-      <ellipse cx="50" cy="58" rx="36" ry="17" />
-      <circle cx="52" cy="34" r="5" />
-      <path d="M20 58 Q50 46 80 58" fill="none" stroke="#4A1B24" strokeWidth="2" />
+      <path d="M14 60 Q10 40 30 28 Q46 18 62 24 Q80 30 84 46 Q86 56 76 62 Q60 70 40 68 Q22 66 14 60 Z" />
+      <path d="M52 28 Q50 20 54 14 Q57 20 55 27 Z" />
+      <path d="M20 56 Q40 64 68 58" fill="none" stroke="#4A1B24" strokeWidth="1.8" opacity="0.8" />
     </g>
   )
 }
@@ -48,10 +58,18 @@ function Baguete() {
 
 function Macaron() {
   return (
-    <g stroke={CONTORNO} strokeWidth="3" strokeLinejoin="round">
-      <ellipse cx="50" cy="36" rx="32" ry="15" fill="#F4A6C6" />
-      <rect x="20" y="46" width="60" height="10" fill="#FFF1D6" stroke="none" />
-      <ellipse cx="50" cy="64" rx="32" ry="15" fill="#F4A6C6" />
+    <g stroke={CONTORNO} strokeWidth="2.5" strokeLinejoin="round">
+      <path d="M20 34 Q20 18 50 18 Q80 18 80 34 L80 40 Q50 46 20 40 Z" fill="#F4A6C6" />
+      <path
+        d="M20 40 Q26 42 22 44 Q28 45 24 47 Q30 47 26 49 Q32 48 50 49 Q68 48 74 49 Q70 47 76 47 Q72 45 78 44 Q74 42 80 40 Q50 46 20 40 Z"
+        fill="#F4A6C6"
+      />
+      <rect x="21" y="45" width="58" height="10" fill="#FFF1D6" stroke="none" />
+      <path d="M20 66 Q20 82 50 82 Q80 82 80 66 L80 60 Q50 54 20 60 Z" fill="#F4A6C6" />
+      <path
+        d="M20 60 Q26 58 22 56 Q28 55 24 53 Q30 53 26 51 Q32 52 50 51 Q68 52 74 51 Q70 53 76 53 Q72 55 78 56 Q74 58 80 60 Q50 54 20 60 Z"
+        fill="#F4A6C6"
+      />
     </g>
   )
 }
