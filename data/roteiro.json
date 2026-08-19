@@ -210,7 +210,7 @@
       "porSol": "20:13",
       "titulo": "Torre de manhã, Ted Lasso à tarde",
       "modo": "transit",
-      "resumo": "Os dois polos são ligados pela District line direta de Tower Hill até Richmond, sem baldeação. Dia longo, e Richmond é o bloco que sai sem quebrar mais nada se o cansaço bater.",
+      "resumo": "Uber Boat de Tower Millennium Pier até Westminster para uma vista rápida do Parlamento, metrô de volta a Tower Hill, e Tower Bridge Exhibition às 11:10 (horário reservado). À tarde, District line direta até Richmond, sem baldeação.",
       "extras": [
         {
           "nome": "Petersham Nurseries",
@@ -219,6 +219,10 @@
         {
           "nome": "Prospect of Whitby",
           "nota": "Se você pulou na chegada, cabe aqui no lugar da Tower Bridge Exhibition. São 25 min a pé da Torre pela margem."
+        },
+        {
+          "nome": "The Official Ted Lasso Store",
+          "nota": "4 Paved Court, poucas portas do The Prince's Head. Camisas do AFC Richmond, viseira do Ted, meias de peixinho dourado, adesivos. Ponto de observação rápido entre Richmond Green e o pub."
         }
       ],
       "variantes": [
@@ -236,32 +240,44 @@
               "nota": "Saída para o dia.",
               "trecho": {
                 "linha": "pe",
-                "min": 12,
-                "texto": "Desça a King William Street até Monument, depois a Great Tower Street e a Byward Street até a Torre."
+                "min": 15,
+                "texto": "A pé até o Tower Millennium Pier, embarque do Uber Boat."
               },
               "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             },
             {
-              "h": "09:00",
-              "nome": "Torre de Londres",
-              "lat": 51.5081124,
-              "lng": -0.0759493,
-              "tipo": "museu",
-              "nota": "Abre 9h de terça a sábado. Entre e vá direto às Crown Jewels, antes da fila se formar. O tour gratuito do Yeoman Warder sai a cada 30 min.",
+              "h": "09:30",
+              "nome": "Tower Millennium Pier",
+              "lat": 51.5063,
+              "lng": -0.0754,
+              "tipo": "transporte",
+              "nota": "Embarque no Uber Boat by Thames Clippers, sentido Westminster.",
               "trecho": {
-                "linha": "pe",
-                "min": 5,
-                "texto": "Saia pelo portão sul, a ponte está na sua frente."
-              },
-              "placeId": "ChIJ3TgfM0kDdkgRZ2TV4d1Jv6g"
+                "linha": "barco",
+                "min": 25,
+                "texto": "Uber Boat direto até Westminster Pier, passando por London Bridge, Tate Modern, Shakespeare's Globe e o London Eye."
+              }
             },
             {
-              "h": "12:15",
+              "h": "10:00",
+              "nome": "Westminster Pier",
+              "lat": 51.501,
+              "lng": -0.1244,
+              "tipo": "marco",
+              "nota": "Desembarque. Vista rápida de Big Ben, Houses of Parliament e London Eye pela margem, sem entrar em nada — só a paisagem.",
+              "trecho": {
+                "linha": "district",
+                "min": 20,
+                "texto": "Metrô de volta: District/Circle line de Westminster até Tower Hill."
+              }
+            },
+            {
+              "h": "11:10",
               "nome": "Tower Bridge Exhibition",
               "lat": 51.5054564,
               "lng": -0.0753565,
               "tipo": "marco",
-              "nota": "Passarelas superiores, piso de vidro e casa das máquinas.",
+              "nota": "Horário reservado. Passarelas superiores, piso de vidro e casa das máquinas.",
               "trecho": {
                 "linha": "pe",
                 "min": 15,
@@ -270,7 +286,7 @@
               "placeId": "ChIJSdtli0MDdkgRrgRLMv8r0IQ"
             },
             {
-              "h": "13:15",
+              "h": "13:00",
               "nome": "Borough Market",
               "lat": 51.5055826,
               "lng": -0.0904808,
