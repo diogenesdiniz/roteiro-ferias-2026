@@ -2481,9 +2481,9 @@
       "cidade": "Paris",
       "nascer": "07:14",
       "porSol": "20:17",
-      "titulo": "Saída de madrugada para Madrid",
+      "titulo": "Chegada em Madrid — Bernabéu, mercados e centro histórico",
       "modo": "transit",
-      "resumo": "Voo às 06h00 do CDG. Sem RER B circulando nesse horário, o traslado é de táxi/VTC reservado com antecedência.",
+      "resumo": "Chegada de manhã, bagagem no hotel, café tranquilo pela Salamanca. Tour do Bernabéu ao meio-dia (horário reservado), almoço no Mercado de la Paz, tarde no Retiro e Puerta de Alcalá, fim de tarde no centro histórico (Sol/Plaza Mayor), tapas no Mercado de San Miguel e terraço do hotel pra fechar.",
       "extras": [],
       "variantes": [
         {
@@ -2526,12 +2526,183 @@
               "tipo": "aeroporto",
               "nota": "Chegada a Madrid.",
               "cidade": "Madrid",
-              "rotuloFora": "Madrid, ~1050 km a sudoeste"
+              "rotuloFora": "Madrid, ~1050 km a sudoeste",
+              "trecho": {
+                "linha": "carro",
+                "min": 30,
+                "texto": "Táxi/Uber até o hotel — evita a troca de linha de metrô com bagagem."
+              }
+            },
+            {
+              "h": "08:45",
+              "nome": "Hotel Atípico Madrid",
+              "lat": 40.4237,
+              "lng": -3.665,
+              "tipo": "base",
+              "nota": "Deixa a bagagem na recepção — check-in de verdade só a partir das 15h.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Café da manhã tranquilo por perto, pela Salamanca."
+              }
+            },
+            {
+              "h": "09:30",
+              "nome": "Café da manhã na Salamanca",
+              "lat": 40.4275,
+              "lng": -3.6789,
+              "tipo": "comida",
+              "nota": "Sem pressa — o tour do Bernabéu só é ao meio-dia, dá pra aproveitar o bairro com calma.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "metro1",
+                "min": 20,
+                "texto": "Metrô até Santiago Bernabéu (Linha 10) ou caminhada de ~25 min."
+              }
+            },
+            {
+              "h": "12:00",
+              "nome": "Estádio Santiago Bernabéu",
+              "lat": 40.453,
+              "lng": -3.6883,
+              "tipo": "marco",
+              "nota": "Tour reservado, horário confirmado.",
+              "alerta": "Horário fixo — não remarcar",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "metro1",
+                "min": 20,
+                "texto": "Metrô de volta até a região de Salamanca / Mercado de la Paz."
+              }
+            },
+            {
+              "h": "13:45",
+              "nome": "Mercado de la Paz",
+              "lat": 40.4295,
+              "lng": -3.6798,
+              "tipo": "comida",
+              "nota": "Almoço. Mercado mais autêntico e menos turístico que o de San Miguel. Aproveita pra procurar o prato ralador de tomate nas lojas de utensílios ao redor.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "A pé pela Salamanca até o Retiro."
+              }
+            },
+            {
+              "h": "15:30",
+              "nome": "Parque do Retiro",
+              "lat": 40.4153,
+              "lng": -3.6844,
+              "tipo": "parque",
+              "nota": "Caminhada tranquila, perto do hotel.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "Saída pelo lado norte do parque."
+              }
+            },
+            {
+              "h": "16:15",
+              "nome": "Puerta de Alcalá",
+              "lat": 40.4205,
+              "lng": -3.6883,
+              "tipo": "marco",
+              "nota": "Rápida parada fotográfica, no caminho para o centro histórico.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "metro2",
+                "min": 20,
+                "texto": "Metrô até Sol/Plaza Mayor."
+              }
+            },
+            {
+              "h": "17:30",
+              "nome": "Puerta del Sol e Plaza Mayor",
+              "lat": 40.4162,
+              "lng": -3.7056,
+              "tipo": "marco",
+              "nota": "Centro histórico, sem pressa — aproveite pra passear pelas ruas ao redor.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "pe",
+                "min": 10,
+                "texto": "A pé até o Mercado de San Miguel."
+              }
+            },
+            {
+              "h": "19:30",
+              "nome": "Mercado de San Miguel",
+              "lat": 40.4153,
+              "lng": -3.7092,
+              "tipo": "comida",
+              "nota": "Tapas para o jantar. Última chance de fechar a compra do prato ralador de tomate nas lojas de utensílios ao redor, se ainda não tiver achado no Mercado de la Paz.",
+              "cidade": "Madrid",
+              "trecho": {
+                "linha": "pe",
+                "min": 20,
+                "texto": "Volta ao hotel — táxi/Uber recomendado à noite."
+              }
+            },
+            {
+              "h": "21:30",
+              "nome": "Terraço do Hotel Atípico Madrid",
+              "lat": 40.4237,
+              "lng": -3.665,
+              "tipo": "base",
+              "nota": "Fecha a noite com uma vista tranquila, sem sair mais do hotel.",
+              "cidade": "Madrid"
             }
           ]
         }
       ],
       "cidadeDestino": "Madrid"
+    },
+    {
+      "n": 15,
+      "data": "2026-09-02",
+      "diaSemana": "Quarta",
+      "cor": "#C23B22",
+      "cidade": "Madrid",
+      "nascer": "07:29",
+      "porSol": "20:41",
+      "titulo": "Volta pra casa",
+      "modo": "voo",
+      "resumo": "Sem tempo de passeio — saída cedo do hotel para o voo das 10h55 rumo a Recife (pouso 14h30, horário local).",
+      "extras": [],
+      "variantes": [
+        {
+          "id": "a",
+          "nome": "Único roteiro",
+          "recomendada": true,
+          "paradas": [
+            {
+              "h": "07:00",
+              "nome": "Hotel Atípico Madrid",
+              "lat": 40.4237,
+              "lng": -3.665,
+              "tipo": "base",
+              "nota": "Saída do hotel, malas prontas desde a noite anterior.",
+              "trecho": {
+                "linha": "carro",
+                "min": 30,
+                "texto": "Táxi/Uber até o aeroporto — mais previsível que o metrô com bagagem."
+              }
+            },
+            {
+              "h": "07:40",
+              "nome": "Aeroporto Adolfo Suárez Madrid-Barajas",
+              "lat": 40.4983,
+              "lng": -3.5676,
+              "tipo": "aeroporto",
+              "nota": "Check-in, despacho de bagagem, segurança. Voo às 10h55 rumo a Recife, pouso 14h30 horário local.",
+              "alerta": "Chegue com folga — voo internacional"
+            }
+          ]
+        }
+      ]
     }
   ],
   "reservas": [
