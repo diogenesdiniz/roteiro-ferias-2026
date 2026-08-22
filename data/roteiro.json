@@ -1132,26 +1132,12 @@
               "nota": "14-28 Oxford Street, perto da Tottenham Court Road — a maior loja da rede em Londres.",
               "trecho": {
                 "linha": "pe",
-                "min": 12,
-                "texto": "Descendo pela Charing Cross Road até o Leicester Square."
+                "min": 15,
+                "texto": "A pé até a Trafalgar Square, via Charing Cross Road."
               }
             },
             {
-              "h": "17:15",
-              "nome": "LEGO Store Leicester Square",
-              "lat": 51.5103909,
-              "lng": -0.1309967,
-              "tipo": "loja",
-              "nota": "M&M's London é na porta ao lado, no mesmo Swiss Court. Ambas abrem até tarde.",
-              "trecho": {
-                "linha": "pe",
-                "min": 6,
-                "texto": "Atravesse o Leicester Square e desça pela Charing Cross Road."
-              },
-              "placeId": "ChIJrQCmO9IEdkgRyoqlpJ3K8n8"
-            },
-            {
-              "h": "18:15",
+              "h": "16:50",
               "nome": "Trafalgar Square",
               "lat": 51.508039,
               "lng": -0.128069,
