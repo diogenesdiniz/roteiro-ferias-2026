@@ -1103,28 +1103,13 @@
               "nota": "Food Hall no térreo e a seção de chás no primeiro andar.",
               "trecho": {
                 "linha": "pe",
-                "min": 12,
-                "texto": "Piccadilly até o Circus, depois Regent Street e entre pela Beak Street."
+                "min": 18,
+                "texto": "A pé até a Primark, passando pela Carnaby Street no caminho."
               },
               "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
             },
             {
-              "h": "13:15",
-              "nome": "Carnaby Street",
-              "lat": 51.5131862,
-              "lng": -0.1388548,
-              "tipo": "loja",
-              "nota": "Mother Mash Carnaby fica aqui, se quiser adiantar o jantar.",
-              "alerta": "A iluminação famosa da Regent Street é a de Natal, não a de agosto",
-              "trecho": {
-                "linha": "pe",
-                "min": 8,
-                "texto": "Rumo à Oxford Street, pela Kingly Street, até a loja do Primark."
-              },
-              "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
-            },
-            {
-              "h": "13:45",
+              "h": "13:33",
               "nome": "Primark Oxford Street",
               "lat": 51.5154,
               "lng": -0.1319,
