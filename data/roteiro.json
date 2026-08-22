@@ -995,7 +995,7 @@
       "porSol": "20:04",
       "titulo": "Westminster, realeza e West End",
       "modo": "walking",
-      "resumo": "A troca da guarda às 11h manda no dia inteiro, mas sem entrar nos State Rooms — só a cerimônia por fora. Do Regency Café até Covent Garden é tudo caminhável, com um trecho curto de metrô só no começo.",
+      "resumo": "A troca da guarda às 11h manda no dia inteiro, mas sem entrar nos State Rooms — só a cerimônia por fora. Depois, tempo de sobra no St James's Park antes de seguir pro West End.",
       "decisao": {
         "pergunta": "Entrar no Buckingham ou ter o dia folgado?",
         "contexto": "Abadia de manhã e State Rooms depois da troca da guarda cabe, mas sem respiro. Abrir mão do interior do palácio libera duas horas e meia."
@@ -1089,13 +1089,26 @@
               "alerta": "Confirme a troca da guarda na semana da viagem",
               "trecho": {
                 "linha": "pe",
-                "min": 20,
-                "texto": "A pé até Fortnum & Mason, via St James's Park."
+                "min": 5,
+                "texto": "A pé até o St James's Park, entrando pelo lado oeste."
               },
               "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
             },
             {
-              "h": "12:15",
+              "h": "11:50",
+              "nome": "St James's Park",
+              "lat": 51.5027,
+              "lng": -0.1347,
+              "tipo": "parque",
+              "nota": "O parque real mais antigo de Londres. Lago com pelicanos, vista clássica do Buckingham Palace do lado oeste, e do Horse Guards/Whitehall do lado leste.",
+              "trecho": {
+                "linha": "pe",
+                "min": 15,
+                "texto": "A pé até o Fortnum & Mason, via St James's Street."
+              }
+            },
+            {
+              "h": "13:00",
               "nome": "Fortnum & Mason",
               "lat": 51.5083687,
               "lng": -0.13831,
@@ -1109,7 +1122,7 @@
               "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
             },
             {
-              "h": "13:33",
+              "h": "14:33",
               "nome": "Primark Oxford Street",
               "lat": 51.5154,
               "lng": -0.1319,
@@ -1122,7 +1135,7 @@
               }
             },
             {
-              "h": "14:15",
+              "h": "15:30",
               "nome": "Trafalgar Square",
               "lat": 51.508039,
               "lng": -0.128069,
