@@ -995,7 +995,7 @@
       "porSol": "20:04",
       "titulo": "Westminster, realeza e West End",
       "modo": "walking",
-      "resumo": "A troca da guarda às 11h manda no dia inteiro. Do Regency Café até Covent Garden é tudo caminhável, com um trecho curto de metrô só no começo.",
+      "resumo": "A troca da guarda às 11h manda no dia inteiro, mas sem entrar nos State Rooms — só a cerimônia por fora. Do Regency Café até Covent Garden é tudo caminhável, com um trecho curto de metrô só no começo.",
       "decisao": {
         "pergunta": "Entrar no Buckingham ou ter o dia folgado?",
         "contexto": "Abadia de manhã e State Rooms depois da troca da guarda cabe, mas sem respiro. Abrir mão do interior do palácio libera duas horas e meia."
@@ -1085,17 +1085,17 @@
               "lat": 51.501364,
               "lng": -0.14189,
               "tipo": "museu",
-              "nota": "Troca da guarda às 11h, cerca de 45 min. Depois os State Rooms com horário marcado, 2h a 2h30, saindo pelo jardim.",
+              "nota": "Troca da guarda às 11h, cerca de 45 min. Sem entrar nos State Rooms — só a cerimônia e os guardas clássicos por fora, no portão e nas grades.",
               "alerta": "Confirme a troca da guarda na semana da viagem",
               "trecho": {
                 "linha": "pe",
-                "min": 15,
-                "texto": "Atravesse o Green Park na diagonal até a Piccadilly."
+                "min": 20,
+                "texto": "A pé até Fortnum & Mason, via St James's Park."
               },
               "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
             },
             {
-              "h": "15:15",
+              "h": "12:15",
               "nome": "Fortnum & Mason",
               "lat": 51.5083687,
               "lng": -0.13831,
@@ -1109,7 +1109,7 @@
               "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
             },
             {
-              "h": "16:00",
+              "h": "13:15",
               "nome": "Carnaby Street",
               "lat": 51.5131862,
               "lng": -0.1388548,
@@ -1124,7 +1124,7 @@
               "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
             },
             {
-              "h": "16:20",
+              "h": "13:45",
               "nome": "Primark Oxford Street",
               "lat": 51.5154,
               "lng": -0.1319,
@@ -1137,26 +1137,26 @@
               }
             },
             {
-              "h": "16:50",
+              "h": "14:15",
               "nome": "Trafalgar Square",
               "lat": 51.508039,
               "lng": -0.128069,
               "tipo": "marco",
-              "nota": "National Gallery é gratuita mas fecha às 18h. O Great Scotland Yard Hotel fica a 3 min pelo Whitehall.",
+              "nota": "Nelson's Column, os leões, as fontes, o Fourth Plinth. National Gallery é gratuita, fecha às 18h.",
               "trecho": {
                 "linha": "pe",
                 "min": 12,
-                "texto": "Suba pela St Martin's Lane até o Seven Dials. O beco de entrada do Neal's Yard é fácil de passar batido."
+                "texto": "A pé pela Charing Cross Road e Seven Dials até Neal's Yard."
               },
               "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
             },
             {
-              "h": "19:15",
+              "h": "17:30",
               "nome": "Neal's Yard",
               "lat": 51.5144724,
               "lng": -0.1263531,
               "tipo": "marco",
-              "nota": "Passando pela Piazza de Covent Garden, pelo Apple Market e pelo Seven Dials.",
+              "nota": "Passando pela Piazza de Covent Garden, pelo Apple Market e pelo Seven Dials. Bastante folga aqui — sem pressa.",
               "trecho": {
                 "linha": "pe",
                 "min": 6,
@@ -1165,7 +1165,7 @@
               "placeId": "ChIJ4V9RKM0EdkgRc59GlBoOclQ"
             },
             {
-              "h": "20:15",
+              "h": "19:30",
               "nome": "Mother Mash Covent Garden",
               "lat": 51.5110622,
               "lng": -0.1265349,
