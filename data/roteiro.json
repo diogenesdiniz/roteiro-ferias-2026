@@ -1137,17 +1137,16 @@
             },
             {
               "h": "17:30",
-              "nome": "Neal's Yard",
-              "lat": 51.5144724,
-              "lng": -0.1263531,
+              "nome": "Covent Garden Piazza",
+              "lat": 51.5117,
+              "lng": -0.1226,
               "tipo": "marco",
-              "nota": "Passando pela Piazza de Covent Garden, pelo Apple Market e pelo Seven Dials. Bastante folga aqui — sem pressa.",
+              "nota": "Praça histórica com colunata, artistas de rua e o Apple Market. Passando pelo Seven Dials no caminho.",
               "trecho": {
                 "linha": "pe",
                 "min": 6,
                 "texto": "Desça pela Monmouth Street e a St Martin's Lane até a New Row."
-              },
-              "placeId": "ChIJ4V9RKM0EdkgRc59GlBoOclQ"
+              }
             },
             {
               "h": "19:30",
