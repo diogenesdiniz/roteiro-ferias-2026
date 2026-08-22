@@ -868,7 +868,7 @@
       "porSol": "20:06",
       "titulo": "Museu, Camden, canal e pôr do sol",
       "modo": "transit",
-      "resumo": "O eixo do dia é o Regent's Canal, que liga Camden a Little Venice de barco. Fecha com o melhor pôr do sol da semana, a 5 min do hotel.",
+      "resumo": "O eixo do dia é o Regent's Canal, que liga Camden a Little Venice de barco. Almoço direto no food court de Camden. Fecha com o melhor pôr do sol da semana, a 5 min do hotel.",
       "extras": [
         {
           "nome": "Brick Lane e Spitalfields",
@@ -922,33 +922,19 @@
               "tipo": "museu",
               "nota": "Agendado. Pedra de Roseta, mármores do Partenon, alas egípcia e assíria, Great Court.",
               "trecho": {
-                "linha": "pe",
-                "min": 5,
-                "texto": "Saia pela entrada sul e desça a Museum Street até a New Oxford Street."
+                "linha": "northern",
+                "min": 30,
+                "texto": "Museum Street até Tottenham Court Road, Northern line até Camden Town."
               },
               "placeId": "ChIJB9OTMDIbdkgRp0JWbQGZsS8"
             },
             {
-              "h": "13:00",
-              "nome": "Fishoria Fish and Chips",
-              "lat": 51.5171061,
-              "lng": -0.1263764,
-              "tipo": "comida",
-              "nota": "Abre ao meio-dia. Fica a 5 min do museu.",
-              "trecho": {
-                "linha": "northern",
-                "min": 25,
-                "texto": "Tottenham Court Road, Northern line até Camden Town, depois 6 min a pé."
-              },
-              "placeId": "ChIJg6paAjMbdkgR6n-e5KIg2kA"
-            },
-            {
-              "h": "14:45",
+              "h": "13:40",
               "nome": "Camden Lock Market",
               "lat": 51.5411853,
               "lng": -0.1462467,
               "tipo": "mercado",
-              "nota": "Camden Lock, Stables Market e a High Street. Domingo é o pico de movimento, esteja preparado.",
+              "nota": "Camden Lock, Stables Market e a High Street. Almoço no próprio food court do mercado — dezenas de barracas de comida do mundo todo. Domingo é o pico de movimento, esteja preparado.",
               "trecho": {
                 "linha": "barco",
                 "min": 50,
