@@ -868,7 +868,7 @@
       "porSol": "20:06",
       "titulo": "Museu, Camden, canal e pôr do sol",
       "modo": "transit",
-      "resumo": "O eixo do dia é o Regent's Canal, que liga Camden a Little Venice de barco. Almoço direto no food court de Camden. Fecha com o melhor pôr do sol da semana, a 5 min do hotel.",
+      "resumo": "O eixo do dia é o Regent's Canal em Camden, seguido de compras no West End (Primark e Fortnum & Mason) a caminho da City. Fecha com o melhor pôr do sol da semana, a 5 min do hotel.",
       "extras": [
         {
           "nome": "Brick Lane e Spitalfields",
@@ -936,26 +936,38 @@
               "tipo": "mercado",
               "nota": "Camden Lock, Stables Market e a High Street. Almoço no próprio food court do mercado — dezenas de barracas de comida do mundo todo. Domingo é o pico de movimento, esteja preparado.",
               "trecho": {
-                "linha": "barco",
-                "min": 50,
-                "texto": "Waterbus pelo Regent's Canal, passando pelo zoológico e pelo Regent's Park. A pé pela margem são 45 min."
+                "linha": "victoria",
+                "min": 20,
+                "texto": "Northern line até Warren Street, troca pra Victoria line até Oxford Circus."
               },
               "placeId": "ChIJE3CeAlwbdkgR7cSizDf8Mh8"
             },
             {
-              "h": "17:30",
-              "nome": "Little Venice",
-              "lat": 51.5213528,
-              "lng": -0.1830564,
-              "tipo": "parque",
-              "nota": "Browning's Pool, as casas-barco e um café na margem.",
-              "alerta": "Última saída do waterbus por volta das 16h45, confirme no dia",
+              "h": "17:00",
+              "nome": "Primark Oxford Street",
+              "lat": 51.5154,
+              "lng": -0.1319,
+              "tipo": "loja",
+              "nota": "14-28 Oxford Street, perto da Tottenham Court Road — a maior loja da rede em Londres.",
               "trecho": {
-                "linha": "bakerloo",
-                "min": 35,
-                "texto": "Warwick Avenue na Bakerloo até Oxford Circus, depois Central line até Bank e 6 min a pé."
+                "linha": "pe",
+                "min": 18,
+                "texto": "A pé até o Fortnum & Mason, via Regent Street."
+              }
+            },
+            {
+              "h": "18:03",
+              "nome": "Fortnum & Mason",
+              "lat": 51.5083687,
+              "lng": -0.13831,
+              "tipo": "loja",
+              "nota": "Food Hall no térreo e a seção de chás no primeiro andar.",
+              "trecho": {
+                "linha": "pe",
+                "min": 25,
+                "texto": "A pé até Green Park, Jubilee line até Westminster, District/Circle line até Monument."
               },
-              "placeId": "ChIJMdwfuqYadkgRm3PVLSkYM5I"
+              "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
             },
             {
               "h": "19:45",
@@ -995,7 +1007,7 @@
       "porSol": "20:04",
       "titulo": "Westminster, realeza e West End",
       "modo": "walking",
-      "resumo": "A troca da guarda às 11h manda no dia inteiro, mas sem entrar nos State Rooms — só a cerimônia por fora. Depois, tempo de sobra no St James's Park antes de seguir pro West End.",
+      "resumo": "A troca da guarda às 11h manda no dia inteiro, mas sem entrar nos State Rooms — só a cerimônia por fora. Depois, tempo de sobra no St James's Park e em Trafalgar Square, antes do West End.",
       "decisao": {
         "pergunta": "Entrar no Buckingham ou ter o dia folgado?",
         "contexto": "Abadia de manhã e State Rooms depois da troca da guarda cabe, mas sem respiro. Abrir mão do interior do palácio libera duas horas e meia."
@@ -1104,47 +1116,20 @@
               "trecho": {
                 "linha": "pe",
                 "min": 15,
-                "texto": "A pé até o Fortnum & Mason, via St James's Street."
+                "texto": "A pé até Trafalgar Square, via St James's Street e Pall Mall."
               }
             },
             {
-              "h": "13:00",
-              "nome": "Fortnum & Mason",
-              "lat": 51.5083687,
-              "lng": -0.13831,
-              "tipo": "loja",
-              "nota": "Food Hall no térreo e a seção de chás no primeiro andar.",
-              "trecho": {
-                "linha": "pe",
-                "min": 18,
-                "texto": "A pé até a Primark, passando pela Carnaby Street no caminho."
-              },
-              "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
-            },
-            {
-              "h": "14:33",
-              "nome": "Primark Oxford Street",
-              "lat": 51.5154,
-              "lng": -0.1319,
-              "tipo": "loja",
-              "nota": "14-28 Oxford Street, perto da Tottenham Court Road — a maior loja da rede em Londres.",
-              "trecho": {
-                "linha": "pe",
-                "min": 15,
-                "texto": "A pé até a Trafalgar Square, via Charing Cross Road."
-              }
-            },
-            {
-              "h": "15:30",
+              "h": "12:30",
               "nome": "Trafalgar Square",
               "lat": 51.508039,
               "lng": -0.128069,
               "tipo": "marco",
-              "nota": "Nelson's Column, os leões, as fontes, o Fourth Plinth. National Gallery é gratuita, fecha às 18h.",
+              "nota": "Nelson's Column, os leões, as fontes, o Fourth Plinth. National Gallery é gratuita, fecha às 18h. Depois, tarde livre e sem pressa — dá pra vagar por Soho a caminho de Covent Garden.",
               "trecho": {
                 "linha": "pe",
-                "min": 12,
-                "texto": "A pé pela Charing Cross Road e Seven Dials até Neal's Yard."
+                "min": 20,
+                "texto": "Tarde livre: sem compromisso até Covent Garden. Dá pra vagar por Soho, Chinatown ou repetir alguma loja com calma."
               },
               "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
             },
