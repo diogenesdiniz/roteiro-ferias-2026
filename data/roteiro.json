@@ -1007,7 +1007,7 @@
       "porSol": "20:04",
       "titulo": "Westminster, realeza e West End",
       "modo": "walking",
-      "resumo": "Abadia com calma pela manhã, troca da guarda só por fora, bloco livre depois do Buckingham, Trafalgar Square e National Gallery, e tarde solta rumo ao jantar no West End.",
+      "resumo": "Trafalgar Square e National Gallery por fora logo cedo, Big Ben, troca da guarda no Buckingham, Abadia com calma depois, St James's Park e a tarde no Blackfriar e na Millennium Bridge, de volta à City. Jantar em aberto.",
       "extras": [
         {
           "nome": "St Martin-in-the-Fields",
@@ -1019,7 +1019,7 @@
         },
         {
           "nome": "The Bar, Covent Garden",
-          "nota": "Cabe antes do jantar no Mother Mash, ficam a 5 min um do outro."
+          "nota": "Perto de Covent Garden, se decidir passar por lá antes de voltar ao hotel."
         }
       ],
       "variantes": [
@@ -1029,7 +1029,7 @@
           "recomendada": true,
           "paradas": [
             {
-              "h": "06:55",
+              "h": "07:50",
               "nome": "hub by Premier Inn City Bank",
               "lat": 51.511893,
               "lng": -0.089219,
@@ -1037,70 +1037,13 @@
               "nota": "Saída para o dia.",
               "trecho": {
                 "linha": "district",
-                "min": 20,
-                "texto": "District ou Circle line de Monument até St James’s Park, depois 6 min a pé até a Regency Cafe."
+                "min": 15,
+                "texto": "District ou Circle line de Monument até Embankment, depois 5 min a pé até a Trafalgar Square."
               },
               "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             },
             {
-              "h": "07:15",
-              "nome": "Regency Cafe",
-              "lat": 51.4937725,
-              "lng": -0.132194,
-              "tipo": "comida",
-              "nota": "Abre às 7h e a fila cresce a partir das 8h.",
-              "trecho": {
-                "linha": "pe",
-                "min": 14,
-                "texto": "Suba a Horseferry Road e a Millbank até a Parliament Square."
-              },
-              "placeId": "ChIJ565hgN0EdkgRMhOboIZ7uJ8"
-            },
-            {
-              "h": "08:30",
-              "nome": "Big Ben",
-              "lat": 51.5007292,
-              "lng": -0.1246254,
-              "tipo": "marco",
-              "nota": "Parliament Square e Westminster Bridge, com o London Eye do outro lado do rio.",
-              "trecho": {
-                "linha": "pe",
-                "min": 3,
-                "texto": "Atravesse a Parliament Square até a porta norte da Abadia."
-              },
-              "placeId": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c"
-            },
-            {
-              "h": "09:30",
-              "nome": "Westminster Abbey",
-              "lat": 51.4993695,
-              "lng": -0.1272993,
-              "tipo": "museu",
-              "nota": "Agora com 1h30, que é o tempo que a Abadia realmente pede. Poets' Corner, claustro e o Chapter House.",
-              "trecho": {
-                "linha": "pe",
-                "min": 18,
-                "texto": "Cortando o St James's Park até o Victoria Memorial."
-              },
-              "placeId": "ChIJLzVDusQEdkgRelObBaL_jto"
-            },
-            {
-              "h": "11:00",
-              "nome": "Buckingham Palace",
-              "lat": 51.501364,
-              "lng": -0.14189,
-              "tipo": "marco",
-              "nota": "Só a troca da guarda, cerca de 45 min, dos degraus do Victoria Memorial ou da grade.",
-              "alerta": "Confirme a troca da guarda na semana da viagem",
-              "trecho": {
-                "linha": "pe",
-                "min": 15,
-                "texto": "Bloco livre, sem nada definido, até Trafalgar Square."
-              },
-              "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
-            },
-            {
-              "h": "13:45",
+              "h": "08:05",
               "nome": "Trafalgar Square",
               "lat": 51.508039,
               "lng": -0.128069,
@@ -1114,40 +1057,109 @@
               "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
             },
             {
-              "h": "14:00",
+              "h": "08:10",
               "nome": "National Gallery",
               "lat": 51.5089448,
               "lng": -0.1283363,
-              "tipo": "museu",
-              "nota": "Gratuita. Van Gogh, Turner e Velázquez em cerca de uma hora.",
+              "tipo": "marco",
+              "nota": "Só por fora — foto na fachada e na escadaria, sem entrar.",
               "trecho": {
                 "linha": "pe",
                 "min": 15,
-                "texto": "Tarde livre e sem pressa até o jantar — dá pra vagar por Covent Garden ou Soho com calma."
+                "texto": "Descendo o Whitehall, passando por Downing Street e o Horse Guards."
               }
             },
             {
-              "h": "20:15",
-              "nome": "Mother Mash Covent Garden",
-              "lat": 51.5110622,
-              "lng": -0.1265349,
-              "tipo": "comida",
-              "nota": "Jantar na New Row.",
-              "alerta": "Fecha às 21h na segunda",
-              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A",
+              "h": "08:30",
+              "nome": "Big Ben",
+              "lat": 51.5007292,
+              "lng": -0.1246254,
+              "tipo": "marco",
+              "nota": "Parliament Square e Westminster Bridge, com o London Eye do outro lado do rio. Sobra bastante tempo aqui antes da troca da guarda às 11h.",
               "trecho": {
                 "linha": "pe",
-                "min": 30,
-                "texto": "Desça pelo Strand e a Fleet Street até o hotel."
+                "min": 18,
+                "texto": "Cortando o St James's Park pelo Birdcage Walk, chegando no Victoria Memorial por volta das 11h."
+              },
+              "placeId": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c"
+            },
+            {
+              "h": "11:00",
+              "nome": "Buckingham Palace",
+              "lat": 51.501364,
+              "lng": -0.14189,
+              "tipo": "marco",
+              "nota": "Só a troca da guarda, cerca de 45 min, dos degraus do Victoria Memorial ou da grade.",
+              "alerta": "Confirme a troca da guarda na semana da viagem",
+              "trecho": {
+                "linha": "pe",
+                "min": 18,
+                "texto": "Voltando pelo St James's Park até a Parliament Square, entrada norte da Abadia."
+              },
+              "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
+            },
+            {
+              "h": "11:45",
+              "nome": "Westminster Abbey",
+              "lat": 51.4993695,
+              "lng": -0.1272993,
+              "tipo": "museu",
+              "nota": "Com calma agora, sem hora marcada em seguida: Poets' Corner, claustro e o Chapter House.",
+              "trecho": {
+                "linha": "pe",
+                "min": 18,
+                "texto": "Voltando pelo St James's Park."
+              },
+              "placeId": "ChIJLzVDusQEdkgRelObBaL_jto"
+            },
+            {
+              "h": "13:15",
+              "nome": "St James's Park",
+              "lat": 51.5027,
+              "lng": -0.1347,
+              "tipo": "parque",
+              "nota": "O parque real mais antigo de Londres. Lago com pelicanos, vista clássica do Buckingham Palace do lado oeste, e do Horse Guards/Whitehall do lado leste.",
+              "trecho": {
+                "linha": "district",
+                "min": 15,
+                "texto": "St James's Park (estação) até Blackfriars, District ou Circle line direta, depois 3 min a pé até o pub."
               }
             },
             {
-              "h": "21:30",
+              "h": "14:15",
+              "nome": "The Blackfriar",
+              "lat": 51.5121153,
+              "lng": -0.1037137,
+              "tipo": "pub",
+              "nota": "Interior art nouveau, provavelmente o pub mais bonito de Londres.",
+              "trecho": {
+                "linha": "pe",
+                "min": 7,
+                "texto": "Pela margem norte, passando pela estação de Blackfriars."
+              },
+              "placeId": "ChIJKatbfqUEdkgRDmgIHPcWgBU"
+            },
+            {
+              "h": "15:00",
+              "nome": "Millennium Bridge",
+              "lat": 51.5095291,
+              "lng": -0.0985425,
+              "tipo": "marco",
+              "nota": "A ponte destruída em Enigma do Príncipe, com vista de St Paul's Cathedral.",
+              "trecho": {
+                "linha": "pe",
+                "min": 12,
+                "texto": "Suba a Queen Victoria Street e a Cannon Street de volta ao hotel."
+              },
+              "placeId": "ChIJkYISzKsEdkgRHE5RL_zqXL0"
+            },
+            {
+              "h": "15:15",
               "nome": "hub by Premier Inn City Bank",
               "lat": 51.511893,
               "lng": -0.089219,
               "tipo": "base",
-              "nota": "De volta ao hotel.",
+              "nota": "De volta ao hotel mais cedo. Jantar em aberto, sem reserva feita depois da remoção do Mother Mash.",
               "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
             }
           ]
