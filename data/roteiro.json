@@ -1246,107 +1246,36 @@
               "trecho": {
                 "linha": "pe",
                 "min": 15,
-                "texto": "Volte pelo St James's Park até a Horse Guards Road, a entrada é pela Clive Steps."
+                "texto": "Bloco livre, sem nada definido, até Trafalgar Square. Sem reserva feita para o Churchill War Rooms."
               },
               "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
             },
             {
-              "h": "12:15",
-              "nome": "Churchill War Rooms",
-              "lat": 51.50219,
-              "lng": -0.12915,
-              "tipo": "museu",
-              "nota": "O bunker do gabinete de guerra, preservado como foi deixado em 1945, mais o museu sobre Churchill. Reserve 1h45.",
-              "alerta": "Ingresso com horário marcado, reserve antes",
-              "trecho": {
-                "linha": "pe",
-                "min": 10,
-                "texto": "Suba o Whitehall, passando pelo Horse Guards e pela Downing Street."
-              },
-              "placeId": "ChIJq4lX1doEdkgR5JXPstgQjc0"
-            },
-            {
-              "h": "14:15",
+              "h": "13:45",
               "nome": "Trafalgar Square",
               "lat": 51.508039,
               "lng": -0.128069,
               "tipo": "marco",
-              "nota": "Com tempo de verdade para a National Gallery, que é gratuita: Van Gogh, Turner e Velázquez em uma hora.",
+              "nota": "Nelson's Column, os leões, as fontes, o Fourth Plinth.",
               "trecho": {
                 "linha": "pe",
-                "min": 10,
-                "texto": "Desça a Pall Mall até a Piccadilly."
+                "min": 2,
+                "texto": "A National Gallery fica na borda norte da praça."
               },
               "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
             },
             {
-              "h": "16:00",
-              "nome": "Fortnum & Mason",
-              "lat": 51.5083687,
-              "lng": -0.13831,
-              "tipo": "loja",
-              "nota": "Food Hall e a seção de chás.",
+              "h": "14:00",
+              "nome": "National Gallery",
+              "lat": 51.5089448,
+              "lng": -0.1283363,
+              "tipo": "museu",
+              "nota": "Gratuita. Van Gogh, Turner e Velázquez em cerca de uma hora.",
               "trecho": {
                 "linha": "pe",
-                "min": 12,
-                "texto": "Piccadilly até o Circus, depois Regent Street e a Beak Street."
-              },
-              "placeId": "ChIJ__8_XtYEdkgRtTLtWfASNFg"
-            },
-            {
-              "h": "17:00",
-              "nome": "Carnaby Street",
-              "lat": 51.5131862,
-              "lng": -0.1388548,
-              "tipo": "loja",
-              "nota": "Almoço tardio ou jantar cedo no Mother Mash Carnaby.",
-              "trecho": {
-                "linha": "pe",
-                "min": 8,
-                "texto": "Rumo à Oxford Street, pela Kingly Street, até a loja do Primark."
-              },
-              "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
-            },
-            {
-              "h": "17:20",
-              "nome": "Primark Oxford Street",
-              "lat": 51.5154,
-              "lng": -0.1319,
-              "tipo": "loja",
-              "nota": "14-28 Oxford Street, perto da Tottenham Court Road — a maior loja da rede em Londres.",
-              "trecho": {
-                "linha": "pe",
-                "min": 12,
-                "texto": "Descendo pela Charing Cross Road até o Leicester Square."
+                "min": 15,
+                "texto": "Tarde livre e sem pressa até o jantar — dá pra vagar por Covent Garden ou Soho com calma."
               }
-            },
-            {
-              "h": "18:15",
-              "nome": "LEGO Store Leicester Square",
-              "lat": 51.5103909,
-              "lng": -0.1309967,
-              "tipo": "loja",
-              "nota": "M&M's London é na porta ao lado, no mesmo Swiss Court.",
-              "trecho": {
-                "linha": "pe",
-                "min": 12,
-                "texto": "Suba pela St Martin's Lane até o Seven Dials."
-              },
-              "placeId": "ChIJrQCmO9IEdkgRyoqlpJ3K8n8"
-            },
-            {
-              "h": "19:15",
-              "nome": "Neal's Yard",
-              "lat": 51.5144724,
-              "lng": -0.1263531,
-              "tipo": "marco",
-              "nota": "Covent Garden, Apple Market e Seven Dials.",
-              "trecho": {
-                "linha": "pe",
-                "min": 6,
-                "texto": "Desça pela Monmouth Street até a New Row."
-              },
-              "placeId": "ChIJ4V9RKM0EdkgRc59GlBoOclQ"
             },
             {
               "h": "20:15",
