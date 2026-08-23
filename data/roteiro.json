@@ -1007,11 +1007,7 @@
       "porSol": "20:04",
       "titulo": "Westminster, realeza e West End",
       "modo": "walking",
-      "resumo": "A troca da guarda às 11h manda no dia inteiro, mas sem entrar nos State Rooms — só a cerimônia por fora. Depois, tempo de sobra no St James's Park e em Trafalgar Square, antes do West End.",
-      "decisao": {
-        "pergunta": "Entrar no Buckingham ou ter o dia folgado?",
-        "contexto": "Abadia de manhã e State Rooms depois da troca da guarda cabe, mas sem respiro. Abrir mão do interior do palácio libera duas horas e meia."
-      },
+      "resumo": "Abadia com calma pela manhã, troca da guarda só por fora, bloco livre depois do Buckingham, Trafalgar Square e National Gallery, e tarde solta rumo ao jantar no West End.",
       "extras": [
         {
           "nome": "St Martin-in-the-Fields",
@@ -1028,156 +1024,9 @@
       ],
       "variantes": [
         {
-          "id": "denso",
-          "nome": "Abadia e State Rooms",
+          "id": "a",
+          "nome": "Único roteiro",
           "recomendada": true,
-          "descricao": "O dia completo: interior da Abadia, troca da guarda e os 19 State Rooms do Buckingham.",
-          "tradeoff": "A Abadia fica em 1h15, que é rápido para o tamanho dela, e o dia não tem folga nenhuma até as 15h.",
-          "paradas": [
-            {
-              "h": "06:55",
-              "nome": "hub by Premier Inn City Bank",
-              "lat": 51.511893,
-              "lng": -0.089219,
-              "tipo": "base",
-              "nota": "Saída para o dia.",
-              "trecho": {
-                "linha": "district",
-                "min": 20,
-                "texto": "District ou Circle line de Monument até St James’s Park, depois 6 min a pé até a Regency Cafe."
-              },
-              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
-            },
-            {
-              "h": "07:15",
-              "nome": "Regency Cafe",
-              "lat": 51.4937725,
-              "lng": -0.132194,
-              "tipo": "comida",
-              "nota": "Abre às 7h e a fila cresce a partir das 8h. Café da manhã inglês clássico, preço honesto.",
-              "trecho": {
-                "linha": "pe",
-                "min": 14,
-                "texto": "Suba a Horseferry Road e a Millbank até a Parliament Square."
-              },
-              "placeId": "ChIJ565hgN0EdkgRMhOboIZ7uJ8"
-            },
-            {
-              "h": "08:30",
-              "nome": "Big Ben",
-              "lat": 51.5007292,
-              "lng": -0.1246254,
-              "tipo": "marco",
-              "nota": "Parliament Square e Westminster Bridge, de onde se vê o London Eye do outro lado do rio. Luz boa e pouca gente.",
-              "trecho": {
-                "linha": "pe",
-                "min": 3,
-                "texto": "Atravesse a Parliament Square, a entrada de turista é pela porta norte."
-              },
-              "placeId": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c"
-            },
-            {
-              "h": "09:30",
-              "nome": "Westminster Abbey",
-              "lat": 51.4993695,
-              "lng": -0.1272993,
-              "tipo": "museu",
-              "nota": "Abre 9h30 em dia útil, o momento mais tranquilo. Poets' Corner, a cadeira de coroação e os túmulos reais.",
-              "alerta": "Fechada aos domingos para turismo",
-              "trecho": {
-                "linha": "pe",
-                "min": 18,
-                "texto": "Cortando o St James's Park, que é mais bonito que o Birdcage Walk. Chegue no Victoria Memorial por volta das 11h."
-              },
-              "placeId": "ChIJLzVDusQEdkgRelObBaL_jto"
-            },
-            {
-              "h": "11:00",
-              "nome": "Buckingham Palace",
-              "lat": 51.501364,
-              "lng": -0.14189,
-              "tipo": "museu",
-              "nota": "Troca da guarda às 11h, cerca de 45 min. Sem entrar nos State Rooms — só a cerimônia e os guardas clássicos por fora, no portão e nas grades.",
-              "alerta": "Confirme a troca da guarda na semana da viagem",
-              "trecho": {
-                "linha": "pe",
-                "min": 5,
-                "texto": "A pé até o St James's Park, entrando pelo lado oeste."
-              },
-              "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
-            },
-            {
-              "h": "11:50",
-              "nome": "St James's Park",
-              "lat": 51.5027,
-              "lng": -0.1347,
-              "tipo": "parque",
-              "nota": "O parque real mais antigo de Londres. Lago com pelicanos, vista clássica do Buckingham Palace do lado oeste, e do Horse Guards/Whitehall do lado leste.",
-              "trecho": {
-                "linha": "pe",
-                "min": 15,
-                "texto": "A pé até Trafalgar Square, via St James's Street e Pall Mall."
-              }
-            },
-            {
-              "h": "12:30",
-              "nome": "Trafalgar Square",
-              "lat": 51.508039,
-              "lng": -0.128069,
-              "tipo": "marco",
-              "nota": "Nelson's Column, os leões, as fontes, o Fourth Plinth. National Gallery é gratuita, fecha às 18h. Depois, tarde livre e sem pressa — dá pra vagar por Soho a caminho de Covent Garden.",
-              "trecho": {
-                "linha": "pe",
-                "min": 20,
-                "texto": "Tarde livre: sem compromisso até Covent Garden. Dá pra vagar por Soho, Chinatown ou repetir alguma loja com calma."
-              },
-              "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
-            },
-            {
-              "h": "17:30",
-              "nome": "Covent Garden Piazza",
-              "lat": 51.5117,
-              "lng": -0.1226,
-              "tipo": "marco",
-              "nota": "Praça histórica com colunata, artistas de rua e o Apple Market. Passando pelo Seven Dials no caminho.",
-              "trecho": {
-                "linha": "pe",
-                "min": 6,
-                "texto": "Desça pela Monmouth Street e a St Martin's Lane até a New Row."
-              }
-            },
-            {
-              "h": "19:30",
-              "nome": "Mother Mash Covent Garden",
-              "lat": 51.5110622,
-              "lng": -0.1265349,
-              "tipo": "comida",
-              "nota": "Jantar na New Row.",
-              "alerta": "Fecha às 21h na segunda, não atrase",
-              "placeId": "ChIJmypXbAMFdkgRC_s5T0q8U3A",
-              "trecho": {
-                "linha": "pe",
-                "min": 30,
-                "texto": "Desça pelo Strand e a Fleet Street até o hotel."
-              }
-            },
-            {
-              "h": "21:30",
-              "nome": "hub by Premier Inn City Bank",
-              "lat": 51.511893,
-              "lng": -0.089219,
-              "tipo": "base",
-              "nota": "De volta ao hotel.",
-              "placeId": "ChIJvQ11MuoDdkgRY8ylUZLef9A"
-            }
-          ]
-        },
-        {
-          "id": "folgado",
-          "nome": "Sem State Rooms",
-          "recomendada": false,
-          "descricao": "Abadia com calma, troca da guarda só assistida, e o Churchill War Rooms no lugar do palácio.",
-          "tradeoff": "Perde o único lugar do roteiro onde você entra num palácio em funcionamento. Ganha duas horas, a National Gallery e as salas de guerra do Churchill.",
           "paradas": [
             {
               "h": "06:55",
@@ -1246,7 +1095,7 @@
               "trecho": {
                 "linha": "pe",
                 "min": 15,
-                "texto": "Bloco livre, sem nada definido, até Trafalgar Square. Sem reserva feita para o Churchill War Rooms."
+                "texto": "Bloco livre, sem nada definido, até Trafalgar Square."
               },
               "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
             },
